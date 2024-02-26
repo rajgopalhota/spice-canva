@@ -1,0 +1,76 @@
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 60px; /* Initial width */
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000; /* Ensure sidebar is above other content */
+}
+
+.sidebar-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; /* Utilize full height */
+  height: 100%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.sidebar-link:hover {
+  background-color: #555;
+}
+
+.sidebar-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.sidebar-title {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 10px);
+  background-color: #333;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transform: translateY(-50%);
+  white-space: nowrap;
+}
+
+.sidebar-link:hover .sidebar-title {
+  display: block;
+}
+
+/* Responsive Sidebar */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 45px; /* Decrease width for smaller screens */
+  }
+
+  .sidebar-title {
+    display: none; /* Hide titles for smaller screens */
+  }
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 60px; /* Adjust to match sidebar width */
+  padding: 20px;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Responsive Main Content */
+@media screen and (max-width: 768px) {
+  .main-content {
+    margin-left: 45px; /* Adjust to match smaller sidebar width */
+  }
+}
