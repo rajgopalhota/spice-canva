@@ -1,39 +1,43 @@
 import React from 'react';
-import { AiOutlineBulb, AiOutlineContacts, AiOutlineFileImage, AiOutlineHome, AiOutlineInfoCircle, AiOutlineSchedule } from 'react-icons/ai';
+import { BsFillShieldLockFill } from "react-icons/bs";
+import { FaPencil } from "react-icons/fa6";
+import { GiApothecary } from "react-icons/gi";
+import { IoFastFoodOutline } from "react-icons/io5";
+
+
+
+import { GiRiceCooker } from "react-icons/gi";
+
 import { NavLink } from 'react-router-dom';
 import "../styles/sidebar.css";
 
 const Sidebar = () => {
   return (
     <nav className="sidebar">
+      <img src='/logo.png'/>
       <NavLink to="/" className="sidebar-link" title="Home">
-        <AiOutlineHome className="sidebar-icon" />
-        <span className="sidebar-title">Home</span>
+        <GiApothecary className="sidebar-icon" />
+        <span className="sidebar-title">Spice Mania</span>
       </NavLink>
 
-      <NavLink to="/mission-vision" className="sidebar-link" title="Vision">
-        <AiOutlineBulb className="sidebar-icon" />
-        <span className="sidebar-title">Vision</span>
+      <NavLink to="/trending" className="sidebar-link" title="Vision">
+        <IoFastFoodOutline className="sidebar-icon" />
+        <span className="sidebar-title">Trending</span>
       </NavLink>
 
-      <NavLink to="/activities" className="sidebar-link" title="Activities">
-        <AiOutlineSchedule className="sidebar-icon" />
-        <span className="sidebar-title">Activities</span>
+      <NavLink to="/recipies" className="sidebar-link" title="Activities">
+        <GiRiceCooker className="sidebar-icon" />
+        <span className="sidebar-title">Recipies</span>
       </NavLink>
 
-      <NavLink to="/contact" className="sidebar-link" title="Contact">
-        <AiOutlineContacts className="sidebar-icon" />
-        <span className="sidebar-title">Contact</span>
+      <NavLink to="/post-recipie" className="sidebar-link" title="Contact">
+        <FaPencil className="sidebar-icon" />
+        <span className="sidebar-title">Post your recipie</span>
       </NavLink>
 
-      <NavLink to="/programs" className="sidebar-link" title="Gallery">
-        <AiOutlineFileImage className="sidebar-icon" />
-        <span className="sidebar-title">Gallery</span>
-      </NavLink>
-
-      <NavLink to="/about" className="sidebar-link" title="About">
-        <AiOutlineInfoCircle className="sidebar-icon" />
-        <span className="sidebar-title">About</span>
+      <NavLink to="/login" className="sidebar-link" title="About">
+        <BsFillShieldLockFill className="sidebar-icon" />
+        <span className="sidebar-title">Login</span>
       </NavLink>
     </nav>
   );
