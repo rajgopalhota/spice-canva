@@ -112,7 +112,27 @@
       ],
       "veg": true,
       "servings": "2",
-      "description": "A classic Caesar salad with crunchy romaine lettuce, homemade croutons, and tangy Caesar dressing."
+      "description": {
+        "text": "A classic Caesar salad with crunchy romaine lettuce, homemade croutons, and tangy Caesar dressing.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Wash and chop the romaine lettuce into bite-sized pieces."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large bowl, combine the romaine lettuce, croutons, and grated Parmesan cheese."
+          },
+          {
+            "step_number": 3,
+            "description": "Add Caesar dressing to taste and toss the salad until everything is evenly coated."
+          },
+          {
+            "step_number": 4,
+            "description": "Serve immediately as a side dish or add grilled chicken or shrimp for a complete meal."
+          }
+        ]
+      }
     },
     {
       "_id": 4,
@@ -129,7 +149,31 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A hearty and comforting spaghetti dish with a rich and savory Bolognese sauce."
+      "description": {
+        "text": "A hearty and comforting spaghetti dish with a rich and savory Bolognese sauce.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the spaghetti according to package instructions until al dente. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large skillet, heat some olive oil over medium heat. Add the chopped onion and minced garlic. Cook until softened."
+          },
+          {
+            "step_number": 3,
+            "description": "Add the ground beef to the skillet. Cook, breaking it up with a spoon, until browned and cooked through."
+          },
+          {
+            "step_number": 4,
+            "description": "Stir in the tomato sauce and Italian seasoning. Simmer for about 15-20 minutes to allow the flavors to blend."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve the Bolognese sauce over the cooked spaghetti. Enjoy!"
+          }
+        ]
+      }
     },
     {
       "_id": 5,
@@ -147,7 +191,35 @@
       ],
       "veg": true,
       "servings": "4",
-      "description": "A colorful and nutritious stir-fry packed with fresh vegetables and a flavorful sauce."
+      "description": {
+        "text": "A colorful and nutritious stir-fry packed with fresh vegetables and a flavorful sauce.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Prepare the vegetables by washing, peeling, and chopping them into bite-sized pieces."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large skillet or wok, heat some oil over medium-high heat."
+          },
+          {
+            "step_number": 3,
+            "description": "Add the minced garlic and grated ginger to the skillet. Cook for about 30 seconds, until fragrant."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the vegetables to the skillet. Stir-fry for about 5-7 minutes, until they start to soften but are still crisp."
+          },
+          {
+            "step_number": 5,
+            "description": "Stir in the soy sauce and continue to cook for another 1-2 minutes, until the vegetables are tender."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve the vegetable stir-fry hot, optionally over rice or noodles. Enjoy!"
+          }
+        ]
+      }
     },
     {
       "_id": 6,
@@ -165,7 +237,39 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "Tender chicken breasts breaded and fried to perfection, topped with marinara sauce and melted mozzarella cheese."
+      "description": {
+        "text": "Tender chicken breasts breaded and fried to perfection, topped with marinara sauce and melted mozzarella cheese.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Preheat the oven to 400°F (200°C)."
+          },
+          {
+            "step_number": 2,
+            "description": "Pound the chicken breasts to an even thickness. Season with salt and pepper."
+          },
+          {
+            "step_number": 3,
+            "description": "In one shallow bowl, place flour. In another shallow bowl, beat the egg. In a third shallow bowl, mix breadcrumbs and Parmesan cheese."
+          },
+          {
+            "step_number": 4,
+            "description": "Dip each chicken breast first in flour, then in egg, and finally in breadcrumb mixture, pressing to adhere."
+          },
+          {
+            "step_number": 5,
+            "description": "Heat oil in a large ovenproof skillet over medium-high heat. Cook chicken until golden brown on both sides."
+          },
+          {
+            "step_number": 6,
+            "description": "Top each chicken breast with marinara sauce and mozzarella cheese. Transfer skillet to oven and bake until cheese is melted and bubbly."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve chicken Parmesan hot, optionally over pasta or with a side of vegetables. Enjoy!"
+          }
+        ]
+      }
     },
     {
       "_id": 7,
@@ -181,7 +285,27 @@
       ],
       "veg": true,
       "servings": "2",
-      "description": "A refreshing and tropical smoothie made with ripe mangoes, creamy Greek yogurt, and a hint of honey."
+      "description": {
+        "text": "A refreshing and tropical smoothie made with ripe mangoes, creamy Greek yogurt, and a hint of honey.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Peel and chop the mango and banana into chunks."
+          },
+          {
+            "step_number": 2,
+            "description": "In a blender, combine the chopped mango, banana, Greek yogurt, orange juice, and honey."
+          },
+          {
+            "step_number": 3,
+            "description": "Blend until smooth and creamy. If the smoothie is too thick, add more orange juice to reach your desired consistency."
+          },
+          {
+            "step_number": 4,
+            "description": "Pour the smoothie into glasses and serve immediately. Enjoy the refreshing taste of this tropical mango smoothie!"
+          }
+        ]
+      }
     },
     {
       "_id": 8,
@@ -199,7 +323,31 @@
       ],
       "veg": true,
       "servings": "2",
-      "description": "A simple and elegant salad featuring ripe tomatoes, creamy mozzarella, and fragrant basil drizzled with balsamic glaze."
+      "description": {
+        "text": "A simple and elegant salad featuring ripe tomatoes, creamy mozzarella, and fragrant basil drizzled with balsamic glaze.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Slice the tomatoes and fresh mozzarella into rounds."
+          },
+          {
+            "step_number": 2,
+            "description": "Layer the tomato slices, mozzarella slices, and basil leaves on a plate, alternating and overlapping them."
+          },
+          {
+            "step_number": 3,
+            "description": "Drizzle olive oil over the salad and season with salt and pepper to taste."
+          },
+          {
+            "step_number": 4,
+            "description": "Drizzle balsamic glaze over the salad for a sweet and tangy finish."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve the Caprese salad immediately as a side dish or appetizer. Enjoy the fresh flavors of this classic Italian salad!"
+          }
+        ]
+      }
     },
     {
       "_id": 9,
@@ -218,7 +366,31 @@
       ],
       "veg": false,
       "servings": "2",
-      "description": "Juicy and flavorful salmon fillets marinated in a zesty mixture of lemon, garlic, and Dijon mustard, then grilled to perfection."
+      "description": {
+        "text": "Juicy and flavorful salmon fillets marinated in a zesty mixture of lemon, garlic, and Dijon mustard, then grilled to perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a small bowl, whisk together the lemon juice, minced garlic, Dijon mustard, honey, olive oil, salt, and pepper."
+          },
+          {
+            "step_number": 2,
+            "description": "Place the salmon fillets in a shallow dish and pour the marinade over them. Turn to coat evenly. Let marinate for at least 30 minutes, or up to overnight in the refrigerator."
+          },
+          {
+            "step_number": 3,
+            "description": "Preheat the grill to medium-high heat. Remove the salmon from the marinade and discard the marinade."
+          },
+          {
+            "step_number": 4,
+            "description": "Place the salmon fillets on the grill, skin side down. Grill for about 4-5 minutes per side, or until the salmon is cooked through and flakes easily with a fork."
+          },
+          {
+            "step_number": 5,
+            "description": "Remove the salmon from the grill and serve immediately. Enjoy the juicy and flavorful grilled salmon!"
+          }
+        ]
+      }
     },
     {
       "_id": 10,
@@ -237,7 +409,35 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "Create your own delicious pizza at home with your favorite toppings on a crispy homemade crust."
+      "description": {
+        "text": "Create your own delicious pizza at home with your favorite toppings on a crispy homemade crust.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Preheat the oven to 475°F (245°C). If you're using a pizza stone, place it in the oven to preheat as well."
+          },
+          {
+            "step_number": 2,
+            "description": "Roll out the pizza dough on a floured surface to your desired thickness. Transfer the dough to a pizza peel or a baking sheet lined with parchment paper."
+          },
+          {
+            "step_number": 3,
+            "description": "Spread a thin layer of tomato sauce over the pizza dough, leaving a small border around the edges."
+          },
+          {
+            "step_number": 4,
+            "description": "Sprinkle the mozzarella cheese evenly over the sauce. Add your desired toppings, such as pepperoni, sliced bell peppers, onions, olives, and basil leaves."
+          },
+          {
+            "step_number": 5,
+            "description": "Transfer the pizza to the preheated oven. If using a pizza stone, slide the pizza onto the stone. Bake for about 10-15 minutes, or until the crust is golden brown and the cheese is bubbly and melted."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove the pizza from the oven and let it cool for a few minutes before slicing. Serve hot and enjoy your homemade pizza!"
+          }
+        ]
+      }
     },
     {
       "_id": 11,
@@ -254,7 +454,35 @@
       ],
       "veg": true,
       "servings": "2",
-      "description": "A simple yet delicious breakfast or snack featuring mashed avocado on toasted bread, seasoned with lemon juice, salt, pepper, and red pepper flakes."
+      "description": {
+        "text": "A simple yet delicious breakfast or snack featuring mashed avocado on toasted bread, seasoned with lemon juice, salt, pepper, and red pepper flakes.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Toast the bread until golden brown and crispy."
+          },
+          {
+            "step_number": 2,
+            "description": "Cut the avocado in half, remove the pit, and scoop out the flesh into a bowl. Mash the avocado with a fork until smooth."
+          },
+          {
+            "step_number": 3,
+            "description": "Add lemon juice, salt, pepper, and red pepper flakes to the mashed avocado. Mix well to combine."
+          },
+          {
+            "step_number": 4,
+            "description": "Spread the mashed avocado evenly onto the toasted bread slices."
+          },
+          {
+            "step_number": 5,
+            "description": "Sprinkle additional red pepper flakes on top, if desired, for extra spice."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve the avocado toast immediately and enjoy this simple and delicious treat!"
+          }
+        ]
+      }
     },
     {
       "_id": 12,
@@ -274,7 +502,39 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A satisfying and flavorful salad featuring seasoned ground beef, crisp lettuce, ripe tomatoes, creamy avocado, and crunchy tortilla chips, topped with salsa and sour cream."
+      "description": {
+        "text": "A satisfying and flavorful salad featuring seasoned ground beef, crisp lettuce, ripe tomatoes, creamy avocado, and crunchy tortilla chips, topped with salsa and sour cream.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a large skillet, cook the ground beef over medium heat until browned and cooked through. Season with taco seasoning."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large bowl, combine the lettuce, diced tomatoes, sliced avocado, drained black beans, and corn kernels."
+          },
+          {
+            "step_number": 3,
+            "description": "Crush some tortilla chips and add them to the salad for crunch."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the cooked ground beef to the salad."
+          },
+          {
+            "step_number": 5,
+            "description": "Top the salad with salsa and a dollop of sour cream."
+          },
+          {
+            "step_number": 6,
+            "description": "Toss the salad gently to combine all the ingredients."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the taco salad immediately, and enjoy this delicious and satisfying meal!"
+          }
+        ]
+      }
     },
     {
       "_id": 13,
@@ -294,7 +554,39 @@
       ],
       "veg": true,
       "servings": "4",
-      "description": "A nutritious and colorful salad featuring protein-rich quinoa, crisp cucumbers, juicy cherry tomatoes, tangy feta cheese, and briny Kalamata olives, dressed with lemon vinaigrette."
+      "description": {
+        "text": "A nutritious and colorful salad featuring protein-rich quinoa, crisp cucumbers, juicy cherry tomatoes, tangy feta cheese, and briny Kalamata olives, dressed with lemon vinaigrette.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Rinse the quinoa under cold water to remove any bitterness. Cook the quinoa according to package instructions. Once cooked, fluff with a fork and let it cool."
+          },
+          {
+            "step_number": 2,
+            "description": "Dice the cucumber, halve the cherry tomatoes, thinly slice the red onion, crumble the feta cheese, and chop the Kalamata olives."
+          },
+          {
+            "step_number": 3,
+            "description": "In a large bowl, combine the cooked quinoa, cucumber, cherry tomatoes, red onion, feta cheese, and Kalamata olives."
+          },
+          {
+            "step_number": 4,
+            "description": "In a small bowl, whisk together the lemon juice, olive oil, salt, and pepper to make the dressing."
+          },
+          {
+            "step_number": 5,
+            "description": "Pour the dressing over the salad and toss to combine. Taste and adjust seasoning as needed."
+          },
+          {
+            "step_number": 6,
+            "description": "Garnish the salad with fresh herbs, such as parsley or mint, and serve chilled or at room temperature."
+          },
+          {
+            "step_number": 7,
+            "description": "Enjoy this nutritious and flavorful quinoa salad as a side dish or a light meal!"
+          }
+        ]
+      }
     },
     {
       "_id": 14,
@@ -315,7 +607,35 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A flavorful and sizzling dish featuring marinated chicken, sautéed bell peppers, and onions, served with warm tortillas, sour cream, and guacamole."
+      "description": {
+        "text": "A flavorful and sizzling dish featuring marinated chicken, sautéed bell peppers, and onions, served with warm tortillas, sour cream, and guacamole.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Slice the chicken breast into thin strips. In a bowl, combine the chicken strips, lime juice, chili powder, cumin, paprika, salt, and pepper. Let marinate for at least 15 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat a large skillet over medium-high heat. Add the marinated chicken strips and cook until browned and cooked through, about 5-7 minutes."
+          },
+          {
+            "step_number": 3,
+            "description": "Remove the chicken from the skillet and set aside. In the same skillet, add sliced bell peppers and onions. Cook until they are tender-crisp, about 5 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Return the chicken to the skillet and toss with the peppers and onions to combine."
+          },
+          {
+            "step_number": 5,
+            "description": "Warm the tortillas in a separate skillet or in the microwave."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve the chicken fajita mixture with warm tortillas, sour cream, and guacamole. Enjoy these delicious and flavorful chicken fajitas!"
+          }
+        ]
+      }
     },
     {
       "_id": 15,
@@ -336,7 +656,39 @@
       ],
       "veg": true,
       "servings": "4",
-      "description": "A vibrant and colorful pasta dish loaded with seasonal vegetables and tossed in a light garlic and olive oil sauce, topped with fresh basil and Parmesan cheese."
+      "description": {
+        "text": "A vibrant and colorful pasta dish loaded with seasonal vegetables and tossed in a light garlic and olive oil sauce, topped with fresh basil and Parmesan cheese.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the pasta according to package instructions. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Cut the broccoli into small florets, dice the bell peppers, slice the carrots and zucchini, and halve the cherry tomatoes."
+          },
+          {
+            "step_number": 3,
+            "description": "In a large skillet, heat olive oil over medium heat. Add minced garlic and sauté for about 1 minute, or until fragrant."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the broccoli, bell peppers, carrots, and zucchini to the skillet. Sauté for about 5-7 minutes, or until the vegetables are tender-crisp."
+          },
+          {
+            "step_number": 5,
+            "description": "Add the cherry tomatoes to the skillet and cook for another 2-3 minutes, or until they begin to soften."
+          },
+          {
+            "step_number": 6,
+            "description": "Add the cooked pasta to the skillet and toss to combine with the vegetables. Season with salt and pepper to taste."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the pasta primavera hot, topped with freshly grated Parmesan cheese and chopped basil. Enjoy this colorful and flavorful dish!"
+          }
+        ]
+      }
     },
     {
       "_id": 16,
@@ -355,7 +707,35 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A comforting and creamy dish featuring tender beef strips, sautéed onions and mushrooms, all in a rich sour cream sauce, served over egg noodles."
+      "description": {
+        "text": "A comforting and creamy dish featuring tender beef strips, sautéed onions and mushrooms, all in a rich sour cream sauce, served over egg noodles.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Slice the beef sirloin into thin strips. Season with salt and pepper."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large skillet, heat some oil over medium-high heat. Add the beef strips and cook until browned. Remove the beef from the skillet and set aside."
+          },
+          {
+            "step_number": 3,
+            "description": "In the same skillet, add diced onion and sliced mushrooms. Sauté until the vegetables are tender."
+          },
+          {
+            "step_number": 4,
+            "description": "Add beef broth to the skillet and bring to a simmer. Stir in sour cream and Dijon mustard, and return the beef to the skillet. Cook until heated through."
+          },
+          {
+            "step_number": 5,
+            "description": "Meanwhile, cook the egg noodles according to package instructions. Drain and set aside."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve the beef stroganoff over the cooked egg noodles. Garnish with chopped parsley. Enjoy this comforting and delicious dish!"
+          }
+        ]
+      }
     },
     {
       "_id": 17,
@@ -374,7 +754,43 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A classic Italian dish featuring succulent shrimp cooked with garlic, lemon, and white wine, served over a bed of linguine pasta and garnished with fresh parsley and red pepper flakes."
+      "description": {
+        "text": "A classic Italian dish featuring succulent shrimp cooked with garlic, lemon, and white wine, served over a bed of linguine pasta and garnished with fresh parsley and red pepper flakes.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the linguine according to package instructions. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Peel and devein the shrimp, leaving the tails on if desired."
+          },
+          {
+            "step_number": 3,
+            "description": "In a large skillet, melt butter over medium heat. Add minced garlic and cook until fragrant, about 1 minute."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the shrimp to the skillet and cook until they start to turn pink, about 2-3 minutes per side."
+          },
+          {
+            "step_number": 5,
+            "description": "Deglaze the skillet with white wine and lemon juice, scraping up any browned bits from the bottom of the pan."
+          },
+          {
+            "step_number": 6,
+            "description": "Add the cooked linguine to the skillet and toss to coat in the sauce."
+          },
+          {
+            "step_number": 7,
+            "description": "Season with salt, pepper, and red pepper flakes to taste. Garnish with chopped parsley."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the shrimp scampi over the linguine. Enjoy this classic and flavorful dish!"
+          }
+        ]
+      }
     },
     {
       "_id": 18,
@@ -395,7 +811,39 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A delicious and satisfying Greek dish featuring tender chicken, warm pita bread, tangy tzatziki sauce, and crisp vegetables."
+      "description": {
+        "text": "A delicious and satisfying Greek dish featuring tender chicken, warm pita bread, tangy tzatziki sauce, and crisp vegetables.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Slice the chicken thighs into thin strips. Season with salt, pepper, lemon juice, and olive oil. Let marinate for at least 15 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large skillet, heat some olive oil over medium-high heat. Add the marinated chicken strips and cook until browned and cooked through, about 5-7 minutes."
+          },
+          {
+            "step_number": 3,
+            "description": "Meanwhile, prepare the tzatziki sauce by combining Greek yogurt, grated cucumber, minced garlic, lemon juice, dill, salt, and pepper in a bowl. Mix well and refrigerate until ready to use."
+          },
+          {
+            "step_number": 4,
+            "description": "Warm the pita bread in a skillet or in the microwave."
+          },
+          {
+            "step_number": 5,
+            "description": "Slice the tomatoes, cucumbers, and red onion. Crumble the feta cheese."
+          },
+          {
+            "step_number": 6,
+            "description": "To assemble the gyros, place some chicken strips in the center of a piece of pita bread. Top with tzatziki sauce, tomatoes, cucumbers, red onion, lettuce, and feta cheese."
+          },
+          {
+            "step_number": 7,
+            "description": "Fold the pita bread over the filling to form a wrap. Serve the Greek gyros immediately and enjoy this delicious and flavorful dish!"
+          }
+        ]
+      }
     },
     {
       "_id": 19,
@@ -415,7 +863,39 @@
       ],
       "veg": true,
       "servings": "4",
-      "description": "A classic French vegetable stew featuring tender eggplant, zucchini, bell peppers, and tomatoes, simmered in a flavorful herb-infused sauce."
+      "description": {
+        "text": "A classic French vegetable stew featuring tender eggplant, zucchini, bell peppers, and tomatoes, simmered in a flavorful herb-infused sauce.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Preheat the oven to 375°F (190°C)."
+          },
+          {
+            "step_number": 2,
+            "description": "Slice the eggplant, zucchini, yellow squash, and bell peppers into 1/4-inch rounds. Dice the onion and mince the garlic."
+          },
+          {
+            "step_number": 3,
+            "description": "In a large skillet, heat olive oil over medium heat. Add the onion and garlic, and sauté until softened, about 5 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the sliced eggplant, zucchini, yellow squash, and bell peppers to the skillet. Cook, stirring occasionally, until the vegetables are slightly tender, about 10 minutes."
+          },
+          {
+            "step_number": 5,
+            "description": "Stir in diced tomatoes and fresh herbs, such as thyme, oregano, and basil. Season with salt and pepper to taste."
+          },
+          {
+            "step_number": 6,
+            "description": "Transfer the vegetable mixture to a baking dish. Cover with aluminum foil and bake for 30-40 minutes, or until the vegetables are tender."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the ratatouille hot, garnished with additional fresh herbs. Enjoy this classic French dish!"
+          }
+        ]
+      }
     },
     {
       "_id": 20,
@@ -434,7 +914,39 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "Learn to make your own sushi rolls at home with this step-by-step guide. Fillings can include fresh fish, crisp vegetables, and creamy avocado."
+      "description": {
+        "text": "Learn to make your own sushi rolls at home with this step-by-step guide. Fillings can include fresh fish, crisp vegetables, and creamy avocado.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the sushi rice according to package instructions. Let it cool to room temperature."
+          },
+          {
+            "step_number": 2,
+            "description": "Slice the assorted fish, cucumber, and avocado into thin strips."
+          },
+          {
+            "step_number": 3,
+            "description": "Place a nori sheet on a bamboo sushi mat. Wet your hands with water and spread a thin layer of sushi rice on the nori sheet, leaving a 1-inch border at the top."
+          },
+          {
+            "step_number": 4,
+            "description": "Arrange the fish, cucumber, and avocado strips in the center of the rice."
+          },
+          {
+            "step_number": 5,
+            "description": "Roll the sushi tightly using the bamboo mat, starting from the bottom edge. Use a little water to seal the edge."
+          },
+          {
+            "step_number": 6,
+            "description": "Slice the sushi roll into 6-8 pieces using a sharp knife."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the sushi rolls with soy sauce, wasabi, and pickled ginger. Enjoy your homemade sushi rolls!"
+          }
+        ]
+      }
     },
     {
       "_id": 21,
@@ -454,7 +966,39 @@
       ],
       "veg": true,
       "servings": "4",
-      "description": "A comforting and flavorful soup featuring caramelized onions, rich beef broth, and toasted baguette topped with melted Gruyere cheese."
+      "description": {
+        "text": "A comforting and flavorful soup featuring caramelized onions, rich beef broth, and toasted baguette topped with melted Gruyere cheese.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Slice the onions thinly. Heat butter and olive oil in a large pot over medium heat. Add the onions, thyme, and bay leaf. Cook, stirring occasionally, until the onions are caramelized, about 30-40 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "Deglaze the pot with white wine, scraping up any browned bits from the bottom."
+          },
+          {
+            "step_number": 3,
+            "description": "Add the beef broth to the pot. Bring to a simmer and cook for another 15-20 minutes. Season with salt and pepper to taste."
+          },
+          {
+            "step_number": 4,
+            "description": "Meanwhile, slice the baguette into 1/2-inch thick slices. Toast in the oven until crispy."
+          },
+          {
+            "step_number": 5,
+            "description": "Preheat the broiler. Ladle the soup into oven-safe bowls. Top each bowl with a slice of toasted baguette and a generous amount of grated Gruyere cheese."
+          },
+          {
+            "step_number": 6,
+            "description": "Place the bowls under the broiler until the cheese is melted and bubbly, about 2-3 minutes."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the French onion soup hot, garnished with additional thyme if desired. Enjoy this classic and comforting soup!"
+          }
+        ]
+      }
     },
     {
       "_id": 22,
@@ -473,7 +1017,35 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A delicious and customizable meal featuring seasoned ground beef served in crispy taco shells, topped with fresh lettuce, tomatoes, cheese, and your favorite toppings."
+      "description": {
+        "text": "A delicious and customizable meal featuring seasoned ground beef served in crispy taco shells, topped with fresh lettuce, tomatoes, cheese, and your favorite toppings.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the ground beef in a skillet over medium heat until browned. Drain excess fat."
+          },
+          {
+            "step_number": 2,
+            "description": "Add taco seasoning and water according to the package instructions. Simmer for 5 minutes."
+          },
+          {
+            "step_number": 3,
+            "description": "Meanwhile, prepare your taco toppings. Shred lettuce, dice tomatoes, grate cheese, and set aside."
+          },
+          {
+            "step_number": 4,
+            "description": "Warm the taco shells in the oven according to package instructions."
+          },
+          {
+            "step_number": 5,
+            "description": "To assemble the tacos, spoon the seasoned beef into each taco shell. Top with shredded lettuce, diced tomatoes, cheese, sour cream, and salsa."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve the beef tacos immediately, with additional toppings if desired. Enjoy this tasty and satisfying meal!"
+          }
+        ]
+      }
     },
     {
       "_id": 23,
@@ -493,7 +1065,39 @@
       ],
       "veg": true,
       "servings": "4",
-      "description": "A creamy and comforting Italian dish featuring Arborio rice cooked with flavorful mushrooms, onions, garlic, and white wine, finished with Parmesan cheese and fresh thyme."
+      "description": {
+        "text": "A creamy and comforting Italian dish featuring Arborio rice cooked with flavorful mushrooms, onions, garlic, and white wine, finished with Parmesan cheese and fresh thyme.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a large skillet, melt butter over medium heat. Add chopped onions and garlic, and cook until softened, about 5 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "Add sliced mushrooms to the skillet and cook until they release their juices and become tender, about 5-7 minutes."
+          },
+          {
+            "step_number": 3,
+            "description": "Stir in Arborio rice and cook for 2-3 minutes, stirring constantly, until the rice is lightly toasted."
+          },
+          {
+            "step_number": 4,
+            "description": "Deglaze the skillet with white wine, scraping up any browned bits from the bottom of the pan."
+          },
+          {
+            "step_number": 5,
+            "description": "Gradually add vegetable broth to the skillet, one ladleful at a time, stirring constantly and allowing the liquid to be absorbed before adding more. Continue until the rice is creamy and cooked to al dente, about 20-25 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Stir in grated Parmesan cheese and fresh thyme. Season with salt and pepper to taste."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the mushroom risotto hot, garnished with additional Parmesan cheese and thyme if desired. Enjoy this rich and comforting dish!"
+          }
+        ]
+      }
     },
     {
       "_id": 24,
@@ -514,7 +1118,31 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A fragrant and flavorful curry dish featuring tender chicken thighs simmered in a rich coconut milk sauce with tomatoes, onions, and aromatic spices."
+      "description": {
+        "text": "A fragrant and flavorful curry dish featuring tender chicken thighs simmered in a rich coconut milk sauce with tomatoes, onions, and aromatic spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a large skillet over medium heat. Add chopped onion, garlic, and ginger, and cook until softened, about 5 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chicken thighs to the skillet and cook until browned on all sides, about 5-7 minutes."
+          },
+          {
+            "step_number": 3,
+            "description": "Stir in curry powder, turmeric, and cayenne pepper, and cook for another 2-3 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and coconut milk to the skillet. Bring to a simmer and cook for 20-25 minutes, or until the chicken is cooked through and tender."
+          },
+          {
+            "step_number": 5,
+            "description": "Season the curry with salt and pepper to taste. Serve hot, garnished with chopped cilantro. Enjoy this aromatic and delicious chicken curry!"
+          }
+        ]
+      }
     },
     {
       "_id": 25,
@@ -533,7 +1161,233 @@
       ],
       "veg": false,
       "servings": "4",
-      "description": "A quick and flavorful pasta dish featuring succulent shrimp tossed in a buttery lemon garlic sauce with al dente pasta, finished with Parmesan cheese and fresh parsley."
+      "description": {
+        "text": "A quick and flavorful pasta dish featuring succulent shrimp tossed in a buttery lemon garlic sauce with al dente pasta, finished with Parmesan cheese and fresh parsley.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook pasta in a large pot of salted boiling water according to package instructions. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large skillet, melt butter over medium heat. Add minced garlic and cook for about 1 minute, or until fragrant."
+          },
+          {
+            "step_number": 3,
+            "description": "Add shrimp to the skillet and cook for 2-3 minutes per side, or until pink and cooked through."
+          },
+          {
+            "step_number": 4,
+            "description": "Stir in chicken broth, lemon juice, and lemon zest. Bring to a simmer and cook for another 2-3 minutes."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cooked pasta to the skillet and toss to coat in the sauce. Cook for an additional minute to heat through."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove from heat and stir in grated Parmesan cheese. Season with salt and pepper to taste."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the lemon garlic shrimp pasta hot, garnished with chopped parsley and additional Parmesan cheese. Enjoy this quick and flavorful dish!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 26,
+      "title": "Chicken Dum Biryani",
+      "image": "https://vismaifood.com/storage/app/uploads/public/63a/cb5/158/thumb__1200_0_0_0_auto.jpg",
+      "time": 60,
+      "ingredients": [
+        "Chicken",
+        "Basmati Rice",
+        "Yogurt",
+        "Onions",
+        "Tomatoes",
+        "Ginger Garlic Paste",
+        "Green Chilies",
+        "Mint Leaves",
+        "Cilantro",
+        "Lemon Juice",
+        "Garam Masala",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Biryani Masala",
+        "Salt",
+        "Oil",
+        "Ghee",
+        "Saffron",
+        "Milk"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "A fragrant and flavorful Indian rice dish featuring marinated chicken cooked with aromatic spices and layered with basmati rice, topped with saffron-infused milk and ghee, and slow-cooked to perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Marinate the chicken with yogurt, ginger garlic paste, green chilies, mint leaves, cilantro, lemon juice, garam masala, turmeric powder, red chili powder, biryani masala, and salt. Let it marinate for at least 30 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large pot, heat oil and ghee. Add sliced onions and cook until golden brown. Remove half of the onions and set aside for garnishing."
+          },
+          {
+            "step_number": 3,
+            "description": "To the remaining onions in the pot, add tomatoes and cook until they turn soft and mushy."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the marinated chicken to the pot and cook until it is partially cooked."
+          },
+          {
+            "step_number": 5,
+            "description": "In a separate pot, parboil the basmati rice with whole spices until it is 70% cooked. Drain the rice and layer it over the partially cooked chicken in the pot."
+          },
+          {
+            "step_number": 6,
+            "description": "Sprinkle fried onions, chopped mint leaves, chopped cilantro, saffron-infused milk, and ghee over the rice."
+          },
+          {
+            "step_number": 7,
+            "description": "Cover the pot with a tight-fitting lid and cook on low heat for 20-25 minutes, or until the chicken is cooked through and the rice is fully cooked and fluffy."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the chicken dum biryani hot, garnished with fried onions and fresh cilantro. Enjoy this aromatic and flavorful dish!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 27,
+      "title": "Paneer Dum Biryani",
+      "image": "https://th.bing.com/th/id/OIP.5erbUI5CD5TMCKTc6BjCPgHaG4?rs=1&pid=ImgDetMain",
+      "time": 60,
+      "ingredients": [
+        "Paneer",
+        "Basmati Rice",
+        "Yogurt",
+        "Onions",
+        "Tomatoes",
+        "Ginger Garlic Paste",
+        "Green Chilies",
+        "Mint Leaves",
+        "Cilantro",
+        "Lemon Juice",
+        "Garam Masala",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Biryani Masala",
+        "Salt",
+        "Oil",
+        "Ghee",
+        "Saffron",
+        "Milk"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A fragrant and flavorful Indian rice dish featuring marinated paneer cooked with aromatic spices and layered with basmati rice, topped with saffron-infused milk and ghee, and slow-cooked to perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Marinate the paneer with yogurt, ginger garlic paste, green chilies, mint leaves, cilantro, lemon juice, garam masala, turmeric powder, red chili powder, biryani masala, and salt. Let it marinate for at least 30 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large pot, heat oil and ghee. Add sliced onions and cook until golden brown. Remove half of the onions and set aside for garnishing."
+          },
+          {
+            "step_number": 3,
+            "description": "To the remaining onions in the pot, add tomatoes and cook until they turn soft and mushy."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the marinated paneer to the pot and cook until it is partially cooked."
+          },
+          {
+            "step_number": 5,
+            "description": "In a separate pot, parboil the basmati rice with whole spices until it is 70% cooked. Drain the rice and layer it over the partially cooked paneer in the pot."
+          },
+          {
+            "step_number": 6,
+            "description": "Sprinkle fried onions, chopped mint leaves, chopped cilantro, saffron-infused milk, and ghee over the rice."
+          },
+          {
+            "step_number": 7,
+            "description": "Cover the pot with a tight-fitting lid and cook on low heat for 20-25 minutes, or until the paneer is cooked through and the rice is fully cooked and fluffy."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the paneer dum biryani hot, garnished with fried onions and fresh cilantro. Enjoy this aromatic and flavorful dish!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 28,
+      "title": "Paneer Butter Masala",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+      "time": 45,
+      "ingredients": [
+        "Paneer",
+        "Tomatoes",
+        "Onion",
+        "Cashew Nuts",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Butter",
+        "Cream",
+        "Kasuri Methi",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Garam Masala",
+        "Salt",
+        "Sugar"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A rich and creamy Indian curry featuring paneer (Indian cottage cheese) cooked in a flavorful tomato-based sauce with butter and cream.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat butter in a pan. Add chopped onions, ginger, garlic, and green chilies. Saute until onions turn translucent."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chopped tomatoes and cashew nuts. Cook until tomatoes are soft and mushy."
+          },
+          {
+            "step_number": 3,
+            "description": "Remove from heat and let it cool slightly. Blend into a smooth paste."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat butter in a pan. Add the blended tomato paste, turmeric powder, red chili powder, coriander powder, garam masala, salt, and sugar. Cook until the masala is cooked through and oil starts to separate."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cream and kasuri methi. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add paneer cubes and simmer for a few minutes until the paneer is heated through and well-coated with the sauce."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the paneer butter masala hot, garnished with cream and chopped coriander leaves. Enjoy with naan or rice!"
+          }
+        ]
+      }
     }
+    
+    
+    
   ]
 }
