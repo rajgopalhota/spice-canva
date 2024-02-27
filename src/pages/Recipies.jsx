@@ -16,7 +16,7 @@ const Recipes = () => {
             time={recipe.time}
             ingredients={recipe.ingredients}
             servings={recipe.servings}
-            description={recipe.description}
+            description={recipe.description.text}
           />
         ))}
       </div>

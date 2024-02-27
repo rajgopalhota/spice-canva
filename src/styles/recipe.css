@@ -44,7 +44,13 @@
   border-radius: 46px;
   background: #f3fce4;
   box-shadow: 11px 11px 22px #f8dcd1, -12px -12px 22px #fbe7cf;
+  transition: all ease 0.3s;
 }
+.recipecard .ft-recipe:hover{
+  cursor: pointer;
+  transform: translateY(-10px) scale(1.04);
+}
+
 .recipecard .ft-recipe .ft-recipe__thumb {
   position: relative;
   height: 151px;
@@ -97,6 +103,12 @@
   object-fit: cover;
   -o-object-position: 50% 50%;
   object-position: 50% 50%;
+  transition: all 0.3s ease-in-out;
+}
+.recipecard .ft-recipe:hover img{
+  filter: brightness(1.1) saturate(1.2) contrast(1.1);
+  -o-object-position: 60% 40%;
+  object-position: 40% 30%;
 }
 .recipecard .ft-recipe .ft-recipe__content {
   flex: 1;

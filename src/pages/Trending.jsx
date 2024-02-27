@@ -42,7 +42,7 @@ const TrendingFoods = () => {
             time={recipe.time}
             ingredients={recipe.ingredients}
             servings={recipe.servings}
-            description={recipe.description}
+            description={recipe.description.text}
           />
         ))}
       </div>
@@ -57,7 +57,7 @@ const TrendingFoods = () => {
             time={recipe.time}
             ingredients={recipe.ingredients}
             servings={recipe.servings}
-            description={recipe.description}
+            description={recipe.description.text}
           />
         ))}
       </div>
