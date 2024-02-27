@@ -25,14 +25,14 @@ const Sidebar = () => {
         <span className="sidebar-title">Trending</span>
       </NavLink>
 
-      <NavLink to="/recipies" className="sidebar-link" title="Activities">
+      <NavLink to="/recipes" className="sidebar-link" title="Activities">
         <GiRiceCooker className="sidebar-icon" />
         <span className="sidebar-title">Recipies</span>
       </NavLink>
 
-      <NavLink to="/post-recipie" className="sidebar-link" title="Contact">
+      <NavLink to="/post-recipe" className="sidebar-link" title="Contact">
         <FaPencil className="sidebar-icon" />
-        <span className="sidebar-title">Post your recipie</span>
+        <span className="sidebar-title">Post your recipe</span>
       </NavLink>
 
       <NavLink to="/login" className="sidebar-link" title="About">

@@ -1,0 +1,473 @@
+{
+    "recipes": [
+      {
+        "_id": 1,
+        "title": "Strawberry Waffle",
+        "image": "https://zippypaws.com/app/uploads/2018/05/strawberry-waffles-1024x668.jpg",
+        "time": 20,
+        "ingredients": [
+          "Ingredient 1",
+          "Ingredient 2",
+          "Ingredient 3",
+          "Ingredient 4",
+          "Ingredient 5"
+        ],
+        "veg": true,
+        "servings": "4-6",
+        "description": "There’s no better way to celebrate May being National Strawberry Month than by sharing a sweet treat with your pup!!! Strawberries..."
+      },
+      {
+        "_id": 2,
+        "title": "Chocolate Cake",
+        "image": "https://th.bing.com/th/id/OIP.UlnYZaNIGW7Ci2xnZvILogHaJQ?rs=1&pid=ImgDetMain",
+        "time": 45,
+        "ingredients": [
+          "Ingredient A",
+          "Ingredient B",
+          "Ingredient C",
+          "Ingredient D",
+          "Ingredient E"
+        ],
+        "veg": true,
+        "servings": "8-10",
+        "description": "Indulge in the rich and decadent flavors of this homemade chocolate cake. Perfect for any occasion!"
+      },
+      {
+        "_id": 3,
+        "title": "Caesar Salad",
+        "image": "https://th.bing.com/th/id/OIP.w4r5rpVWHIRAdJ4u1skaIgHaLH?rs=1&pid=ImgDetMain",
+        "time": 15,
+        "ingredients": [
+          "Romaine Lettuce",
+          "Croutons",
+          "Parmesan Cheese",
+          "Caesar Dressing"
+        ],
+        "veg": true,
+        "servings": "2",
+        "description": "A classic Caesar salad with crunchy romaine lettuce, homemade croutons, and tangy Caesar dressing."
+      },
+      {
+        "_id": 4,
+        "title": "Spaghetti Bolognese",
+        "image": "https://i.pinimg.com/originals/b0/c6/96/b0c69641286e56f84912c364983e812c.jpg",
+        "time": 60,
+        "ingredients": [
+          "Spaghetti",
+          "Ground Beef",
+          "Tomato Sauce",
+          "Onion",
+          "Garlic",
+          "Italian Seasoning"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A hearty and comforting spaghetti dish with a rich and savory Bolognese sauce."
+      },
+      {
+        "_id": 5,
+        "title": "Vegetable Stir Fry",
+        "image": "https://asimplepalate.com/wp-content/uploads/2019/03/vegetable-stir-fry-15-1365x2048.jpg",
+        "time": 20,
+        "ingredients": [
+          "Broccoli",
+          "Bell Peppers",
+          "Carrots",
+          "Snap Peas",
+          "Soy Sauce",
+          "Ginger",
+          "Garlic"
+        ],
+        "veg": true,
+        "servings": "4",
+        "description": "A colorful and nutritious stir-fry packed with fresh vegetables and a flavorful sauce."
+      },
+      {
+        "_id": 6,
+        "title": "Chicken Parmesan",
+        "image": "https://th.bing.com/th/id/OIP._phAemZn7ernYPHhDYksygHaLG?rs=1&pid=ImgDetMain",
+        "time": 45,
+        "ingredients": [
+          "Chicken Breast",
+          "Breadcrumbs",
+          "Parmesan Cheese",
+          "Marinara Sauce",
+          "Mozzarella Cheese",
+          "Egg",
+          "Flour"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "Tender chicken breasts breaded and fried to perfection, topped with marinara sauce and melted mozzarella cheese."
+      },
+      {
+        "_id": 7,
+        "title": "Mango Smoothie",
+        "image": "https://www.eatingbirdfood.com/wp-content/uploads/2021/05/mango-smoothie-angle-1024x1536.jpg",
+        "time": 10,
+        "ingredients": [
+          "Mango",
+          "Banana",
+          "Greek Yogurt",
+          "Orange Juice",
+          "Honey"
+        ],
+        "veg": true,
+        "servings": "2",
+        "description": "A refreshing and tropical smoothie made with ripe mangoes, creamy Greek yogurt, and a hint of honey."
+      },
+      {
+        "_id": 8,
+        "title": "Caprese Salad",
+        "image": "https://th.bing.com/th/id/OIP.PuM23ntMX8B2lAS-MLNCFAHaJQ?rs=1&pid=ImgDetMain",
+        "time": 10,
+        "ingredients": [
+          "Tomatoes",
+          "Fresh Mozzarella",
+          "Basil Leaves",
+          "Balsamic Glaze",
+          "Olive Oil",
+          "Salt",
+          "Pepper"
+        ],
+        "veg": true,
+        "servings": "2",
+        "description": "A simple and elegant salad featuring ripe tomatoes, creamy mozzarella, and fragrant basil drizzled with balsamic glaze."
+      },
+      {
+        "_id": 9,
+        "title": "Grilled Salmon",
+        "image": "https://th.bing.com/th/id/OIP.Ap6iEGbolwm_UjeHXNNIWAHaK-?rs=1&pid=ImgDetMain",
+        "time": 20,
+        "ingredients": [
+          "Salmon Fillets",
+          "Lemon",
+          "Garlic",
+          "Dijon Mustard",
+          "Honey",
+          "Olive Oil",
+          "Salt",
+          "Pepper"
+        ],
+        "veg": false,
+        "servings": "2",
+        "description": "Juicy and flavorful salmon fillets marinated in a zesty mixture of lemon, garlic, and Dijon mustard, then grilled to perfection."
+      },
+      {
+        "_id": 10,
+        "title": "Homemade Pizza",
+        "image": "https://th.bing.com/th/id/OIP.paK_UK5Hnf_fGUCkmZ-hFAHaEK?rs=1&pid=ImgDetMain",
+        "time": 30,
+        "ingredients": [
+          "Pizza Dough",
+          "Tomato Sauce",
+          "Mozzarella Cheese",
+          "Pepperoni",
+          "Bell Peppers",
+          "Onions",
+          "Olives",
+          "Basil Leaves"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "Create your own delicious pizza at home with your favorite toppings on a crispy homemade crust."
+      },
+      {
+        "_id": 11,
+        "title": "Avocado Toast",
+        "image": "https://thesaltypot.com/wp-content/uploads/2019/02/Avocado-Toast09.jpg",
+        "time": 10,
+        "ingredients": [
+          "Avocado",
+          "Bread",
+          "Lemon Juice",
+          "Salt",
+          "Pepper",
+          "Red Pepper Flakes"
+        ],
+        "veg": true,
+        "servings": "2",
+        "description": "A simple yet delicious breakfast or snack featuring mashed avocado on toasted bread, seasoned with lemon juice, salt, pepper, and red pepper flakes."
+      },
+      {
+        "_id": 12,
+        "title": "Taco Salad",
+        "image": "https://th.bing.com/th/id/OIP.89CuDJkG3j6_5f3qUb6tFAHaLH?rs=1&pid=ImgDetMain",
+        "time": 20,
+        "ingredients": [
+          "Ground Beef",
+          "Lettuce",
+          "Tomatoes",
+          "Avocado",
+          "Black Beans",
+          "Corn",
+          "Tortilla Chips",
+          "Salsa",
+          "Sour Cream"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A satisfying and flavorful salad featuring seasoned ground beef, crisp lettuce, ripe tomatoes, creamy avocado, and crunchy tortilla chips, topped with salsa and sour cream."
+      },
+      {
+        "_id": 13,
+        "title": "Quinoa Salad",
+        "image": "https://www.modernhoney.com/wp-content/uploads/2017/04/Quinoa-Salad.jpg",
+        "time": 25,
+        "ingredients": [
+          "Quinoa",
+          "Cucumber",
+          "Cherry Tomatoes",
+          "Red Onion",
+          "Feta Cheese",
+          "Kalamata Olives",
+          "Lemon Juice",
+          "Olive Oil",
+          "Fresh Herbs"
+        ],
+        "veg": true,
+        "servings": "4",
+        "description": "A nutritious and colorful salad featuring protein-rich quinoa, crisp cucumbers, juicy cherry tomatoes, tangy feta cheese, and briny Kalamata olives, dressed with lemon vinaigrette."
+      },
+      {
+        "_id": 14,
+        "title": "Chicken Fajitas",
+        "image": "https://www.primaverakitchen.com/wp-content/uploads/2019/08/Skillet-Chicken-Fajitas-Recipe-Primavera-Kitchen-3.jpg",
+        "time": 30,
+        "ingredients": [
+          "Chicken Breast",
+          "Bell Peppers",
+          "Onion",
+          "Lime Juice",
+          "Chili Powder",
+          "Cumin",
+          "Paprika",
+          "Tortillas",
+          "Sour Cream",
+          "Guacamole"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A flavorful and sizzling dish featuring marinated chicken, sautéed bell peppers, and onions, served with warm tortillas, sour cream, and guacamole."
+      },
+      {
+        "_id": 15,
+        "title": "Pasta Primavera",
+        "image": "https://www.cookingclassy.com/wp-content/uploads/2018/09/pasta-primavera-1.jpg",
+        "time": 25,
+        "ingredients": [
+          "Pasta",
+          "Broccoli",
+          "Bell Peppers",
+          "Carrots",
+          "Zucchini",
+          "Cherry Tomatoes",
+          "Garlic",
+          "Parmesan Cheese",
+          "Olive Oil",
+          "Basil"
+        ],
+        "veg": true,
+        "servings": "4",
+        "description": "A vibrant and colorful pasta dish loaded with seasonal vegetables and tossed in a light garlic and olive oil sauce, topped with fresh basil and Parmesan cheese."
+      },
+      {
+        "_id": 16,
+        "title": "Beef Stroganoff",
+        "image": "https://th.bing.com/th/id/R.2e27b187d240d7f75c6e31d385c88b9a?rik=GOz%2bjMbl%2b0TEAg&riu=http%3a%2f%2fwww.simplyscratch.com%2fwp-content%2fuploads%2f2013%2f11%2fBeef-Stroganoff-www.SimplyScratch.com_.jpg&ehk=XjahTxYrjJXa1VxKxSUK5vdU3ZCOMdmk4YywJXQzAyw%3d&risl=&pid=ImgRaw&r=0",
+        "time": 40,
+        "ingredients": [
+          "Beef Sirloin",
+          "Onion",
+          "Mushrooms",
+          "Beef Broth",
+          "Sour Cream",
+          "Dijon Mustard",
+          "Egg Noodles",
+          "Parsley"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A comforting and creamy dish featuring tender beef strips, sautéed onions and mushrooms, all in a rich sour cream sauce, served over egg noodles."
+      },
+      {
+        "_id": 17,
+        "title": "Shrimp Scampi",
+        "image": "https://th.bing.com/th/id/OIP.FQVBRC64NzzWQ6UT9ErAyQHaJQ?rs=1&pid=ImgDetMain",
+        "time": 20,
+        "ingredients": [
+          "Shrimp",
+          "Linguine",
+          "Garlic",
+          "Lemon Juice",
+          "White Wine",
+          "Butter",
+          "Parsley",
+          "Red Pepper Flakes"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A classic Italian dish featuring succulent shrimp cooked with garlic, lemon, and white wine, served over a bed of linguine pasta and garnished with fresh parsley and red pepper flakes."
+      },
+      {
+        "_id": 18,
+        "title": "Greek Gyros",
+        "image": "https://th.bing.com/th/id/OIP.-sRLO-bjqnkvRvZv_6eVswHaHa?rs=1&pid=ImgDetMain",
+        "time": 30,
+        "ingredients": [
+          "Chicken Thighs",
+          "Pita Bread",
+          "Tzatziki Sauce",
+          "Tomatoes",
+          "Cucumbers",
+          "Red Onion",
+          "Lettuce",
+          "Feta Cheese",
+          "Lemon Juice",
+          "Olive Oil"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A delicious and satisfying Greek dish featuring tender chicken, warm pita bread, tangy tzatziki sauce, and crisp vegetables."
+      },
+      {
+        "_id": 19,
+        "title": "Ratatouille",
+        "image": "https://th.bing.com/th/id/OIP.mCR6pKy8nJ-t9pJxQANPiAHaE7?rs=1&pid=ImgDetMain",
+        "time": 60,
+        "ingredients": [
+          "Eggplant",
+          "Zucchini",
+          "Yellow Squash",
+          "Bell Peppers",
+          "Onion",
+          "Garlic",
+          "Tomatoes",
+          "Fresh Herbs",
+          "Olive Oil"
+        ],
+        "veg": true,
+        "servings": "4",
+        "description": "A classic French vegetable stew featuring tender eggplant, zucchini, bell peppers, and tomatoes, simmered in a flavorful herb-infused sauce."
+      },
+      {
+        "_id": 20,
+        "title": "Sushi Rolls",
+        "image": "https://th.bing.com/th/id/OIP.e8fq3PIAtq0gh4PYkXNmFAHaE8?rs=1&pid=ImgDetMain",
+        "time": 45,
+        "ingredients": [
+          "Sushi Rice",
+          "Nori Sheets",
+          "Assorted Fish (Salmon, Tuna, etc.)",
+          "Cucumber",
+          "Avocado",
+          "Soy Sauce",
+          "Wasabi",
+          "Pickled Ginger"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "Learn to make your own sushi rolls at home with this step-by-step guide. Fillings can include fresh fish, crisp vegetables, and creamy avocado."
+      },
+      {
+        "_id": 21,
+        "title": "French Onion Soup",
+        "image": "https://th.bing.com/th/id/OIP.CSoEBr72NKFjUHy94FPyaAAAAA?rs=1&pid=ImgDetMain",
+        "time": 60,
+        "ingredients": [
+          "Onions",
+          "Beef Broth",
+          "White Wine",
+          "Baguette",
+          "Gruyere Cheese",
+          "Butter",
+          "Olive Oil",
+          "Thyme",
+          "Bay Leaf"
+        ],
+        "veg": true,
+        "servings": "4",
+        "description": "A comforting and flavorful soup featuring caramelized onions, rich beef broth, and toasted baguette topped with melted Gruyere cheese."
+      },
+      {
+        "_id": 22,
+        "title": "Beef Tacos",
+        "image": "https://www.thecookierookie.com/wp-content/uploads/2020/01/crockpot-taco-meat-beef-tacos-6-of-8-1.jpg",
+        "time": 30,
+        "ingredients": [
+          "Ground Beef",
+          "Taco Seasoning",
+          "Taco Shells",
+          "Lettuce",
+          "Tomatoes",
+          "Cheese",
+          "Sour Cream",
+          "Salsa"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A delicious and customizable meal featuring seasoned ground beef served in crispy taco shells, topped with fresh lettuce, tomatoes, cheese, and your favorite toppings."
+      },
+      {
+        "_id": 23,
+        "title": "Mushroom Risotto",
+        "image": "https://cookieandkate.com/images/2014/11/mushrooms-on-brown-rice-risotto-1.jpg",
+        "time": 45,
+        "ingredients": [
+          "Arborio Rice",
+          "Mushrooms",
+          "Onion",
+          "Garlic",
+          "White Wine",
+          "Vegetable Broth",
+          "Parmesan Cheese",
+          "Butter",
+          "Thyme"
+        ],
+        "veg": true,
+        "servings": "4",
+        "description": "A creamy and comforting Italian dish featuring Arborio rice cooked with flavorful mushrooms, onions, garlic, and white wine, finished with Parmesan cheese and fresh thyme."
+      },
+      {
+        "_id": 24,
+        "title": "Chicken Curry",
+        "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/priyanjali/shutterstock_111998606.jpg",
+        "time": 45,
+        "ingredients": [
+          "Chicken Thighs",
+          "Coconut Milk",
+          "Tomatoes",
+          "Onion",
+          "Garlic",
+          "Ginger",
+          "Curry Powder",
+          "Turmeric",
+          "Cayenne Pepper",
+          "Cilantro"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A fragrant and flavorful curry dish featuring tender chicken thighs simmered in a rich coconut milk sauce with tomatoes, onions, and aromatic spices."
+      },
+      {
+        "_id": 25,
+        "title": "Lemon Garlic Shrimp",
+        "image": "https://th.bing.com/th/id/OIP._NXJBO6GXQ5AqFo8L8HawwAAAA?rs=1&pid=ImgDetMain",
+        "time": 20,
+        "ingredients": [
+          "Shrimp",
+          "Pasta",
+          "Butter",
+          "Garlic",
+          "Lemon",
+          "Chicken Broth",
+          "Parmesan Cheese",
+          "Parsley"
+        ],
+        "veg": false,
+        "servings": "4",
+        "description": "A quick and flavorful pasta dish featuring succulent shrimp tossed in a buttery lemon garlic sauce with al dente pasta, finished with Parmesan cheese and fresh parsley."
+      }
+    ]
+  }
+  
