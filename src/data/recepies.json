@@ -5,6 +5,7 @@
       "title": "Strawberry Waffle",
       "image": "https://zippypaws.com/app/uploads/2018/05/strawberry-waffles-1024x668.jpg",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "1 1/2 cups all-purpose flour",
         "3 1/2 teaspoons baking powder",
@@ -49,6 +50,7 @@
       "title": "Chocolate Cake",
       "image": "https://th.bing.com/th/id/OIP.UlnYZaNIGW7Ci2xnZvILogHaJQ?rs=1&pid=ImgDetMain",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "1 3/4 cups all-purpose flour",
         "3/4 cup unsweetened cocoa powder",
@@ -104,6 +106,7 @@
       "title": "Caesar Salad",
       "image": "https://th.bing.com/th/id/OIP.w4r5rpVWHIRAdJ4u1skaIgHaLH?rs=1&pid=ImgDetMain",
       "time": 15,
+      "category": "rice",
       "ingredients": [
         "Romaine Lettuce",
         "Croutons",
@@ -139,6 +142,7 @@
       "title": "Spaghetti Bolognese",
       "image": "https://i.pinimg.com/originals/b0/c6/96/b0c69641286e56f84912c364983e812c.jpg",
       "time": 60,
+      "category": "rice",
       "ingredients": [
         "Spaghetti",
         "Ground Beef",
@@ -180,6 +184,7 @@
       "title": "Vegetable Stir Fry",
       "image": "https://asimplepalate.com/wp-content/uploads/2019/03/vegetable-stir-fry-15-1365x2048.jpg",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Broccoli",
         "Bell Peppers",
@@ -226,6 +231,7 @@
       "title": "Chicken Parmesan",
       "image": "https://th.bing.com/th/id/OIP._phAemZn7ernYPHhDYksygHaLG?rs=1&pid=ImgDetMain",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Chicken Breast",
         "Breadcrumbs",
@@ -276,6 +282,7 @@
       "title": "Mango Smoothie",
       "image": "https://www.eatingbirdfood.com/wp-content/uploads/2021/05/mango-smoothie-angle-1024x1536.jpg",
       "time": 10,
+      "category": "rice",
       "ingredients": [
         "Mango",
         "Banana",
@@ -312,6 +319,7 @@
       "title": "Caprese Salad",
       "image": "https://th.bing.com/th/id/OIP.PuM23ntMX8B2lAS-MLNCFAHaJQ?rs=1&pid=ImgDetMain",
       "time": 10,
+      "category": "rice",
       "ingredients": [
         "Tomatoes",
         "Fresh Mozzarella",
@@ -354,6 +362,7 @@
       "title": "Grilled Salmon",
       "image": "https://th.bing.com/th/id/OIP.Ap6iEGbolwm_UjeHXNNIWAHaK-?rs=1&pid=ImgDetMain",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Salmon Fillets",
         "Lemon",
@@ -397,6 +406,7 @@
       "title": "Homemade Pizza",
       "image": "https://th.bing.com/th/id/OIP.paK_UK5Hnf_fGUCkmZ-hFAHaEK?rs=1&pid=ImgDetMain",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Pizza Dough",
         "Tomato Sauce",
@@ -444,6 +454,7 @@
       "title": "Avocado Toast",
       "image": "https://thesaltypot.com/wp-content/uploads/2019/02/Avocado-Toast09.jpg",
       "time": 10,
+      "category": "rice",
       "ingredients": [
         "Avocado",
         "Bread",
@@ -489,6 +500,7 @@
       "title": "Taco Salad",
       "image": "https://th.bing.com/th/id/OIP.89CuDJkG3j6_5f3qUb6tFAHaLH?rs=1&pid=ImgDetMain",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Ground Beef",
         "Lettuce",
@@ -541,6 +553,7 @@
       "title": "Quinoa Salad",
       "image": "https://www.modernhoney.com/wp-content/uploads/2017/04/Quinoa-Salad.jpg",
       "time": 25,
+      "category": "rice",
       "ingredients": [
         "Quinoa",
         "Cucumber",
@@ -593,6 +606,7 @@
       "title": "Chicken Fajitas",
       "image": "https://www.primaverakitchen.com/wp-content/uploads/2019/08/Skillet-Chicken-Fajitas-Recipe-Primavera-Kitchen-3.jpg",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Chicken Breast",
         "Bell Peppers",
@@ -642,6 +656,7 @@
       "title": "Pasta Primavera",
       "image": "https://www.cookingclassy.com/wp-content/uploads/2018/09/pasta-primavera-1.jpg",
       "time": 25,
+      "category": "rice",
       "ingredients": [
         "Pasta",
         "Broccoli",
@@ -695,6 +710,7 @@
       "title": "Beef Stroganoff",
       "image": "https://th.bing.com/th/id/R.2e27b187d240d7f75c6e31d385c88b9a?rik=GOz%2bjMbl%2b0TEAg&riu=http%3a%2f%2fwww.simplyscratch.com%2fwp-content%2fuploads%2f2013%2f11%2fBeef-Stroganoff-www.SimplyScratch.com_.jpg&ehk=XjahTxYrjJXa1VxKxSUK5vdU3ZCOMdmk4YywJXQzAyw%3d&risl=&pid=ImgRaw&r=0",
       "time": 40,
+      "category": "rice",
       "ingredients": [
         "Beef Sirloin",
         "Onion",
@@ -742,6 +758,7 @@
       "title": "Shrimp Scampi",
       "image": "https://th.bing.com/th/id/OIP.FQVBRC64NzzWQ6UT9ErAyQHaJQ?rs=1&pid=ImgDetMain",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Shrimp",
         "Linguine",
@@ -797,6 +814,7 @@
       "title": "Greek Gyros",
       "image": "https://th.bing.com/th/id/OIP.-sRLO-bjqnkvRvZv_6eVswHaHa?rs=1&pid=ImgDetMain",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Chicken Thighs",
         "Pita Bread",
@@ -850,6 +868,7 @@
       "title": "Ratatouille",
       "image": "https://th.bing.com/th/id/OIP.mCR6pKy8nJ-t9pJxQANPiAHaE7?rs=1&pid=ImgDetMain",
       "time": 60,
+      "category": "rice",
       "ingredients": [
         "Eggplant",
         "Zucchini",
@@ -902,6 +921,7 @@
       "title": "Sushi Rolls",
       "image": "https://th.bing.com/th/id/OIP.e8fq3PIAtq0gh4PYkXNmFAHaE8?rs=1&pid=ImgDetMain",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Sushi Rice",
         "Nori Sheets",
@@ -953,6 +973,7 @@
       "title": "French Onion Soup",
       "image": "https://th.bing.com/th/id/OIP.CSoEBr72NKFjUHy94FPyaAAAAA?rs=1&pid=ImgDetMain",
       "time": 60,
+      "category": "rice",
       "ingredients": [
         "Onions",
         "Beef Broth",
@@ -1005,6 +1026,7 @@
       "title": "Beef Tacos",
       "image": "https://www.thecookierookie.com/wp-content/uploads/2020/01/crockpot-taco-meat-beef-tacos-6-of-8-1.jpg",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Ground Beef",
         "Taco Seasoning",
@@ -1052,6 +1074,7 @@
       "title": "Mushroom Risotto",
       "image": "https://cookieandkate.com/images/2014/11/mushrooms-on-brown-rice-risotto-1.jpg",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Arborio Rice",
         "Mushrooms",
@@ -1104,6 +1127,7 @@
       "title": "Chicken Curry",
       "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/priyanjali/shutterstock_111998606.jpg",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Chicken Thighs",
         "Coconut Milk",
@@ -1149,6 +1173,7 @@
       "title": "Lemon Garlic Shrimp",
       "image": "https://th.bing.com/th/id/OIP._NXJBO6GXQ5AqFo8L8HawwAAAA?rs=1&pid=ImgDetMain",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Shrimp",
         "Pasta",
@@ -1200,6 +1225,7 @@
       "title": "Chicken Dum Biryani",
       "image": "https://vismaifood.com/storage/app/uploads/public/63a/cb5/158/thumb__1200_0_0_0_auto.jpg",
       "time": 60,
+      "category": "rice",
       "ingredients": [
         "Chicken",
         "Basmati Rice",
@@ -1266,6 +1292,7 @@
       "title": "Paneer Dum Biryani",
       "image": "https://th.bing.com/th/id/OIP.5erbUI5CD5TMCKTc6BjCPgHaG4?rs=1&pid=ImgDetMain",
       "time": 60,
+      "category": "rice",
       "ingredients": [
         "Paneer",
         "Basmati Rice",
@@ -1332,6 +1359,7 @@
       "title": "Paneer Butter Masala",
       "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Paneer",
         "Tomatoes",
@@ -1391,6 +1419,7 @@
       "title": "Fish Curry",
       "image": "https://th.bing.com/th/id/OIP.BUt9E2AygirjScbzKq7ThAHaFj?rs=1&pid=ImgDetMain",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Fish Fillets",
         "Onion",
@@ -1455,6 +1484,7 @@
       "title": "Mango Dal",
       "image": "https://rupal-bhatikar.com/wp-content/uploads/2021/08/DSC03969-1.jpg",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Toor Dal",
         "Mango",
@@ -1524,6 +1554,7 @@
       "title": "Potato Fry",
       "image": "https://th.bing.com/th/id/OIP.wZ2EAr_akOkKSjNbW2MR3gHaEK?rs=1&pid=ImgDetMain",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Potatoes",
         "Turmeric Powder",
@@ -1573,6 +1604,7 @@
       "title": "Beans Curry",
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1067026.jpg",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Green Beans",
         "Onion",
@@ -1632,6 +1664,7 @@
       "title": "Egg Curry",
       "image": "https://www.whiskaffair.com/wp-content/uploads/2020/04/Kerala-Egg-Curry-3.jpg",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Eggs",
         "Onion",
@@ -1697,6 +1730,7 @@
       "title": "Brinjal Masala",
       "image": "https://recipes.timesofindia.com/thumb/53943291.cms?imgsize=330558&width=800&height=800",
       "time": 40,
+      "category": "rice",
       "ingredients": [
         "Brinjal (Eggplant)",
         "Onion",
@@ -1762,6 +1796,7 @@
       "title": "Cabbage Fry",
       "image": "https://th.bing.com/th/id/OIP.RXaZl5KQerzMvV239RtGsAAAAA?rs=1&pid=ImgDetMain",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Cabbage",
         "Onion",
@@ -1814,6 +1849,7 @@
       "title": "Chicken Fried Rice",
       "image": "https://th.bing.com/th/id/OIP.EdtFdGsiPMUNRsxXORO6UwHaHa?rs=1&pid=ImgDetMain",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Cooked Rice",
         "Chicken Breast",
@@ -1875,6 +1911,7 @@
       "title": "Veg Fried Rice",
       "image": "https://www.indianveggiedelight.com/wp-content/uploads/2020/08/instant-pot-fried-rice-1.jpg",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Cooked Rice",
         "Carrots",
@@ -1932,6 +1969,7 @@
       "title": "Gobi Manchurian",
       "image": "https://th.bing.com/th/id/OIP.3H8Jv13aORAV3GHNlzcoNQAAAA?rs=1&pid=ImgDetMain",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Cauliflower",
         "All-Purpose Flour",
@@ -1990,6 +2028,7 @@
       "title": "Paneer Tikka",
       "image": "https://www.indianveggiedelight.com/wp-content/uploads/2021/08/air-fryer-paneer-tikka-featured.jpg",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Paneer",
         "Yogurt",
@@ -2040,6 +2079,7 @@
       "title": "Chicken 65",
       "image": "https://www.mydelicious-recipes.com/home/getogimage?id=227",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Chicken (Boneless)",
         "Yogurt",
@@ -2089,6 +2129,7 @@
       "title": "Veg Sandwich",
       "image": "https://bachelorrecipe.com/wp-content/uploads/2018/05/Vegetable-Sandwich.jpg",
       "time": 15,
+      "category": "rice",
       "ingredients": [
         "Bread Slices",
         "Butter",
@@ -2143,6 +2184,7 @@
       "title": "Chicken Burger",
       "image": "https://th.bing.com/th/id/OIP.CbPm0hRTbCSUyrHVx9_28AHaF6?rs=1&pid=ImgDetMain",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Ground Chicken",
         "Bread Crumbs",
@@ -2201,6 +2243,7 @@
       "title": "Veg Noodles",
       "image": "https://i2.wp.com/vegecravings.com/wp-content/uploads/2017/03/veg-hakka-noodles-recipe-with-step-by-step-instructions.jpg?fit=1838%2C1493&quality=65&strip=all&ssl=1",
       "time": 20,
+      "category": "rice",
       "ingredients": [
         "Noodles",
         "Mixed Vegetables (Carrots, Bell Peppers, Cabbage, etc.)",
@@ -2251,6 +2294,7 @@
       "title": "Sambar",
       "image": "https://th.bing.com/th/id/OIP.HR1Kwb8q0dZDu0Laveif9AHaE8?rs=1&pid=ImgDetMain",
       "time": 45,
+      "category": "rice",
       "ingredients": [
         "Toor Dal",
         "Mixed Vegetables (Carrots, Drumsticks, Brinjal, etc.)",
@@ -2313,6 +2357,7 @@
       "title": "Kadhi",
       "image": "https://i.pinimg.com/originals/3e/3c/aa/3e3caac1b1d528014323e3079e348cd7.png",
       "time": 40,
+      "category": "rice",
       "ingredients": [
         "Yogurt",
         "Gram Flour (Besan)",
@@ -2372,6 +2417,7 @@
       "title": "Tomato Curry",
       "image": "https://i0.wp.com/subbucooks.com/wp-content/uploads/2020/02/IMG_4884-scaled.jpg?fit=2560%2C1707&ssl=1",
       "time": 30,
+      "category": "rice",
       "ingredients": [
         "Tomatoes",
         "Onion",
