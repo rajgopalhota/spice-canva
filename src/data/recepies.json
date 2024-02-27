@@ -1385,9 +1385,1050 @@
           }
         ]
       }
+    },
+    {
+      "_id": 29,
+      "title": "Fish Curry",
+      "image": "https://th.bing.com/th/id/OIP.BUt9E2AygirjScbzKq7ThAHaFj?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Fish Fillets",
+        "Onion",
+        "Tomatoes",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Curry Leaves",
+        "Coconut Milk",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Mustard Seeds",
+        "Fenugreek Seeds",
+        "Oil",
+        "Salt",
+        "Coriander Leaves"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "A flavorful and spicy Indian fish curry made with tender fish fillets cooked in a coconut milk-based sauce with aromatic spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Marinate the fish fillets with turmeric powder and salt. Set aside for 10-15 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and fenugreek seeds. Saute until they start to splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, ginger, garlic, green chilies, and curry leaves. Saute until the onions turn golden brown."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn soft and mushy."
+          },
+          {
+            "step_number": 5,
+            "description": "Add turmeric powder, red chili powder, coriander powder, and cumin powder. Saute for a minute."
+          },
+          {
+            "step_number": 6,
+            "description": "Add coconut milk and bring to a simmer."
+          },
+          {
+            "step_number": 7,
+            "description": "Add the marinated fish fillets and cook gently until the fish is cooked through."
+          },
+          {
+            "step_number": 8,
+            "description": "Garnish with chopped coriander leaves and serve the fish curry hot with rice or bread. Enjoy!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 30,
+      "title": "Mango Dal",
+      "image": "https://rupal-bhatikar.com/wp-content/uploads/2021/08/DSC03969-1.jpg",
+      "time": 45,
+      "ingredients": [
+        "Toor Dal",
+        "Mango",
+        "Onion",
+        "Tomato",
+        "Green Chilies",
+        "Ginger",
+        "Garlic",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Asafoetida",
+        "Oil",
+        "Salt",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A tangy and flavorful lentil dish made with toor dal (split pigeon peas) cooked with ripe mangoes and aromatic spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Pressure cook the toor dal with turmeric powder and salt until soft and mushy. Set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, green chilies, ginger, and garlic. Saute until onions turn translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn soft."
+          },
+          {
+            "step_number": 5,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and asafoetida. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add chopped ripe mangoes and cook until they soften."
+          },
+          {
+            "step_number": 7,
+            "description": "Add the cooked toor dal and mix well. Add water if needed to adjust the consistency."
+          },
+          {
+            "step_number": 8,
+            "description": "Simmer for a few minutes until the flavors meld together. Garnish with chopped coriander leaves."
+          },
+          {
+            "step_number": 9,
+            "description": "Serve the mango dal hot with rice or bread. Enjoy the tangy and delicious flavors!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 31,
+      "title": "Potato Fry",
+      "image": "https://th.bing.com/th/id/OIP.wZ2EAr_akOkKSjNbW2MR3gHaEK?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Potatoes",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Salt",
+        "Oil",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A simple and flavorful Indian-style potato fry, perfect as a side dish or snack.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Peel the potatoes and cut them into small cubes."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add curry leaves and sauté for a few seconds."
+          },
+          {
+            "step_number": 4,
+            "description": "Add the cubed potatoes to the pan. Sprinkle turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Cover and cook the potatoes on medium heat, stirring occasionally, until they are cooked through and crispy on the outside."
+          },
+          {
+            "step_number": 6,
+            "description": "Once the potatoes are cooked, remove from heat and serve hot as a side dish or snack."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 32,
+      "title": "Beans Curry",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1067026.jpg",
+      "time": 30,
+      "ingredients": [
+        "Green Beans",
+        "Onion",
+        "Tomato",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Oil",
+        "Salt",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A flavorful and spicy Indian-style curry made with fresh green beans and a blend of aromatic spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Trim the ends of the green beans and cut them into 1-inch pieces."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, ginger, garlic, and green chilies. Saute until onions turn translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn soft."
+          },
+          {
+            "step_number": 5,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add the chopped green beans and a little water. Cover and cook until the beans are tender."
+          },
+          {
+            "step_number": 7,
+            "description": "Once the beans are cooked, garnish with chopped coriander leaves and serve hot with rice or bread."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 33,
+      "title": "Egg Curry",
+      "image": "https://www.whiskaffair.com/wp-content/uploads/2020/04/Kerala-Egg-Curry-3.jpg",
+      "time": 30,
+      "ingredients": [
+        "Eggs",
+        "Onion",
+        "Tomato",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Garam Masala",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Coconut Milk",
+        "Oil",
+        "Salt",
+        "Coriander Leaves"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "A delicious and creamy curry made with boiled eggs cooked in a spiced onion and tomato-based gravy.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Boil the eggs, peel them, and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, ginger, garlic, and green chilies. Saute until onions turn golden brown."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn soft."
+          },
+          {
+            "step_number": 5,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add coconut milk and a little water. Bring to a simmer."
+          },
+          {
+            "step_number": 7,
+            "description": "Gently add the boiled eggs to the gravy. Cover and simmer for a few minutes."
+          },
+          {
+            "step_number": 8,
+            "description": "Sprinkle garam masala and garnish with chopped coriander leaves. Serve hot with rice or bread."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 34,
+      "title": "Brinjal Masala",
+      "image": "https://recipes.timesofindia.com/thumb/53943291.cms?imgsize=330558&width=800&height=800",
+      "time": 40,
+      "ingredients": [
+        "Brinjal (Eggplant)",
+        "Onion",
+        "Tomato",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Garam Masala",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Coconut Milk",
+        "Oil",
+        "Salt",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A spicy and tangy South Indian curry made with tender brinjal (eggplant) in a flavorful onion-tomato masala.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cut the brinjal into cubes and soak in water to prevent discoloration."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, ginger, garlic, and green chilies. Saute until onions turn translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn soft."
+          },
+          {
+            "step_number": 5,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add the cubed brinjal and a little water. Cover and cook until the brinjal is tender."
+          },
+          {
+            "step_number": 7,
+            "description": "Add coconut milk and simmer for a few minutes."
+          },
+          {
+            "step_number": 8,
+            "description": "Sprinkle garam masala and garnish with chopped coriander leaves. Serve hot with rice or bread."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 35,
+      "title": "Cabbage Fry",
+      "image": "https://th.bing.com/th/id/OIP.RXaZl5KQerzMvV239RtGsAAAAA?rs=1&pid=ImgDetMain",
+      "time": 20,
+      "ingredients": [
+        "Cabbage",
+        "Onion",
+        "Green Chilies",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Oil",
+        "Salt",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A simple and flavorful stir-fry made with shredded cabbage, onions, and a blend of spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Shred the cabbage and finely chop the onions and green chilies."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, green chilies, and curry leaves. Saute until onions turn translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add shredded cabbage, turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Cover and cook on low heat until the cabbage is tender, stirring occasionally."
+          },
+          {
+            "step_number": 6,
+            "description": "Garnish with chopped coriander leaves. Serve hot as a side dish."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 36,
+      "title": "Chicken Fried Rice",
+      "image": "https://th.bing.com/th/id/OIP.EdtFdGsiPMUNRsxXORO6UwHaHa?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Cooked Rice",
+        "Chicken Breast",
+        "Carrots",
+        "Peas",
+        "Eggs",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Soy Sauce",
+        "Oyster Sauce",
+        "Salt",
+        "Pepper",
+        "Oil",
+        "Green Onions"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "A classic Chinese dish made with stir-fried rice, chicken, vegetables, and eggs.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the rice according to package instructions and let it cool. You can use leftover rice for this recipe."
+          },
+          {
+            "step_number": 2,
+            "description": "Cut the chicken breast into small pieces and marinate with soy sauce, salt, and pepper."
+          },
+          {
+            "step_number": 3,
+            "description": "Heat oil in a large pan or wok over medium-high heat. Add the marinated chicken and cook until browned and cooked through. Remove from the pan and set aside."
+          },
+          {
+            "step_number": 4,
+            "description": "In the same pan, add more oil if needed. Add minced garlic, ginger, and chopped onion. Cook until fragrant."
+          },
+          {
+            "step_number": 5,
+            "description": "Add diced carrots and peas. Cook until the vegetables are tender."
+          },
+          {
+            "step_number": 6,
+            "description": "Push the vegetables to the side of the pan and add beaten eggs. Scramble the eggs until fully cooked, then mix with the vegetables."
+          },
+          {
+            "step_number": 7,
+            "description": "Add the cooked rice, cooked chicken, soy sauce, oyster sauce, salt, and pepper. Stir everything together and cook for a few more minutes."
+          },
+          {
+            "step_number": 8,
+            "description": "Garnish with chopped green onions. Serve hot and enjoy!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 37,
+      "title": "Veg Fried Rice",
+      "image": "https://www.indianveggiedelight.com/wp-content/uploads/2020/08/instant-pot-fried-rice-1.jpg",
+      "time": 30,
+      "ingredients": [
+        "Cooked Rice",
+        "Carrots",
+        "Bell Peppers",
+        "Cabbage",
+        "Green Beans",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Green Chilies",
+        "Soy Sauce",
+        "Green Onions",
+        "Salt",
+        "Pepper",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A popular Indo-Chinese dish made with stir-fried rice and mixed vegetables.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook the rice according to package instructions and let it cool. You can use leftover rice for this recipe."
+          },
+          {
+            "step_number": 2,
+            "description": "Finely chop carrots, bell peppers, cabbage, and green beans. Also, chop onion, garlic, ginger, and green chilies."
+          },
+          {
+            "step_number": 3,
+            "description": "Heat oil in a large pan or wok over medium-high heat. Add chopped garlic, ginger, and green chilies. Saute for a minute."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped onion and cook until translucent."
+          },
+          {
+            "step_number": 5,
+            "description": "Add chopped vegetables and cook until they are slightly tender but still crisp."
+          },
+          {
+            "step_number": 6,
+            "description": "Add cooked rice, soy sauce, salt, and pepper. Mix everything together and cook for a few more minutes."
+          },
+          {
+            "step_number": 7,
+            "description": "Garnish with chopped green onions. Serve hot and enjoy!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 38,
+      "title": "Gobi Manchurian",
+      "image": "https://th.bing.com/th/id/OIP.3H8Jv13aORAV3GHNlzcoNQAAAA?rs=1&pid=ImgDetMain",
+      "time": 45,
+      "ingredients": [
+        "Cauliflower",
+        "All-Purpose Flour",
+        "Corn Flour",
+        "Ginger-Garlic Paste",
+        "Soy Sauce",
+        "Chili Sauce",
+        "Tomato Ketchup",
+        "Green Chilies",
+        "Onion",
+        "Bell Peppers",
+        "Spring Onions",
+        "Garlic",
+        "Salt",
+        "Pepper",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A popular Indo-Chinese dish made with battered and fried cauliflower florets tossed in a tangy and spicy sauce.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cut cauliflower into small florets. Blanch them in hot water with a pinch of salt for a few minutes. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, mix all-purpose flour, corn flour, ginger-garlic paste, salt, and pepper. Add water to make a thick batter."
+          },
+          {
+            "step_number": 3,
+            "description": "Heat oil in a pan for deep frying. Dip the blanched cauliflower florets in the batter and fry until golden brown. Drain on paper towels."
+          },
+          {
+            "step_number": 4,
+            "description": "In another pan, heat a little oil. Add chopped garlic, green chilies, and onions. Saute until onions are translucent."
+          },
+          {
+            "step_number": 5,
+            "description": "Add chopped bell peppers and spring onions. Cook for a few minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Add soy sauce, chili sauce, and tomato ketchup. Mix well."
+          },
+          {
+            "step_number": 7,
+            "description": "Add the fried cauliflower florets to the sauce. Toss well to coat evenly. Garnish with chopped spring onions. Serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 39,
+      "title": "Paneer Tikka",
+      "image": "https://www.indianveggiedelight.com/wp-content/uploads/2021/08/air-fryer-paneer-tikka-featured.jpg",
+      "time": 45,
+      "ingredients": [
+        "Paneer",
+        "Yogurt",
+        "Ginger-Garlic Paste",
+        "Turmeric Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Garam Masala",
+        "Kashmiri Red Chili Powder",
+        "Lemon Juice",
+        "Salt",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A popular Indian appetizer made with marinated paneer cubes grilled to perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cut paneer into cubes and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, mix yogurt, ginger-garlic paste, turmeric powder, coriander powder, cumin powder, garam masala, Kashmiri red chili powder, lemon juice, and salt to taste."
+          },
+          {
+            "step_number": 3,
+            "description": "Add paneer cubes to the marinade and mix well. Let it marinate for at least 30 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Preheat the grill or a grill pan. Thread the marinated paneer cubes onto skewers."
+          },
+          {
+            "step_number": 5,
+            "description": "Brush the paneer cubes with oil and grill them, turning occasionally, until they are golden brown and slightly charred."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve hot with mint chutney and onion rings."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 40,
+      "title": "Chicken 65",
+      "image": "https://www.mydelicious-recipes.com/home/getogimage?id=227",
+      "time": 45,
+      "ingredients": [
+        "Chicken (Boneless)",
+        "Yogurt",
+        "Ginger-Garlic Paste",
+        "Chili Powder",
+        "Turmeric Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Garam Masala",
+        "Curry Leaves",
+        "Green Chilies",
+        "Lemon Juice",
+        "Corn Flour",
+        "Salt",
+        "Oil"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "A spicy and flavorful South Indian fried chicken dish.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cut boneless chicken into bite-sized pieces and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, mix yogurt, ginger-garlic paste, chili powder, turmeric powder, coriander powder, cumin powder, garam masala, curry leaves, chopped green chilies, lemon juice, and salt to taste."
+          },
+          {
+            "step_number": 3,
+            "description": "Add the chicken pieces to the marinade and mix well. Let it marinate for at least 30 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat oil in a pan for deep frying. Coat the marinated chicken pieces with corn flour and fry them until they are golden brown and crispy."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve hot as a starter or appetizer."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 41,
+      "title": "Veg Sandwich",
+      "image": "https://bachelorrecipe.com/wp-content/uploads/2018/05/Vegetable-Sandwich.jpg",
+      "time": 15,
+      "ingredients": [
+        "Bread Slices",
+        "Butter",
+        "Cucumber",
+        "Tomato",
+        "Onion",
+        "Lettuce Leaves",
+        "Cheese Slices",
+        "Mayonnaise",
+        "Ketchup",
+        "Salt",
+        "Pepper"
+      ],
+      "veg": true,
+      "servings": "2",
+      "description": {
+        "text": "A simple and delicious sandwich filled with fresh vegetables and cheese.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Spread butter on one side of each bread slice."
+          },
+          {
+            "step_number": 2,
+            "description": "Slice cucumber, tomato, and onion thinly."
+          },
+          {
+            "step_number": 3,
+            "description": "Place lettuce leaves on a bread slice, followed by cucumber slices, tomato slices, and onion slices."
+          },
+          {
+            "step_number": 4,
+            "description": "Season with salt and pepper. Place a cheese slice on top."
+          },
+          {
+            "step_number": 5,
+            "description": "Spread mayonnaise and ketchup on another bread slice and place it on top of the cheese slice, butter side up."
+          },
+          {
+            "step_number": 6,
+            "description": "Heat a sandwich maker or a panini press. Place the sandwich inside and cook until the bread is golden brown and crispy."
+          },
+          {
+            "step_number": 7,
+            "description": "Remove from heat, slice diagonally, and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 42,
+      "title": "Chicken Burger",
+      "image": "https://th.bing.com/th/id/OIP.CbPm0hRTbCSUyrHVx9_28AHaF6?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Ground Chicken",
+        "Bread Crumbs",
+        "Egg",
+        "Onion",
+        "Garlic",
+        "Salt",
+        "Pepper",
+        "Paprika",
+        "Olive Oil",
+        "Burger Buns",
+        "Lettuce",
+        "Tomato",
+        "Cheese Slices",
+        "Mayonnaise",
+        "Ketchup"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "A juicy and flavorful chicken burger with classic toppings.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a bowl, mix ground chicken, bread crumbs, finely chopped onion, minced garlic, beaten egg, salt, pepper, and paprika."
+          },
+          {
+            "step_number": 2,
+            "description": "Form the mixture into burger patties."
+          },
+          {
+            "step_number": 3,
+            "description": "Heat olive oil in a pan over medium heat. Cook the chicken patties for about 5-6 minutes per side, or until cooked through."
+          },
+          {
+            "step_number": 4,
+            "description": "Toast the burger buns."
+          },
+          {
+            "step_number": 5,
+            "description": "Assemble the burgers by placing lettuce, tomato slices, and a chicken patty on the bottom half of each bun."
+          },
+          {
+            "step_number": 6,
+            "description": "Add a slice of cheese on top of the chicken patty. Spread mayonnaise and ketchup on the top half of the bun."
+          },
+          {
+            "step_number": 7,
+            "description": "Cover with the top half of the bun and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 43,
+      "title": "Veg Noodles",
+      "image": "https://i2.wp.com/vegecravings.com/wp-content/uploads/2017/03/veg-hakka-noodles-recipe-with-step-by-step-instructions.jpg?fit=1838%2C1493&quality=65&strip=all&ssl=1",
+      "time": 20,
+      "ingredients": [
+        "Noodles",
+        "Mixed Vegetables (Carrots, Bell Peppers, Cabbage, etc.)",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Soy Sauce",
+        "Chili Sauce",
+        "Vinegar",
+        "Salt",
+        "Pepper",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "2",
+      "description": {
+        "text": "A quick and easy stir-fried noodle dish loaded with vegetables and flavors.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook noodles according to package instructions. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan. Add finely chopped garlic and ginger. Sauté for a minute."
+          },
+          {
+            "step_number": 3,
+            "description": "Add finely chopped onion and sauté until it turns translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add thinly sliced mixed vegetables and stir-fry for a few minutes until they are slightly tender."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cooked noodles, soy sauce, chili sauce, vinegar, salt, and pepper. Toss everything together and stir-fry for another 2-3 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Garnish with chopped spring onions and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 44,
+      "title": "Sambar",
+      "image": "https://th.bing.com/th/id/OIP.HR1Kwb8q0dZDu0Laveif9AHaE8?rs=1&pid=ImgDetMain",
+      "time": 45,
+      "ingredients": [
+        "Toor Dal",
+        "Mixed Vegetables (Carrots, Drumsticks, Brinjal, etc.)",
+        "Onion",
+        "Tomato",
+        "Green Chilies",
+        "Sambar Powder",
+        "Tamarind Pulp",
+        "Turmeric Powder",
+        "Salt",
+        "Water",
+        "Oil",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Asafoetida"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A flavorful South Indian lentil stew with mixed vegetables, tamarind, and spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Pressure cook toor dal until soft and mushy. Mash and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a large pot, heat oil and add mustard seeds. When they start to splutter, add cumin seeds, curry leaves, and asafoetida."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, green chilies, and sauté until onions turn translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn mushy."
+          },
+          {
+            "step_number": 5,
+            "description": "Add mixed vegetables, turmeric powder, sambar powder, and salt. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add tamarind pulp and water. Bring to a boil and simmer until the vegetables are cooked."
+          },
+          {
+            "step_number": 7,
+            "description": "Add the mashed dal and simmer for another 10 minutes."
+          },
+          {
+            "step_number": 8,
+            "description": "Garnish with chopped coriander leaves and serve hot with rice or idli/dosa."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 45,
+      "title": "Kadhi",
+      "image": "https://i.pinimg.com/originals/3e/3c/aa/3e3caac1b1d528014323e3079e348cd7.png",
+      "time": 40,
+      "ingredients": [
+        "Yogurt",
+        "Gram Flour (Besan)",
+        "Water",
+        "Ghee",
+        "Cumin Seeds",
+        "Mustard Seeds",
+        "Curry Leaves",
+        "Asafoetida",
+        "Ginger",
+        "Green Chilies",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Salt",
+        "Sugar",
+        "Fenugreek Seeds",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A creamy and tangy yogurt-based curry with gram flour and spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a bowl, whisk together yogurt, gram flour, and water to make a smooth mixture. Set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat ghee in a pan. Add cumin seeds, mustard seeds, curry leaves, asafoetida, and fenugreek seeds. Sauté until the seeds crackle."
+          },
+          {
+            "step_number": 3,
+            "description": "Add finely chopped ginger and green chilies. Sauté for a minute."
+          },
+          {
+            "step_number": 4,
+            "description": "Add turmeric powder, red chili powder, salt, and sugar. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add the yogurt mixture to the pan. Stir continuously and bring to a gentle boil."
+          },
+          {
+            "step_number": 6,
+            "description": "Reduce heat and simmer for 20-25 minutes, stirring occasionally, until the kadhi thickens."
+          },
+          {
+            "step_number": 7,
+            "description": "Garnish with chopped coriander leaves and serve hot with steamed rice."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 46,
+      "title": "Tomato Curry",
+      "image": "https://i0.wp.com/subbucooks.com/wp-content/uploads/2020/02/IMG_4884-scaled.jpg?fit=2560%2C1707&ssl=1",
+      "time": 30,
+      "ingredients": [
+        "Tomatoes",
+        "Onion",
+        "Green Chilies",
+        "Garlic",
+        "Ginger",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Garam Masala",
+        "Salt",
+        "Oil",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A spicy and tangy tomato-based curry with aromatic spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter."
+          },
+          {
+            "step_number": 2,
+            "description": "Add finely chopped onions, green chilies, garlic, and ginger. Sauté until onions turn golden brown."
+          },
+          {
+            "step_number": 3,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 4,
+            "description": "Add chopped tomatoes and cook until they turn mushy."
+          },
+          {
+            "step_number": 5,
+            "description": "Add water as needed to achieve the desired consistency. Bring to a boil."
+          },
+          {
+            "step_number": 6,
+            "description": "Simmer for 5-10 minutes, allowing the flavors to blend."
+          },
+          {
+            "step_number": 7,
+            "description": "Add garam masala and chopped coriander leaves. Mix well and cook for another minute."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve hot with rice or roti."
+          }
+        ]
+      }
     }
-    
-    
-    
   ]
 }
