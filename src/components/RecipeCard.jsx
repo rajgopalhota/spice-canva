@@ -16,7 +16,7 @@ const RecipeCard = ({
   description,
 }) => {
   return (
-    <div className="recipecard">
+    <div className="recipecard" data-aos="zoom-in">
       <div className="ft-recipe">
         <div className="ft-recipe__thumb">
           <h3>

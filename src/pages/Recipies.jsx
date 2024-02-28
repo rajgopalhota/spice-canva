@@ -53,7 +53,7 @@ const Recipes = () => {
     <div className="recipeBox">
       <h1>Food for you - {filteredRecipes.length}</h1>
       <br />
-      <div className="filters">
+      <div className="filters" data-aos="fade-up">
         <select
           value={filters.maxTime}
           onChange={(e) =>

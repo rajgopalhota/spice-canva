@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +12,11 @@ html {
   background-position: center center fixed;
 }
 body {
+  user-select: none;
   min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .smokeBox {
   width: 100vw;
@@ -26,4 +32,25 @@ body {
 }
 .smokeBox img {
   width: 100%;
+}
+/* Loader */
+.suspenseLoader{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(45deg, #fff0f0, #f2fbff);
+  transition: all ease-in-out 1s;
+}
+.suspenseLoader img{
+  mix-blend-mode: multiply;
+  transform: scale(1.1);
+  image-rendering: crisp-edges;
+  border-radius: 12px;
 }
