@@ -3012,11 +3012,7 @@
       "title": "Ragi Sangati",
       "image": "https://i.ytimg.com/vi/8Y3BWQJFc74/maxresdefault.jpg",
       "time": 45,
-      "ingredients": [
-        "Ragi (Finger Millet) Flour",
-        "Water",
-        "Salt"
-      ],
+      "ingredients": ["Ragi (Finger Millet) Flour", "Water", "Salt"],
       "veg": true,
       "servings": "4",
       "description": {
@@ -3244,20 +3240,2028 @@
           }
         ]
       }
+    },
+    {
+      "_id": 61,
+      "title": "Gulab Jamun",
+      "image": "https://1.bp.blogspot.com/-XLpR9dpE_yc/XdDVk7NAffI/AAAAAAAAX6w/SrO8wxdgwUU0k3_MFQYv6JkIfC35HrQ7ACLcBGAsYHQ/s1600/gulab%2Bjamun%2B10.JPG",
+      "time": 60,
+      "ingredients": [
+        "Khoya (Mawa)",
+        "Paneer",
+        "All-purpose Flour (Maida)",
+        "Milk",
+        "Sugar",
+        "Water",
+        "Cardamom Powder",
+        "Rose Water",
+        "Ghee or Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "20-25 pieces",
+      "description": {
+        "text": "Gulab Jamun is a classic Indian sweet made from khoya (milk solids) and soaked in a sugar syrup flavored with cardamom and rose water.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a large bowl, crumble the khoya and paneer until smooth."
+          },
+          {
+            "step_number": 2,
+            "description": "Add all-purpose flour and knead the mixture into a smooth dough. If the dough is too dry, add a little milk to moisten it."
+          },
+          {
+            "step_number": 3,
+            "description": "Divide the dough into small, equal-sized portions and shape them into smooth balls."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat ghee or oil in a deep pan over medium heat. Fry the gulab jamun balls in batches until they are golden brown."
+          },
+          {
+            "step_number": 5,
+            "description": "In a separate saucepan, combine sugar, water, cardamom powder, and rose water to make the sugar syrup. Bring the syrup to a boil and simmer for 5 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove the sugar syrup from heat and add the fried gulab jamun balls to the syrup. Let them soak for at least 2 hours before serving."
+          },
+          {
+            "step_number": 7,
+            "description": "Garnish with chopped nuts (optional) and serve warm or at room temperature."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 62,
+      "title": "Badam Halwa",
+      "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2016/1-Archana/Badam_Halwa_recipe-2.jpg",
+      "time": 60,
+      "ingredients": [
+        "Almonds",
+        "Milk",
+        "Sugar",
+        "Ghee",
+        "Cardamom",
+        "Saffron",
+        "Pistachios"
+      ],
+      "veg": true,
+      "servings": "6-8",
+      "description": {
+        "text": "Badam Halwa is a rich and flavorful Indian sweet made from almonds, milk, sugar, and ghee, flavored with cardamom and saffron, and garnished with pistachios.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Soak almonds in hot water, peel them, and grind them into a smooth paste."
+          },
+          {
+            "step_number": 2,
+            "description": "Cook the almond paste with milk, sugar, and ghee until the mixture thickens."
+          },
+          {
+            "step_number": 3,
+            "description": "Add cardamom powder and saffron to the mixture and cook for a few more minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Garnish with chopped pistachios before serving."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 63,
+      "title": "Jalebi",
+      "image": "https://e0.pxfuel.com/wallpapers/141/329/desktop-wallpaper-how-to-instantly-prepare-jalebi-at-home.jpg",
+      "time": 60,
+      "ingredients": [
+        "All-purpose Flour (Maida)",
+        "Yogurt",
+        "Sugar",
+        "Water",
+        "Saffron",
+        "Cardamom",
+        "Ghee or Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "20-25 pieces",
+      "description": {
+        "text": "Jalebi is a popular Indian sweet made from fermented all-purpose flour batter fried in ghee or oil and soaked in sugar syrup.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Mix all-purpose flour, yogurt, and water in a bowl to make a thick batter. Let it ferment for a few hours or overnight."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat ghee or oil in a flat pan. Pour the batter into a squeeze bottle or piping bag and make spiral shapes in the hot oil."
+          },
+          {
+            "step_number": 3,
+            "description": "Fry the jalebis until they are crispy and golden brown. Drain excess oil and soak them in sugar syrup for a few minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Serve the jalebis warm."
+          }
+        ]
+      }
+    },    
+    {
+      "_id": 64,
+      "title": "Mysore Pak",
+      "image": "https://www.awesomecuisine.com/wp-content/uploads/2007/10/mysore-pak.jpg",
+      "time": 45,
+      "ingredients": [
+        "Besan (Gram Flour)",
+        "Sugar",
+        "Ghee"
+      ],
+      "veg": true,
+      "servings": "20-25 pieces",
+      "description": {
+        "text": "Mysore Pak is a famous South Indian sweet made from besan (gram flour), sugar, and ghee.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat ghee in a pan and roast besan until it turns aromatic and golden brown."
+          },
+          {
+            "step_number": 2,
+            "description": "In a separate pan, heat sugar and water to make a sugar syrup."
+          },
+          {
+            "step_number": 3,
+            "description": "Add the roasted besan to the sugar syrup and cook until the mixture thickens."
+          },
+          {
+            "step_number": 4,
+            "description": "Pour the mixture into a greased tray and let it cool. Cut into pieces before serving."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 65,
+      "title": "Kaju Katli",
+      "image": "https://i.etsystatic.com/40876472/r/il/419c04/4620152038/il_1080xN.4620152038_t0s6.jpg",
+      "time": 30,
+      "ingredients": [
+        "Cashews",
+        "Sugar",
+        "Water",
+        "Ghee"
+      ],
+      "veg": true,
+      "servings": "20-25 pieces",
+      "description": {
+        "text": "Kaju Katli is a popular Indian sweet made from cashews, sugar, and water.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Grind cashews into a fine powder."
+          },
+          {
+            "step_number": 2,
+            "description": "In a pan, heat sugar and water to make a sugar syrup. Add the cashew powder and cook until the mixture thickens."
+          },
+          {
+            "step_number": 3,
+            "description": "Spread the mixture onto a greased tray and let it cool. Cut into diamond-shaped pieces before serving."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 66,
+      "title": "Putharekulu",
+      "image": "https://www.vedasfoods.com/wp-content/uploads/2022/07/putharekulu.jpg",
+      "time": 60,
+      "ingredients": [
+        "Rice Paper Sheets",
+        "Sugar",
+        "Ghee"
+      ],
+      "veg": true,
+      "servings": "10-15 pieces",
+      "description": {
+        "text": "Putharekulu is a traditional Andhra sweet made from rice paper sheets, sugar, and ghee.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Roast the rice paper sheets lightly over a flame to make them crispy."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat ghee in a pan and add sugar. Cook until the sugar melts and caramelizes."
+          },
+          {
+            "step_number": 3,
+            "description": "Spread the caramelized sugar mixture on the rice paper sheets and roll them tightly."
+          },
+          {
+            "step_number": 4,
+            "description": "Let the rolls cool and harden before serving."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 67,
+      "title": "Masala Vada",
+      "image": "https://i.pinimg.com/originals/cf/de/bf/cfdebf1cfaa6315bdc1ff6a1113bcc32.jpg",
+      "time": 30,
+      "ingredients": [
+        "Chana Dal",
+        "Onion",
+        "Green Chilies",
+        "Ginger",
+        "Curry Leaves",
+        "Coriander Leaves",
+        "Fennel Seeds",
+        "Cumin Seeds",
+        "Salt",
+        "Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "10-12 vadas",
+      "description": {
+        "text": "Masala Vada is a popular South Indian snack made from coarsely ground lentils and spices, deep-fried to crispy perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Soak chana dal for 2-3 hours, then drain the water."
+          },
+          {
+            "step_number": 2,
+            "description": "Grind the dal coarsely with green chilies, ginger, fennel seeds, and cumin seeds."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions, curry leaves, coriander leaves, and salt to the ground dal mixture."
+          },
+          {
+            "step_number": 4,
+            "description": "Shape the mixture into small patties and deep fry until golden brown and crispy."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve hot with chutney or sambar."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 68,
+      "title": "Punugulu",
+      "image": "https://i.ytimg.com/vi/DWxsO34BSVY/maxresdefault.jpg",
+      "time": 30,
+      "ingredients": [
+        "Idli Batter",
+        "Onion",
+        "Green Chilies",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Coriander Leaves",
+        "Salt",
+        "Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "4-6",
+      "description": {
+        "text": "Punugulu are small, crispy fritters made from fermented idli batter mixed with onions, green chilies, and spices, and deep-fried until golden brown.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a bowl, mix the idli batter with finely chopped onions, green chilies, cumin seeds, curry leaves, coriander leaves, and salt to taste."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a deep pan. Take small portions of the batter and drop them into the hot oil, forming small fritters."
+          },
+          {
+            "step_number": 3,
+            "description": "Fry the punugulu until they are golden brown and crispy."
+          },
+          {
+            "step_number": 4,
+            "description": "Remove the punugulu from the oil and drain them on paper towels to remove excess oil."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve hot with coconut chutney or tomato ketchup."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 69,
+      "title": "Mirapakaya Bajji",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/02/mirchi-bajji-recipe-1a.jpg",
+      "time": 30,
+      "ingredients": [
+        "Large Green Chilies (Bajji Mirchi)",
+        "Besan (Gram Flour)",
+        "Rice Flour",
+        "Salt",
+        "Baking Soda",
+        "Ajwain (Carom Seeds)",
+        "Water",
+        "Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "4-6",
+      "description": {
+        "text": "Mirapakaya Bajji is a spicy and crispy South Indian snack made by stuffing large green chilies with a spicy masala, dipping them in a gram flour batter, and deep-frying until golden brown and crispy.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Slit the green chilies lengthwise, keeping them whole. Remove the seeds if you prefer less heat."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, mix besan, rice flour, salt, baking soda, and ajwain. Add water gradually to make a smooth batter."
+          },
+          {
+            "step_number": 3,
+            "description": "Stuff the slit green chilies with a dry masala made of salt, chili powder, and cumin powder."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat oil in a deep pan. Dip each stuffed chili in the batter, ensuring it is well coated."
+          },
+          {
+            "step_number": 5,
+            "description": "Gently drop the coated chilies into the hot oil and fry until they are golden brown and crispy."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove the bajjis from the oil and drain them on paper towels. Serve hot with coconut chutney."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 70,
+      "title": "Bhel Puri",
+      "image": "https://www.awesomecuisine.com/wp-content/uploads/2007/11/bhel-puri.jpg",
+      "time": 20,
+      "ingredients": [
+        "Puffed Rice (Murmura)",
+        "Sev (Thin Gram Flour Noodles)",
+        "Papdi (Crunchy Fried Dough Wafers)",
+        "Onion",
+        "Tomato",
+        "Boiled Potato",
+        "Green Chilies",
+        "Coriander Leaves",
+        "Tamarind Chutney",
+        "Green Chutney",
+        "Chaat Masala",
+        "Lemon Juice",
+        "Salt"
+      ],
+      "veg": true,
+      "servings": "4-6",
+      "description": {
+        "text": "Bhel Puri is a popular Indian street food snack made with puffed rice, vegetables, chutneys, and spices. It is a sweet, spicy, and tangy snack that is easy to prepare and delicious to eat.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a large bowl, mix together puffed rice, sev, crushed papdi, finely chopped onion, tomato, boiled potato, green chilies, and coriander leaves."
+          },
+          {
+            "step_number": 2,
+            "description": "Add tamarind chutney, green chutney, chaat masala, lemon juice, and salt to taste. Mix everything well to coat the ingredients with the chutneys and spices."
+          },
+          {
+            "step_number": 3,
+            "description": "Garnish with more sev, chopped coriander leaves, and a squeeze of lemon juice. Serve immediately."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 71,
+      "title": "Aloo Samosa",
+      "image": "https://th.bing.com/th/id/OIP.l-CddZeM3dEqIH5Urtk5TgHaE8?rs=1&pid=ImgDetMain",
+      "time": 60,
+      "ingredients": [
+        "For the dough:",
+        "All-purpose Flour (Maida)",
+        "Salt",
+        "Carom Seeds (Ajwain)",
+        "Oil",
+        "Water",
+        "For the filling:",
+        "Potatoes",
+        "Green Peas",
+        "Green Chilies",
+        "Ginger",
+        "Coriander Seeds",
+        "Cumin Seeds",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Garam Masala",
+        "Salt",
+        "Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "12-15 samosas",
+      "description": {
+        "text": "Aloo Samosa is a popular Indian snack made by stuffing a spiced potato mixture in a crispy, triangular pastry shell and deep-frying until golden brown and crispy.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "To make the dough, mix all-purpose flour, salt, carom seeds, and oil in a bowl. Gradually add water and knead into a firm dough. Cover and let it rest for 30 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "Boil, peel, and mash potatoes. In a pan, heat oil and add coriander seeds, cumin seeds, chopped green chilies, and ginger. Sauté for a minute."
+          },
+          {
+            "step_number": 3,
+            "description": "Add turmeric powder, red chili powder, garam masala, and salt. Mix well. Add mashed potatoes and green peas. Cook for a few minutes. Let the mixture cool."
+          },
+          {
+            "step_number": 4,
+            "description": "Divide the dough into equal-sized balls. Roll out each ball into a small circle. Cut it into halves to make semi-circles."
+          },
+          {
+            "step_number": 5,
+            "description": "Take a semi-circle, apply water on the straight edge, and fold it to form a cone. Stuff the cone with the potato mixture and seal the open edge."
+          },
+          {
+            "step_number": 6,
+            "description": "Heat oil in a pan for frying. Fry the samosas on medium heat until golden brown and crispy. Serve hot with chutney or ketchup."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 72,
+      "title": "Vegetable Cutlet",
+      "image": "https://i.ytimg.com/vi/00mA0rke3Gs/maxresdefault.jpg",
+      "time": 45,
+      "ingredients": [
+        "Potatoes",
+        "Carrots",
+        "Green Beans",
+        "Green Peas",
+        "Onion",
+        "Green Chilies",
+        "Ginger",
+        "Garlic",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Garam Masala",
+        "Coriander Leaves",
+        "Breadcrumbs",
+        "Salt",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "10-12 cutlets",
+      "description": {
+        "text": "Vegetable Cutlets are crispy and flavorful patties made with a mix of mashed vegetables, spices, and breadcrumbs. They are shallow-fried until golden brown and served hot with chutney or sauce.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Boil, peel, and mash potatoes. Finely chop carrots, green beans, and onion. Crush green chilies, ginger, and garlic."
+          },
+          {
+            "step_number": 2,
+            "description": "In a pan, heat oil and add crushed ginger, garlic, and green chilies. Sauté for a minute."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onion and sauté until translucent. Add chopped carrots, green beans, and green peas. Cook for a few minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Add turmeric powder, red chili powder, garam masala, and salt. Mix well. Add mashed potatoes and chopped coriander leaves. Mix everything well and let it cool."
+          },
+          {
+            "step_number": 5,
+            "description": "Divide the mixture into equal-sized portions and shape them into flat, round patties. Coat each patty with breadcrumbs."
+          },
+          {
+            "step_number": 6,
+            "description": "Heat oil in a pan for shallow frying. Fry the cutlets on medium heat until golden brown and crispy on both sides. Serve hot with chutney or sauce."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 73,
+      "title": "Vada Pav",
+      "image": "https://vanitascorner.com/wp-content/uploads/2020/10/Vada-Pav.jpg",
+      "time": 60,
+      "ingredients": [
+        "For Vada (Potato Patties):",
+        "Potatoes",
+        "Green Chilies",
+        "Ginger",
+        "Garlic",
+        "Mustard Seeds",
+        "Curry Leaves",
+        "Turmeric Powder",
+        "Coriander Leaves",
+        "Besan (Gram Flour)",
+        "Salt",
+        "Oil (for frying)",
+        "For Pav (Buns):",
+        "Pav Buns",
+        "Garlic Chutney",
+        "Green Chutney",
+        "Tamarind Chutney",
+        "Butter"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Vada Pav is a popular street food from Maharashtra, consisting of a spiced potato patty (vada) sandwiched between pav buns. It is typically served with various chutneys and is a flavorful and filling snack.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Boil, peel, and mash potatoes. Crush green chilies, ginger, and garlic."
+          },
+          {
+            "step_number": 2,
+            "description": "In a pan, heat oil and add mustard seeds. Once they splutter, add crushed ginger, garlic, and green chilies. Sauté for a minute."
+          },
+          {
+            "step_number": 3,
+            "description": "Add curry leaves and turmeric powder. Add the mashed potatoes, chopped coriander leaves, and salt. Mix well and cook for a few minutes. Let the mixture cool."
+          },
+          {
+            "step_number": 4,
+            "description": "Divide the potato mixture into equal-sized portions and shape them into round patties. Dip each patty in besan (gram flour) batter and deep fry until golden brown."
+          },
+          {
+            "step_number": 5,
+            "description": "Slice the pav buns horizontally, without cutting all the way through. Spread garlic chutney on one side and green chutney on the other side of each bun."
+          },
+          {
+            "step_number": 6,
+            "description": "Place a fried vada (potato patty) inside each pav bun. Serve hot with tamarind chutney and a side of fried green chilies (optional)."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 74,
+      "title": "Pav Bhaji",
+      "image": "https://www.thestatesman.com/wp-content/uploads/2019/07/pav-bhaji.jpg",
+      "time": 45,
+      "ingredients": [
+        "Potatoes",
+        "Tomatoes",
+        "Onion",
+        "Bell Pepper (Capsicum)",
+        "Green Peas",
+        "Carrots",
+        "Cauliflower",
+        "Green Beans",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Pav Bhaji Masala",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Salt",
+        "Butter",
+        "Oil",
+        "Pav Buns",
+        "Coriander Leaves",
+        "Lemon"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Pav Bhaji is a spicy mashed vegetable curry served with buttered and toasted pav buns. It's a popular street food in Mumbai and is flavorful and satisfying.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Boil, peel, and mash the potatoes. Finely chop all the vegetables."
+          },
+          {
+            "step_number": 2,
+            "description": "In a pan, heat oil and butter. Add chopped onions and sauté until they turn translucent."
+          },
+          {
+            "step_number": 3,
+            "description": "Add ginger, garlic, and green chilies. Sauté for a minute, then add chopped tomatoes. Cook until tomatoes are soft."
+          },
+          {
+            "step_number": 4,
+            "description": "Add all the chopped vegetables, pav bhaji masala, turmeric powder, red chili powder, and salt. Mix well and cook until the vegetables are soft."
+          },
+          {
+            "step_number": 5,
+            "description": "Mash the vegetables with a potato masher until they are well blended and have a thick consistency."
+          },
+          {
+            "step_number": 6,
+            "description": "Toast the pav buns with butter on a griddle until they are golden brown and crisp."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve the hot bhaji with a dollop of butter, chopped coriander leaves, a squeeze of lemon juice, and pav buns."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 75,
+      "title": "Coffee",
+      "image": "https://th.bing.com/th/id/OIP.PC4q0xrnZ8H2pBbGe1tYlwHaFs?rs=1&pid=ImgDetMain",
+      "time": 5,
+      "ingredients": [
+        "Coffee Powder",
+        "Water",
+        "Milk",
+        "Sugar (optional)"
+      ],
+      "veg": true,
+      "servings": "1",
+      "description": {
+        "text": "A comforting and aromatic beverage made from brewed coffee beans, typically served hot with milk and sugar.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Boil water in a kettle or pot."
+          },
+          {
+            "step_number": 2,
+            "description": "Add 1-2 teaspoons of coffee powder to a cup."
+          },
+          {
+            "step_number": 3,
+            "description": "Pour the hot water over the coffee powder and stir until dissolved."
+          },
+          {
+            "step_number": 4,
+            "description": "Add hot milk to the coffee according to your preference."
+          },
+          {
+            "step_number": 5,
+            "description": "Add sugar if desired, and stir well."
+          },
+          {
+            "step_number": 6,
+            "description": "Your coffee is ready to enjoy!"
+          }
+        ]
+      }
+    },
+    {
+      "_id": 76,
+      "title": "Onion Pakoda",
+      "image": "https://th.bing.com/th/id/OIP.5LpLn4ykTtsK3WgtOfvo6gHaFA?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Onions",
+        "Chickpea Flour (Besan)",
+        "Rice Flour",
+        "Ajwain (Carom Seeds)",
+        "Salt",
+        "Red Chili Powder",
+        "Turmeric Powder",
+        "Water",
+        "Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Onion Pakoda is a crispy and flavorful Indian snack made by deep-frying onion slices in a spiced gram flour batter.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Thinly slice onions and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, mix chickpea flour, rice flour, ajwain, salt, red chili powder, and turmeric powder."
+          },
+          {
+            "step_number": 3,
+            "description": "Add water gradually to form a thick batter. The batter should coat the back of a spoon."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat oil in a deep pan for frying."
+          },
+          {
+            "step_number": 5,
+            "description": "Dip onion slices in the batter and deep fry until golden brown and crispy."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove from oil and drain excess oil on paper towels. Serve hot with chutney or sauce."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 77,
+      "title": "Lemon Rice",
+      "image": "https://recipes.timesofindia.com/thumb/53870704.cms?imgsize=142559&width=800&height=800",
+      "time": 20,
+      "ingredients": [
+        "Rice",
+        "Lemon Juice",
+        "Turmeric Powder",
+        "Salt",
+        "Oil",
+        "Mustard Seeds",
+        "Urad Dal (Black Gram)",
+        "Chana Dal (Bengal Gram)",
+        "Green Chilies",
+        "Curry Leaves",
+        "Asafoetida (Hing)",
+        "Peanuts",
+        "Fresh Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Lemon Rice is a popular South Indian dish made by tempering rice with lemon juice and spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Cook rice and let it cool. Ensure the grains are separate."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan and add mustard seeds. When they start to splutter, add urad dal, chana dal, peanuts, and fry until golden."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped green chilies, curry leaves, and asafoetida. Fry for a few seconds."
+          },
+          {
+            "step_number": 4,
+            "description": "Add turmeric powder and mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add the cooked rice, salt, and lemon juice. Mix gently until everything is well combined."
+          },
+          {
+            "step_number": 6,
+            "description": "Garnish with fresh coriander leaves and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 78,
+      "title": "Chole Masala",
+      "image": "https://th.bing.com/th/id/OIP.yfV-04HBg3_BtsJ3tr94wAAAAA?w=300&h=300&rs=1&pid=ImgDetMain",
+      "time": 60,
+      "ingredients": [
+        "Chickpeas (Kabuli Chana)",
+        "Onion",
+        "Tomato",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Cumin Seeds",
+        "Coriander Powder",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Garam Masala",
+        "Amchur (Dry Mango Powder)",
+        "Salt",
+        "Oil",
+        "Water",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Chole Masala Curry is a popular North Indian dish made with chickpeas cooked in a spicy and tangy tomato-based gravy.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Soak chickpeas overnight. Pressure cook them until soft."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan, add cumin seeds, chopped onions, ginger, garlic, and green chilies. Saute until onions are golden brown."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped tomatoes and cook until they are soft and oil starts to separate."
+          },
+          {
+            "step_number": 4,
+            "description": "Add coriander powder, turmeric powder, red chili powder, garam masala, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cooked chickpeas and water. Simmer for 10-15 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Add amchur powder and chopped coriander leaves. Mix well and cook for another 2-3 minutes."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve hot with bhature or rice."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 79,
+      "title": "Dal Makhani",
+      "image": "https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3.jpg",
+      "time": 120,
+      "ingredients": [
+        "Whole Urad Dal",
+        "Rajma (Kidney Beans)",
+        "Onion",
+        "Tomato",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Cumin Seeds",
+        "Coriander Powder",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Garam Masala",
+        "Cream",
+        "Butter",
+        "Salt",
+        "Water",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Dal Makhani is a rich and creamy lentil dish made with whole black lentils, kidney beans, and spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Soak whole urad dal and rajma overnight. Pressure cook them until soft."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat butter in a pan, add cumin seeds, chopped onions, ginger, garlic, and green chilies. Saute until onions are golden brown."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped tomatoes and cook until they are soft and oil starts to separate."
+          },
+          {
+            "step_number": 4,
+            "description": "Add coriander powder, turmeric powder, red chili powder, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cooked dal and rajma along with some water. Simmer for 30-40 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Add garam masala, cream, and chopped coriander leaves. Mix well and cook for another 5-10 minutes."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve hot with rice or naan."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 80,
+      "title": "Mushroom Curry",
+      "image": "https://th.bing.com/th/id/OIP.l2WzkeU9MdLRbbxAumc8XwHaHa?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Mushrooms",
+        "Onion",
+        "Tomatoes",
+        "Ginger",
+        "Garlic",
+        "Green Chilies",
+        "Cumin Seeds",
+        "Coriander Powder",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Garam Masala",
+        "Coconut Milk",
+        "Oil",
+        "Salt",
+        "Water",
+        "Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Mushroom curry is a delicious and flavorful dish made with mushrooms cooked in a spiced onion-tomato gravy.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a pan, add cumin seeds, chopped onions, ginger, garlic, and green chilies. Saute until onions are golden brown."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chopped tomatoes and cook until they are soft and oil starts to separate."
+          },
+          {
+            "step_number": 3,
+            "description": "Add coriander powder, turmeric powder, red chili powder, and salt. Mix well."
+          },
+          {
+            "step_number": 4,
+            "description": "Add sliced mushrooms and cook for 5-7 minutes."
+          },
+          {
+            "step_number": 5,
+            "description": "Add coconut milk and garam masala. Simmer for another 5-10 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Garnish with chopped coriander leaves and serve hot with rice or bread."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 81,
+      "title": "Gongura Chicken",
+      "image": "https://i.ytimg.com/vi/1PS08zkeN7E/maxresdefault.jpg",
+      "time": 45,
+      "ingredients": [
+        "Chicken",
+        "Gongura Leaves",
+        "Onion",
+        "Tomato",
+        "Green Chilies",
+        "Ginger Garlic Paste",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Salt",
+        "Oil"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "Gongura Chicken is a popular Andhra curry made with chicken and gongura leaves, known for its tangy and spicy flavor.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a pan, add chopped onions and green chilies. Saute until onions are golden brown."
+          },
+          {
+            "step_number": 2,
+            "description": "Add ginger garlic paste and saute for a minute."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped tomatoes and cook until they are soft."
+          },
+          {
+            "step_number": 4,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cleaned and chopped gongura leaves. Cook for 5-7 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Add chicken pieces and mix well. Cover and cook until the chicken is tender."
+          },
+          {
+            "step_number": 7,
+            "description": "Garnish with coriander leaves and serve hot with rice or roti."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 82,
+      "title": "Chicken Lollipop",
+      "image": "https://i.ytimg.com/vi/5I7Vrr5zHC8/maxresdefault.jpg",
+      "time": 45,
+      "ingredients": [
+        "Chicken Wings",
+        "Soy Sauce",
+        "Vinegar",
+        "Ginger Garlic Paste",
+        "Salt",
+        "Black Pepper Powder",
+        "Cornflour",
+        "Egg",
+        "Oil (for frying)"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "Chicken Lollipop is a popular appetizer made from chicken wings, marinated, and deep-fried to perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Clean and wash the chicken wings. Remove the skin and make a deep cut at the base of each wing."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, mix soy sauce, vinegar, ginger garlic paste, salt, and black pepper powder. Marinate the chicken wings in this mixture for at least 1 hour."
+          },
+          {
+            "step_number": 3,
+            "description": "In another bowl, mix cornflour and a beaten egg. Dip each marinated chicken wing in this mixture."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat oil in a deep pan and fry the chicken wings until they are golden brown and crispy."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve hot with your favorite sauce or chutney."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 83,
+      "title": "French Fries",
+      "image": "https://static.fanpage.it/wp-content/uploads/sites/22/2020/09/iStock-618214356.jpg",
+      "time": 30,
+      "ingredients": [
+        "Potatoes",
+        "Salt",
+        "Oil (for frying)"
+      ],
+      "veg": true,
+      "servings": "2",
+      "description": {
+        "text": "French Fries are crispy and delicious potato sticks that are perfect as a snack or side dish.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Peel the potatoes and cut them into thin strips."
+          },
+          {
+            "step_number": 2,
+            "description": "Soak the potato strips in cold water for about 30 minutes to remove excess starch."
+          },
+          {
+            "step_number": 3,
+            "description": "Drain the potatoes and pat them dry with a paper towel."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat oil in a deep fryer or a heavy-bottomed pan to about 350°F (175°C)."
+          },
+          {
+            "step_number": 5,
+            "description": "Fry the potatoes in batches for about 3-4 minutes or until they are golden brown and crispy."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove the fries from the oil and place them on a paper towel-lined plate to drain excess oil."
+          },
+          {
+            "step_number": 7,
+            "description": "Sprinkle with salt and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 84,
+      "title": "Egg Bhurji",
+      "image": "https://th.bing.com/th/id/R.321c5733f8d2f839e49919076e5df8a7?rik=65ZM4J%2f1UphvgQ&riu=http%3a%2f%2fwww.blog.sagmart.com%2fwp-content%2fuploads%2f2016%2f03%2fEgg-Bhurji-Recipe.jpg&ehk=f75B6T7lZxob4TQZWJXj0HZt7sZnSLT4yL8QenLvqL0%3d&risl=&pid=ImgRaw&r=0",
+      "time": 15,
+      "ingredients": [
+        "Eggs",
+        "Onion",
+        "Tomato",
+        "Green Chilies",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Salt",
+        "Oil",
+        "Coriander Leaves"
+      ],
+      "veg": false,
+      "servings": "2",
+      "description": {
+        "text": "Egg Bhurji is a spicy and flavorful Indian scrambled egg dish that is perfect for breakfast or as a side dish.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a pan and add chopped onions. Saute until onions are translucent."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chopped tomatoes and green chilies. Cook until tomatoes are soft."
+          },
+          {
+            "step_number": 3,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well."
+          },
+          {
+            "step_number": 4,
+            "description": "Crack the eggs into the pan and scramble them with the masala mixture."
+          },
+          {
+            "step_number": 5,
+            "description": "Cook until the eggs are fully cooked and the mixture is dry."
+          },
+          {
+            "step_number": 6,
+            "description": "Garnish with chopped coriander leaves and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 85,
+      "title": "Ivy Gourd Fry(Dondakaya Fry)",
+      "image": "https://www.sailusfood.com/wp-content/uploads/2010/05/tendli-subji.jpg",
+      "time": 20,
+      "ingredients": [
+        "Ivy Gourd (Dondakaya)",
+        "Oil",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Curry Leaves",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Salt",
+        "Lemon Juice"
+      ],
+      "veg": true,
+      "servings": "2",
+      "description": {
+        "text": "Ivy Gourd Fry is a simple and delicious South Indian stir-fry made with ivy gourd, spices, and curry leaves.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Wash and trim the ends of the ivy gourd. Cut them into thin slices."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan and add mustard seeds. When the mustard seeds start to splutter, add cumin seeds and curry leaves."
+          },
+          {
+            "step_number": 3,
+            "description": "Add the sliced ivy gourd to the pan. Stir well."
+          },
+          {
+            "step_number": 4,
+            "description": "Add turmeric powder, red chili powder, coriander powder, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Cover and cook the ivy gourd on low heat until they are tender, stirring occasionally."
+          },
+          {
+            "step_number": 6,
+            "description": "Once the ivy gourd is cooked, add lemon juice and mix well."
+          },
+          {
+            "step_number": 7,
+            "description": "Serve hot as a side dish with rice or roti."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 86,
+      "title": "Chilli Baby Corn",
+      "image": "https://th.bing.com/th/id/OIP.xX-y8IX8KXeMb3l5eJeMXgHaE7?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "Baby Corn",
+        "Capsicum (Bell Pepper)",
+        "Onion",
+        "Green Chilies",
+        "Ginger-Garlic Paste",
+        "Soy Sauce",
+        "Tomato Ketchup",
+        "Chili Sauce",
+        "Corn Flour",
+        "Spring Onions",
+        "Salt",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "2",
+      "description": {
+        "text": "Chilli Baby Corn is a popular Indo-Chinese dish made with crispy baby corn tossed in a spicy and tangy sauce.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Trim the ends of the baby corn and cut them into halves or thirds lengthwise."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan and fry the baby corn until they are crisp and golden brown. Drain and set aside."
+          },
+          {
+            "step_number": 3,
+            "description": "In the same pan, add a little more oil if needed. Add chopped onions, green chilies, and capsicum. Saute until they are slightly tender."
+          },
+          {
+            "step_number": 4,
+            "description": "Add ginger-garlic paste and saute for another minute."
+          },
+          {
+            "step_number": 5,
+            "description": "Add soy sauce, tomato ketchup, and chili sauce. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "In a small bowl, mix corn flour with a little water to make a slurry. Add this slurry to the pan to thicken the sauce."
+          },
+          {
+            "step_number": 7,
+            "description": "Add the fried baby corn to the pan and toss until they are well coated in the sauce."
+          },
+          {
+            "step_number": 8,
+            "description": "Garnish with chopped spring onions and serve hot as a starter or side dish."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 87,
+      "title": "Stuffed Brinjal (Guthi Vankaya)",
+      "image": "https://th.bing.com/th/id/R.7175ee41be550d458f34e047a66f8352?rik=yFi%2bmhzNkS458w&riu=http%3a%2f%2fwww.secondrecipe.com%2fwp-content%2fuploads%2f2017%2f03%2fbaghare-baigan.jpg&ehk=xTKnFiSeStKIPiLf3iOemgfW95%2bbYCtW68iyp0zYpZE%3d&risl=&pid=ImgRaw&r=0",
+      "time": 45,
+      "ingredients": [
+        "Small Brinjals (Eggplants)",
+        "Oil",
+        "Onion",
+        "Green Chilies",
+        "Ginger-Garlic Paste",
+        "Tomatoes",
+        "Turmeric Powder",
+        "Red Chili Powder",
+        "Coriander Powder",
+        "Cumin Powder",
+        "Garam Masala",
+        "Salt",
+        "Fresh Coriander Leaves",
+        "Roasted Peanuts"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Stuffed Brinjal is a flavorful dish where small eggplants are stuffed with a spicy masala mixture and cooked until tender.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Wash the brinjals and remove the stems. Slit them into four without cutting through."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan and fry the brinjals until they are half-cooked. Remove and set aside."
+          },
+          {
+            "step_number": 3,
+            "description": "In the same pan, add more oil if needed. Add chopped onions and sauté until they are translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add green chilies and ginger-garlic paste. Sauté for a minute."
+          },
+          {
+            "step_number": 5,
+            "description": "Add chopped tomatoes and cook until they are soft and mushy."
+          },
+          {
+            "step_number": 6,
+            "description": "Add turmeric powder, red chili powder, coriander powder, cumin powder, garam masala, and salt. Mix well."
+          },
+          {
+            "step_number": 7,
+            "description": "Add chopped coriander leaves and roasted peanuts. Mix well."
+          },
+          {
+            "step_number": 8,
+            "description": "Stuff this mixture into the slits of the brinjals."
+          },
+          {
+            "step_number": 9,
+            "description": "Heat oil in a pan and place the stuffed brinjals in it. Cover and cook on low heat until the brinjals are cooked through."
+          },
+          {
+            "step_number": 10,
+            "description": "Serve hot with rice or roti."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 88,
+      "title": "Poha",
+      "image": "https://i1.wp.com/shikhaskitchen.com/wp-content/uploads/2020/09/IMG-3528-scaled.jpg?zoom=3&resize=800%2C530&ssl=1",
+      "time": 20,
+      "ingredients": [
+        "Poha (Flattened Rice)",
+        "Onion",
+        "Potato",
+        "Peanuts",
+        "Green Chilies",
+        "Curry Leaves",
+        "Mustard Seeds",
+        "Cumin Seeds",
+        "Turmeric Powder",
+        "Sugar",
+        "Salt",
+        "Lemon Juice",
+        "Fresh Coriander Leaves",
+        "Oil"
+      ],
+      "veg": true,
+      "servings": "2",
+      "description": {
+        "text": "Poha is a popular Maharashtrian breakfast dish made with flattened rice, onions, potatoes, and a mix of spices.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Rinse the poha in a colander under running water until it becomes soft. Drain and set aside."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan and add mustard seeds. When the mustard seeds crackle, add cumin seeds, curry leaves, and chopped green chilies."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped onions and sauté until they turn translucent."
+          },
+          {
+            "step_number": 4,
+            "description": "Add diced potatoes and cook until they are tender."
+          },
+          {
+            "step_number": 5,
+            "description": "Add turmeric powder, salt, and sugar. Mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "Add the rinsed poha to the pan and mix gently until everything is well combined and heated through."
+          },
+          {
+            "step_number": 7,
+            "description": "Add lemon juice and chopped fresh coriander leaves. Mix well."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve hot garnished with sev or roasted peanuts."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 89,
+      "title": "Fish Fry",
+      "image": "https://1.bp.blogspot.com/-fU_ozvGFFG0/VlKh-powozI/AAAAAAAABVc/NR5v3vEy6h0/s1600/kerala%2Bmalabar%2Bfish%2Bcrispy%2Bfry%2Bmasala%2Bspicy%2Bcurry%2Brestaurant%2Bstyle%2Bfry.jpg",
+      "time": 30,
+      "ingredients": [
+        "Fish Fillets (any firm white fish)",
+        "Lemon Juice",
+        "Red Chili Powder",
+        "Turmeric Powder",
+        "Ginger Garlic Paste",
+        "Salt",
+        "Rice Flour",
+        "Corn Flour",
+        "Oil (for frying)"
+      ],
+      "veg": false,
+      "servings": "2",
+      "description": {
+        "text": "Fish Fry is a popular Indian appetizer made by marinating fish fillets in spices and then frying until crispy and golden brown.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Marinate the fish fillets with lemon juice, red chili powder, turmeric powder, ginger garlic paste, and salt. Let it marinate for 30 minutes."
+          },
+          {
+            "step_number": 2,
+            "description": "In a shallow dish, mix rice flour and corn flour. Coat the marinated fish fillets with the flour mixture."
+          },
+          {
+            "step_number": 3,
+            "description": "Heat oil in a pan for shallow frying. Once the oil is hot, add the fish fillets and fry until they are crispy and golden brown on both sides."
+          },
+          {
+            "step_number": 4,
+            "description": "Remove the fish fillets from the pan and place them on a paper towel to drain excess oil."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve hot with lemon wedges and mint chutney."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 90,
+      "title": "Dhokla",
+      "image": "https://th.bing.com/th/id/OIP.da-z2cA87a2vmCXQSm3ZZAHaE8?rs=1&pid=ImgDetMain",
+      "time": 40,
+      "ingredients": [
+        "Gram Flour (Besan)",
+        "Semolina (Sooji)",
+        "Yogurt",
+        "Green Chilies",
+        "Ginger",
+        "Turmeric Powder",
+        "Sugar",
+        "Salt",
+        "Eno Fruit Salt",
+        "Mustard Seeds",
+        "Curry Leaves",
+        "Water",
+        "Lemon Juice",
+        "Fresh Coriander Leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Dhokla is a savory steamed cake made from gram flour, popular in Indian cuisine. It is light and fluffy, with a tangy and spicy flavor.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a bowl, mix gram flour, semolina, yogurt, green chilies, ginger, turmeric powder, sugar, and salt. Add water to make a smooth batter."
+          },
+          {
+            "step_number": 2,
+            "description": "Grease a steaming dish and pour the batter into it. Steam the batter for about 15-20 minutes or until cooked through."
+          },
+          {
+            "step_number": 3,
+            "description": "Once cooked, remove the dish from the steamer and let it cool slightly."
+          },
+          {
+            "step_number": 4,
+            "description": "In a small pan, heat oil and add mustard seeds and curry leaves. Once the seeds start to splutter, pour this tempering over the dhokla."
+          },
+          {
+            "step_number": 5,
+            "description": "Cut the dhokla into pieces and garnish with chopped coriander leaves and lemon juice. Serve warm with chutney."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 91,
+      "title": "Chicken Momos",
+      "image": "https://tastyjevan.files.wordpress.com/2020/12/thumbnail_nt2-4.jpg",
+      "time": 60,
+      "ingredients": [
+        "Ground Chicken",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Green Chilies",
+        "Soy Sauce",
+        "Salt",
+        "Black Pepper",
+        "All-Purpose Flour",
+        "Water",
+        "Salt",
+        "Oil"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "Chicken Momos are steamed dumplings filled with ground chicken and flavored with garlic, ginger, and soy sauce. They are a popular street food in Tibet and Nepal.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a bowl, mix ground chicken, finely chopped onion, garlic, ginger, green chilies, soy sauce, salt, and black pepper."
+          },
+          {
+            "step_number": 2,
+            "description": "Take a small portion of the mixture and place it in the center of a momo wrapper. Fold the wrapper over the filling and pleat the edges to seal."
+          },
+          {
+            "step_number": 3,
+            "description": "Repeat the process until all the filling is used up. Place the momos in a steamer lined with cabbage leaves to prevent sticking."
+          },
+          {
+            "step_number": 4,
+            "description": "Steam the momos for about 15-20 minutes or until cooked through."
+          },
+          {
+            "step_number": 5,
+            "description": "Serve hot with a dipping sauce made from soy sauce, vinegar, and chili paste."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 92,
+      "title": "Palakova",
+      "image": "https://th.bing.com/th/id/R.b8aef4582b147e32f7faffa2cc9d3c95?rik=RzePENAl0Sijkg&riu=http%3a%2f%2fathithigruhafoods.in%2fwp-content%2fuploads%2f2018%2f09%2fPalakova-1.jpg&ehk=R04LQjRC%2bI2aDXbDsvz3c2EwGzTyuD7Ltr7zuNReuxY%3d&risl=&pid=ImgRaw&r=0",
+      "time": 120,
+      "ingredients": [
+        "Milk - 1 liter",
+        "Sugar - 1/2 cup",
+        "Cardamom powder - 1/2 tsp",
+        "Ghee - 2 tbsp"
+      ],
+      "veg": true,
+      "servings": "6-8",
+      "description": {
+        "text": "Palakova is a rich and creamy Indian sweet made by reducing milk and sugar, flavored with cardamom powder.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Boil milk in a heavy-bottomed pan on medium flame, stirring occasionally to prevent burning."
+          },
+          {
+            "step_number": 2,
+            "description": "Once the milk comes to a boil, reduce the flame to low and continue to simmer, stirring occasionally, until it reduces to half the quantity."
+          },
+          {
+            "step_number": 3,
+            "description": "Add sugar and cardamom powder, and continue to cook on low flame, stirring continuously, until the mixture thickens and starts to leave the sides of the pan."
+          },
+          {
+            "step_number": 4,
+            "description": "Add ghee and mix well. Continue to cook for another 5-10 minutes until the mixture thickens further and reaches a halwa-like consistency."
+          },
+          {
+            "step_number": 5,
+            "description": "Turn off the flame and allow the Palakova to cool. It will thicken further as it cools."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve the Palakova warm or at room temperature, garnished with chopped nuts if desired."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 93,
+      "title": "Carrot Halwa",
+      "image": "https://th.bing.com/th/id/R.bfa50cd7008c698789416c33b8dec301?rik=AyfBrDEwvqn3Wg&riu=http%3a%2f%2fwww.archanaskitchen.com%2fimages%2farchanaskitchen%2f0-Archanas-Kitchen-Recipes%2f2018%2fjan-5%2fCarrot_Halwa_Recipe-0834.jpg&ehk=PCw82l2P7RjYfKY3VyqHRVZ5S892HOVu5Gyk%2f3gZrkQ%3d&risl=&pid=ImgRaw&r=0",
+      "time": 60,
+      "ingredients": [
+        "Carrots - 1 kg",
+        "Milk - 1 liter",
+        "Sugar - 1 cup",
+        "Ghee - 1/2 cup",
+        "Cardamom powder - 1/2 tsp",
+        "Cashews - 10-15",
+        "Raisins - 10-15"
+      ],
+      "veg": true,
+      "servings": "6-8",
+      "description": {
+        "text": "Carrot Halwa is a popular Indian dessert made by cooking grated carrots with milk, sugar, and ghee, flavored with cardamom powder and garnished with nuts and raisins.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Peel and grate the carrots."
+          },
+          {
+            "step_number": 2,
+            "description": "In a heavy-bottomed pan, heat ghee and add the grated carrots. Saute for a few minutes."
+          },
+          {
+            "step_number": 3,
+            "description": "Add milk to the pan and cook the carrots on medium heat until the milk is absorbed and the carrots are cooked and softened."
+          },
+          {
+            "step_number": 4,
+            "description": "Add sugar and mix well. Cook until the sugar is dissolved and the mixture thickens."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cardamom powder and mix well."
+          },
+          {
+            "step_number": 6,
+            "description": "In a separate pan, heat ghee and fry cashews and raisins until golden. Add them to the carrot mixture."
+          },
+          {
+            "step_number": 7,
+            "description": "Cook for another few minutes until the mixture thickens further and the ghee starts to separate."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the Carrot Halwa warm, garnished with more nuts and raisins if desired."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 94,
+      "title": "Prawn Ghee Roast",
+      "image": "https://i.ytimg.com/vi/ktmt5SRCIsk/hqdefault.jpg",
+      "time": 30,
+      "ingredients": [
+        "Prawns - 500g",
+        "Ghee - 4 tbsp",
+        "Curry leaves - 2 sprigs",
+        "Dry red chilies - 8-10",
+        "Garlic - 8-10 cloves",
+        "Tamarind paste - 1 tsp",
+        "Salt - to taste"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "Prawn Ghee Roast is a spicy and flavorful dish from the coastal region of Karnataka, made by marinating prawns in a spicy masala paste and cooked in ghee.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Clean and devein the prawns, leaving the tail intact."
+          },
+          {
+            "step_number": 2,
+            "description": "Grind dry red chilies, garlic, and tamarind paste into a coarse paste."
+          },
+          {
+            "step_number": 3,
+            "description": "Marinate the prawns in the ground paste and salt for about 30 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat ghee in a pan and add curry leaves."
+          },
+          {
+            "step_number": 5,
+            "description": "Add the marinated prawns and cook on medium heat until the prawns are cooked and the masala is well-coated."
+          },
+          {
+            "step_number": 6,
+            "description": "Serve hot as a side dish or as an appetizer."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 95,
+      "title": "Kaju Paneer",
+      "image": "https://www.flavouroffood.com/wp-content/uploads/2021/06/Kaju-Paneer-Masala-Recipe-4-768x614.jpg",
+      "time": 40,
+      "ingredients": [
+        "Paneer - 200g, cubed",
+        "Cashew nuts - 1/2 cup",
+        "Onion - 1, finely chopped",
+        "Tomato - 2, pureed",
+        "Ginger-garlic paste - 1 tbsp",
+        "Green chilies - 2, slit",
+        "Turmeric powder - 1/2 tsp",
+        "Red chili powder - 1 tsp",
+        "Coriander powder - 1 tsp",
+        "Garam masala - 1/2 tsp",
+        "Kasuri methi - 1 tbsp",
+        "Fresh cream - 2 tbsp",
+        "Salt - to taste",
+        "Oil - 2 tbsp",
+        "Water - as needed"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Kaju Paneer is a rich and creamy curry made with cashew nuts and paneer in a tomato-based gravy, perfect for special occasions.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Soak cashew nuts in warm water for 15-20 minutes, then grind into a smooth paste."
+          },
+          {
+            "step_number": 2,
+            "description": "Heat oil in a pan, add onions, and sauté until golden brown."
+          },
+          {
+            "step_number": 3,
+            "description": "Add ginger-garlic paste and slit green chilies, sauté for a minute."
+          },
+          {
+            "step_number": 4,
+            "description": "Add tomato puree, turmeric powder, red chili powder, coriander powder, garam masala, and salt. Cook until the oil separates."
+          },
+          {
+            "step_number": 5,
+            "description": "Add cashew paste and cook for another 2-3 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Add water to adjust the consistency of the gravy."
+          },
+          {
+            "step_number": 7,
+            "description": "Add paneer cubes and kasuri methi, simmer for 5 minutes."
+          },
+          {
+            "step_number": 8,
+            "description": "Add fresh cream and mix well. Serve hot with rice or naan."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 96,
+      "title": "Chicken Tandoori",
+      "image": "https://4.bp.blogspot.com/-ONaXVKIgnxA/VedXAqKZ-JI/AAAAAAAAH-Q/Kj1cZkNksz0/s1600/IMG_5426.JPG",
+      "time": 150,
+      "ingredients": [
+        "1 whole chicken, skin removed and cut into pieces",
+        "1 cup plain yogurt",
+        "2 tablespoons lemon juice",
+        "2 tablespoons tandoori masala",
+        "1 tablespoon ginger paste",
+        "1 tablespoon garlic paste",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground coriander",
+        "1 teaspoon turmeric powder",
+        "1 teaspoon chili powder",
+        "Salt, to taste",
+        "Vegetable oil, for brushing",
+        "Lemon wedges and fresh cilantro, for garnish"
+      ],
+      "veg": false,
+      "servings": "4-6",
+      "description": {
+        "text": "Chicken Tandoori is a popular Indian dish made with marinated chicken grilled to perfection.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a large bowl, combine yogurt, lemon juice, tandoori masala, ginger paste, garlic paste, cumin, coriander, turmeric, chili powder, and salt."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chicken pieces to the marinade, making sure they are well coated. Cover and refrigerate for at least 2 hours, or overnight for best results."
+          },
+          {
+            "step_number": 3,
+            "description": "Preheat the grill to medium-high heat."
+          },
+          {
+            "step_number": 4,
+            "description": "Thread the chicken onto skewers or place directly on the grill."
+          },
+          {
+            "step_number": 5,
+            "description": "Cook the chicken for about 20-25 minutes, turning occasionally, until it is cooked through and has nice grill marks."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove the chicken from the grill and let it rest for a few minutes."
+          },
+          {
+            "step_number": 7,
+            "description": "Brush the chicken with a little vegetable oil before serving."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the chicken tandoori hot, garnished with lemon wedges and fresh cilantro."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 97,
+      "title": "Veg Manchow Soup",
+      "image": "https://1.bp.blogspot.com/-2b6uVAmPz9I/YAIrJoXsNjI/AAAAAAAASNI/Z6Vz8mcqjesNSOb1MMGw1tpU_7gfzwSCgCLcBGAsYHQ/s2048/Instant-Pot-Manchow-Soup-3.jpg",
+      "time": 30,
+      "ingredients": [
+        "2 tablespoons oil",
+        "1 tablespoon garlic, minced",
+        "1 tablespoon ginger, minced",
+        "1 onion, finely chopped",
+        "1 carrot, finely chopped",
+        "1 capsicum, finely chopped",
+        "4-5 mushrooms, finely chopped",
+        "2-3 tablespoons cabbage, finely chopped",
+        "2-3 tablespoons spring onions, chopped",
+        "1 tablespoon soy sauce",
+        "1 tablespoon chili sauce",
+        "1 tablespoon vinegar",
+        "1 teaspoon black pepper powder",
+        "1 teaspoon sugar",
+        "Salt, to taste",
+        "4 cups vegetable stock",
+        "2 tablespoons cornstarch mixed with 1/4 cup water",
+        "2 tablespoons spring onion greens, for garnish"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Veg Manchow Soup is a spicy and flavorful Indo-Chinese soup loaded with vegetables and topped with crispy fried noodles.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a large pot over medium heat. Add garlic and ginger, and sauté for a minute."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chopped onions and sauté until translucent."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped carrots, capsicum, mushrooms, cabbage, and spring onions. Stir-fry for 2-3 minutes."
+          },
+          {
+            "step_number": 4,
+            "description": "Add soy sauce, chili sauce, vinegar, black pepper powder, sugar, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add vegetable stock and bring to a boil. Reduce heat and simmer for 5-7 minutes."
+          },
+          {
+            "step_number": 6,
+            "description": "Stir in the cornstarch mixture to thicken the soup. Simmer for another 2-3 minutes."
+          },
+          {
+            "step_number": 7,
+            "description": "Remove from heat and let it cool slightly."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the Veg Manchow Soup hot, garnished with spring onion greens and crispy fried noodles."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 98,
+      "title": "Chicken Wings",
+      "image": "https://kenyonsvarietystores.com/wp-content/uploads/2019/04/iStock-583848552.jpg",
+      "time": 45,
+      "ingredients": [
+        "2 lbs chicken wings",
+        "2 tbsp olive oil",
+        "1 tsp salt",
+        "1 tsp pepper",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1/2 tsp paprika",
+        "1/2 tsp cayenne pepper",
+        "1/2 cup hot sauce",
+        "2 tbsp butter"
+      ],
+      "veg": false,
+      "servings": "4",
+      "description": {
+        "text": "Crispy and flavorful chicken wings tossed in a spicy buffalo sauce, perfect for game day or any gathering.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Preheat oven to 400°F (200°C)."
+          },
+          {
+            "step_number": 2,
+            "description": "In a bowl, combine olive oil, salt, pepper, garlic powder, onion powder, paprika, and cayenne pepper."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chicken wings to the bowl and toss to coat evenly."
+          },
+          {
+            "step_number": 4,
+            "description": "Place chicken wings on a baking sheet lined with parchment paper."
+          },
+          {
+            "step_number": 5,
+            "description": "Bake for 35-40 minutes, or until wings are crispy and cooked through."
+          },
+          {
+            "step_number": 6,
+            "description": "In a saucepan, melt butter and hot sauce over low heat."
+          },
+          {
+            "step_number": 7,
+            "description": "Once wings are done, toss them in the hot sauce mixture until coated."
+          },
+          {
+            "step_number": 8,
+            "description": "Serve the chicken wings hot, with celery sticks and blue cheese dressing."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 99,
+      "title": "Baby Potato Curry",
+      "image": "https://th.bing.com/th/id/R.5ef034d34a04865f6b71b32d4ff1bacf?rik=kL8ZJP5qTo%2bHvA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-TVEVhKtCGIo%2fUBJi6nZmdlI%2fAAAAAAAAJEQ%2fDov_bfkbLok%2fs1600%2fBabyPotatoesCurry1.jpg&ehk=QqBmBGLKpyU42x8epezXIVRPLtDUtlVG3uCdeXW0zmw%3d&risl=&pid=ImgRaw&r=0",
+      "time": 40,
+      "ingredients": [
+        "500g baby potatoes, boiled and peeled",
+        "2 tbsp oil",
+        "1 tsp mustard seeds",
+        "1 tsp cumin seeds",
+        "1 onion, finely chopped",
+        "2 tomatoes, finely chopped",
+        "1 green chili, slit",
+        "1/2 tsp turmeric powder",
+        "1 tsp red chili powder",
+        "1 tsp coriander powder",
+        "Salt, to taste",
+        "2 tbsp chopped coriander leaves"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "A delicious and spicy curry made with baby potatoes, perfect for a comforting meal.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Heat oil in a pan and add mustard seeds. When the mustard seeds crackle, add cumin seeds and sauté for a few seconds."
+          },
+          {
+            "step_number": 2,
+            "description": "Add chopped onion and green chili. Sauté until onions turn golden brown."
+          },
+          {
+            "step_number": 3,
+            "description": "Add chopped tomatoes and cook until they turn soft and mushy."
+          },
+          {
+            "step_number": 4,
+            "description": "Add turmeric powder, red chili powder, coriander powder, and salt. Mix well."
+          },
+          {
+            "step_number": 5,
+            "description": "Add boiled baby potatoes and mix until the potatoes are well coated with the spices."
+          },
+          {
+            "step_number": 6,
+            "description": "Cover and cook for 10-15 minutes, stirring occasionally, until the flavors are well combined and the potatoes are cooked through."
+          },
+          {
+            "step_number": 7,
+            "description": "Garnish with chopped coriander leaves and serve hot with rice or roti."
+          }
+        ]
+      }
+    },
+    {
+      "_id": 100,
+      "title": "Cauliflower Fry",
+      "image": "https://th.bing.com/th/id/OIP.qiwgF1IbrMYLKqC-jxelbgAAAA?rs=1&pid=ImgDetMain",
+      "time": 30,
+      "ingredients": [
+        "1 medium cauliflower, cut into florets",
+        "1/2 cup besan (gram flour)",
+        "2 tbsp rice flour",
+        "1 tsp red chili powder",
+        "1/2 tsp turmeric powder",
+        "1 tsp garam masala",
+        "Salt, to taste",
+        "Water, as needed",
+        "Oil, for deep frying",
+        "Chopped coriander leaves, for garnish"
+      ],
+      "veg": true,
+      "servings": "4",
+      "description": {
+        "text": "Crispy and flavorful cauliflower fry, perfect as a snack or side dish.",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "In a large bowl, mix besan, rice flour, red chili powder, turmeric powder, garam masala, and salt."
+          },
+          {
+            "step_number": 2,
+            "description": "Add enough water to make a thick batter."
+          },
+          {
+            "step_number": 3,
+            "description": "Add cauliflower florets to the batter and mix until well coated."
+          },
+          {
+            "step_number": 4,
+            "description": "Heat oil in a pan for deep frying."
+          },
+          {
+            "step_number": 5,
+            "description": "Fry the cauliflower florets in batches until golden brown and crispy."
+          },
+          {
+            "step_number": 6,
+            "description": "Remove from oil and drain on a paper towel to remove excess oil."
+          },
+          {
+            "step_number": 7,
+            "description": "Garnish with chopped coriander leaves and serve hot."
+          }
+        ]
+      }
     }
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
   ]
 }
