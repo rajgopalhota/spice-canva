@@ -54,7 +54,7 @@ const RecipeCard = ({
               </li>
             </ul>
           </header>
-          <p className="description">{description.slice(0,80)}</p>
+          <p className="description">{description.slice(0,50)}</p>
           <footer className="content__footer">
             <Link to={`/recipes/read/${id}`}>View Recipe</Link>
           </footer>

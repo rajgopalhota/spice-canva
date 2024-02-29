@@ -1,6 +1,19 @@
 import React, { useState } from "react";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import toast from "react-hot-toast";
+import img1 from "../assets/radish.png";
+import img2 from "../assets/fruits.png";
+import { IoFastFoodSharp } from "react-icons/io5";
+import { LuSubtitles } from "react-icons/lu";
+import { FaImage } from "react-icons/fa6";
+import { LuAlarmClock } from "react-icons/lu";
+import { SiVega } from "react-icons/si";
+import { MdOutlineCategory } from "react-icons/md";
+import { GiFruitBowl } from "react-icons/gi";
+import { FaPlateWheat } from "react-icons/fa6";
+import { MdDescription } from "react-icons/md";
+import { GiTeacher } from "react-icons/gi";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const AddRecipe = () => {
   const [recipeData, setRecipeData] = useState({
@@ -146,135 +159,199 @@ const AddRecipe = () => {
   };
 
   return (
-    <div className="Recipecontainer">
-      <h2>Add New Recipe</h2>
-      <hr/><br/>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label> Recipe Title:</label>
-          <input
-            type="text"
-            name="title"
-            value={recipeData.title}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label> Image URL:</label>
-          <input
-            type="text"
-            name="image"
-            value={recipeData.image}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label> Cooking Time (minutes):</label>
-          <input
-            type="text"
-            name="time"
-            value={recipeData.time}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group vegInput">
-          <label> Veg (check this box if veg or leave blank):</label>
-          <input
-            type="checkbox"
-            name="veg"
-            checked={recipeData.veg}
-            onChange={(e) =>
-              setRecipeData((prevData) => ({
-                ...prevData,
-                veg: e.target.checked,
-              }))
-            }
-          />
-        </div>
-        <div className="form-group">
-          <label> Category:</label>
-          <select
-            name="category"
-            value={recipeData.category}
-            onChange={handleChange}
-          >
-            <option value="" defaultChecked hidden>Select Category</option>
-            <option value="rice">Rice</option>
-            <option value="breakfast">Breakfast</option>
-            <option value="dal">Dal</option>
-            <option value="curry">Curry</option>
-            <option value="starter">Starter</option>
-            <option value="fries">Fries</option>
-            <option value="desert">Desert</option>
-            <option value="sweet">Sweet</option>
-            <option value="drinks">Drinks</option>
-          </select>
-        </div>
-        <div className="form-group">
-          <label> Ingredients:</label>
-          {recipeData.ingredients.map((ingredient, index) => (
-            <div key={index} className="ingredient-group">
+    <div className="Recipecontainer" data-aos="zoom-in">
+      <img className="float1" src={img1} />
+      <img className="float2" src={img2} />
+      <div className="mainContent">
+        <h2 data-aos="fade-up">
+          <IoFastFoodSharp />
+          &nbsp;Add New Recipe
+        </h2>
+        <hr />
+        <br />
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label>
+              <LuSubtitles />
+              &nbsp; Recipe Title:
+            </label>
+            <input
+            data-aos="fade-up"
+              type="text"
+              name="title"
+              value={recipeData.title}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="form-group">
+            <label>
+              <FaImage />
+              &nbsp; Image URL:
+            </label>
+            <input
+            data-aos="fade-up"
+              type="text"
+              name="image"
+              value={recipeData.image}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="form-group">
+            <label>
+              <LuAlarmClock />
+              &nbsp; Cooking Time (minutes):
+            </label>
+            <input
+            data-aos="fade-up"
+              type="text"
+              name="time"
+              value={recipeData.time}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="form-group vegInput">
+            <label>
+              <SiVega />
+              &nbsp; Veg (check this box if veg or leave blank):
+            </label>
+            <div class="checkbox-wrapper">
               <input
-                type="text"
-                value={ingredient}
-                onChange={(e) => handleIngredientChange(index, e.target.value)}
+              data-aos="fade-up"
+                id="_checkbox-26"
+                type="checkbox"
+                name="veg"
+                checked={recipeData.veg}
+                onChange={(e) =>
+                  setRecipeData((prevData) => ({
+                    ...prevData,
+                    veg: e.target.checked,
+                  }))
+                }
               />
-              <span
-                className="handleAddRemove"
-                onClick={() => handleRemoveIngredient(index)}
-              >
-                <AiOutlineMinusCircle />
-              </span>
+              <label for="_checkbox-26">
+                <div class="tick_mark"></div>
+              </label>
             </div>
-          ))}
-          <span className="handleAddRemove handleAddSpan" onClick={handleAddIngredient}>
-            <AiOutlinePlusCircle /> Add more
-          </span>
-        </div>
-        <div className="form-group">
-          <label> Servings:</label>
-          <input
-            type="text"
-            name="servings"
-            value={recipeData.servings}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label> Description:</label>
-          <textarea
-            name="text"
-            value={recipeData.description.text}
-            onChange={(e) =>
-              setRecipeData((prevData) => ({
-                ...prevData,
-                description: { ...prevData.description, text: e.target.value },
-              }))
-            }
-          />
-        </div>
-        <div className="form-group">
-          <label> Instructions:</label>
-          {recipeData.description.steps.map((step, index) => (
-            <div key={index} className="step-group">
-              <input
-                type="text"
-                value={step.description}
-                onChange={(e) => handleStepChange(index, e.target.value)}
-              />
-              <span className="handleAddRemove" onClick={handleRemoveStep}>
-                <AiOutlineMinusCircle />
-              </span>
-            </div>
-          ))}
-          <span className="handleAddRemove handleAddSpan" onClick={handleAddStep}>
-            <AiOutlinePlusCircle /> Add more
-          </span>
-        </div>
-        <div className="form-group">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
+          </div>
+          <div className="form-group">
+            <label>
+              <MdOutlineCategory />
+              &nbsp; Category:
+            </label>
+            <select
+              name="category"
+              value={recipeData.category}
+              onChange={handleChange}
+            >
+              <option value="" defaultChecked hidden>
+                Select Category
+              </option>
+              <option value="rice">Rice</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="dal">Dal</option>
+              <option value="curry">Curry</option>
+              <option value="starter">Starter</option>
+              <option value="fries">Fries</option>
+              <option value="desert">Desert</option>
+              <option value="sweet">Sweet</option>
+              <option value="drinks">Drinks</option>
+            </select>
+          </div>
+          <div className="form-group">
+            <label>
+              <GiFruitBowl />
+              &nbsp; Ingredients:
+            </label>
+            {recipeData.ingredients.map((ingredient, index) => (
+              <div key={index} className="ingredient-group">
+                <input
+                data-aos="fade-up"
+                  type="text"
+                  value={ingredient}
+                  onChange={(e) =>
+                    handleIngredientChange(index, e.target.value)
+                  }
+                />
+                <span
+                  className="handleAddRemove"
+                  onClick={() => handleRemoveIngredient(index)}
+                >
+                  <AiOutlineMinusCircle />
+                </span>
+              </div>
+            ))}
+            <span
+              className="handleAddRemove handleAddSpan"
+              onClick={handleAddIngredient}
+            >
+              <AiOutlinePlusCircle /> Add more
+            </span>
+          </div>
+          <div className="form-group">
+            <label>
+              <FaPlateWheat />
+              &nbsp; Servings:
+            </label>
+            <input
+            data-aos="fade-up"
+              type="text"
+              name="servings"
+              value={recipeData.servings}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="form-group">
+            <label>
+              <MdDescription />
+              &nbsp; Description:
+            </label>
+            <textarea
+              name="text"
+              value={recipeData.description.text}
+              onChange={(e) =>
+                setRecipeData((prevData) => ({
+                  ...prevData,
+                  description: {
+                    ...prevData.description,
+                    text: e.target.value,
+                  },
+                }))
+              }
+            />
+          </div>
+          <div className="form-group">
+            <label>
+              <GiTeacher />
+              &nbsp; Instructions:
+            </label>
+            {recipeData.description.steps.map((step, index) => (
+              <div key={index} className="step-group">
+                <input
+                data-aos="fade-up"
+                  type="text"
+                  value={step.description}
+                  onChange={(e) => handleStepChange(index, e.target.value)}
+                />
+                <span className="handleAddRemove" onClick={handleRemoveStep}>
+                  <AiOutlineMinusCircle />
+                </span>
+              </div>
+            ))}
+            <span
+              className="handleAddRemove handleAddSpan"
+              onClick={handleAddStep}
+            >
+              <AiOutlinePlusCircle /> Add more
+            </span>
+          </div>
+          <div className="form-group">
+            <button type="submit">
+              <FaTelegramPlane />
+              &nbsp; Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
