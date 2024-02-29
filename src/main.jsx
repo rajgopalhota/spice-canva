@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the CSS for data-aos
+import { LoadingProvider } from "./components/LoadBarContext.jsx";
 
 AOS.init({
   offset: -10, // Set the offset globally to 200 pixels
@@ -24,9 +25,12 @@ const Root = () => {
 
   return (
     <Router>
-      <Suspense fallback={<Loader />}>
-        {isLoading ? <Loader /> : <App />}
-      </Suspense>
+      <LoadingProvider>
+        <Suspense fallback={<Loader />}>
+          {/* {isLoading ? <Loader /> : <App />} */}
+          <App />
+        </Suspense>
+      </LoadingProvider>
     </Router>
   );
 };

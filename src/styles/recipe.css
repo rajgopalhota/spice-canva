@@ -353,3 +353,122 @@ select:focus-within {
 .filters .switch input:checked + .slider::after {
   transform: translateX(-150%);
 }
+
+/*add recipe*/
+.Recipecontainer {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(35deg, rgba(0, 109, 121, 0.15), rgba(81, 0, 121, 0.15));
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 48, 0.6) inset;
+  backdrop-filter: blur(22px);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 2px rgb(255, 233, 241) inset;
+  border: none;
+  border-bottom: 3px solid rgba(62, 0, 93, 0.85);
+  border-radius: 8px;
+}
+input[type="text"]:focus-within,
+select:focus-within,
+textarea:focus-within {
+  outline: none;
+}
+input[type="checkbox"]{
+  border-radius: 100px !important;
+}
+button {
+  width: 50%;
+  cursor: pointer;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.6) inset;
+  border: 2px solid #007bff;
+  background-color: #007bffb1;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  transition: all ease-in-out 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  letter-spacing: 3px;
+}
+.ingredient-group, .step-group{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.ingredient-group, .step-group input{
+  margin-bottom: 10px;
+}
+.handleAddRemove{
+  background-color: rgb(167, 0, 0);
+  cursor: pointer;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all ease-in-out 0.2s;
+}
+.handleAddRemove:hover{
+  background-color: rgb(209, 0, 0);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.handleAddSpan{
+  background-color: rgb(0, 57, 0);
+}
+.handleAddSpan:hover{
+  background-color: rgb(0, 85, 0);
+}
+.vegInput{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.container h2{
+  margin-bottom: 9px;
+}
+/* Responsive Main Content */
+@media screen and (max-width: 768px) {
+  .handleAddRemove{
+    padding: 6px;
+    font-size: 18px;
+    gap: 8px;
+  }
+}

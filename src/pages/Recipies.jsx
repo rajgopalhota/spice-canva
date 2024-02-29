@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import RecipeCard from "../components/RecipeCard";
-import recipesData from "../data/recepies.json";
+import axios from "axios";
 
 const Recipes = () => {
+  
   const defaultFilters = {
     maxTime: Infinity,
     veg: false,
@@ -16,9 +17,20 @@ const Recipes = () => {
   const [shuffledRecipes, setShuffledRecipes] = useState([]);
 
   useEffect(() => {
-    // Shuffle the recipes when the component mounts
-    const shuffled = recipesData.recipes.sort(() => Math.random() - 0.5);
-    setShuffledRecipes(shuffled);
+    const fetchData = async () => {
+      try {
+        // Fetch data from the API
+        const response = await axios.get("http://localhost:5000/api/recipes");
+        // Shuffle the recipes
+        console.log(response.data)
+        const shuffled = response.data.sort(() => Math.random() - 0.5);
+        setShuffledRecipes(shuffled);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const handleFilterChange = (filterName, value) => {
@@ -35,8 +47,8 @@ const Recipes = () => {
     return (
       (filters.maxTime === Infinity || recipe.time <= filters.maxTime) &&
       ((filters.veg && recipe.veg) ||
-        (filters.nonVeg && !recipe.veg) || // Filter based on veg/nonVeg checkbox
-        (!filters.veg && !filters.nonVeg)) && // Show all if both are unchecked
+        (filters.nonVeg && !recipe.veg) ||
+        (!filters.veg && !filters.nonVeg)) &&
       (filters.maxIngredients === Infinity ||
         recipe.ingredients.length <= filters.maxIngredients) &&
       (filters.searchText === "" ||
