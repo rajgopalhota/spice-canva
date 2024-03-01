@@ -365,15 +365,19 @@ select:focus-within {
   z-index: 3;
 }
 
-.Recipecontainer .mainContent{
+.Recipecontainer .mainContent {
   border-radius: 12px;
   padding: 20px;
-  background-image: linear-gradient(35deg, rgba(0, 80, 89, 0.5), rgba(39, 0, 58, 0.5));
+  background-image: linear-gradient(
+    35deg,
+    rgba(0, 80, 89, 0.5),
+    rgba(39, 0, 58, 0.5)
+  );
   box-shadow: 0 0 12px rgba(0, 0, 48, 0.6) inset;
   backdrop-filter: blur(12px);
   z-index: 3 !important;
 }
-.Recipecontainer .float1{
+.Recipecontainer .float1 {
   width: 200px;
   position: absolute;
   z-index: -3;
@@ -383,7 +387,7 @@ select:focus-within {
   /* mix-blend-mode: multiply; */
   animation: floating 3s infinite;
 }
-.Recipecontainer .float2{
+.Recipecontainer .float2 {
   width: 900px;
   position: fixed;
   z-index: -3;
@@ -396,24 +400,24 @@ select:focus-within {
 }
 @keyframes float1 {
   0% {
-      transform: translate(-50%, -50%) translateY(0px);
+    transform: translate(-50%, -50%) translateY(0px);
   }
   50% {
-      transform: translate(-50%, -50%) translateY(28px);
+    transform: translate(-50%, -50%) translateY(28px);
   }
   100% {
-      transform: translate(-50%, -50%) translateY(0px);
+    transform: translate(-50%, -50%) translateY(0px);
   }
 }
 @keyframes floating {
   0% {
-      transform: rotate(-10deg) translateY(0px);
+    transform: rotate(-10deg) translateY(0px);
   }
   50% {
-      transform: rotate(-11deg) translateY(28px);
+    transform: rotate(-11deg) translateY(28px);
   }
   100% {
-      transform: rotate(-10deg) translateY(0px);
+    transform: rotate(-10deg) translateY(0px);
   }
 }
 textarea {
@@ -424,7 +428,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-label {
+.Recipecontainer label {
   display: block;
   margin-bottom: 5px;
   display: flex;
@@ -434,9 +438,9 @@ label {
   font-size: 19px;
 }
 
-input[type="text"],
-select,
-textarea {
+.Recipecontainer input[type="text"],
+.Recipecontainer select,
+.Recipecontainer textarea {
   width: 100%;
   padding: 8px;
   font-size: 18px;
@@ -448,12 +452,12 @@ textarea {
   border-bottom: 3px solid rgba(122, 0, 183, 0.85);
   border-radius: 8px;
 }
-input[type="text"]:focus-within,
-select:focus-within,
-textarea:focus-within {
+.Recipecontainer input[type="text"]:focus-within,
+.Recipecontainer select:focus-within,
+.Recipecontainer textarea:focus-within {
   outline: none;
 }
-input[type="checkbox"]{
+.Recipecontainer input[type="checkbox"] {
   border-radius: 100px !important;
 }
 .Recipecontainer button {
@@ -471,23 +475,25 @@ input[type="checkbox"]{
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s !important;
 }
 
 .Recipecontainer button:hover {
   background-color: #0b91ff;
   letter-spacing: 3px;
 }
-.ingredient-group, .step-group{
+.ingredient-group,
+.step-group {
   display: flex;
   align-items: center;
   gap: 10px;
   justify-content: center;
 }
-.ingredient-group, .step-group input{
+.ingredient-group,
+.step-group input {
   margin-bottom: 10px;
 }
-.handleAddRemove{
+.handleAddRemove {
   background-color: rgb(210, 0, 0);
   cursor: pointer;
   padding: 8px;
@@ -500,30 +506,30 @@ input[type="checkbox"]{
   gap: 10px;
   transition: all ease-in-out 0.2s;
 }
-.handleAddRemove:hover{
+.handleAddRemove:hover {
   background-color: rgb(255, 0, 0);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
-.handleAddSpan{
+.handleAddSpan {
   background-color: rgb(0, 159, 0);
 }
-.handleAddSpan:hover{
+.handleAddSpan:hover {
   background-color: rgb(0, 180, 0);
 }
-.vegInput{
+.vegInput {
   display: flex;
   align-items: center;
   justify-content: start;
   gap: 20px;
 }
-.Recipecontainer h2{
+.Recipecontainer h2 {
   margin-bottom: 9px;
   color: rgb(255, 255, 255) !important;
 }
 
 /* Responsive Main Content */
 @media screen and (max-width: 768px) {
-  .handleAddRemove{
+  .handleAddRemove {
     padding: 6px;
     font-size: 18px;
     gap: 8px;
@@ -544,19 +550,24 @@ input[type="checkbox"]{
 
 .checkbox-wrapper label {
   --size: 35px;
-  --shadow: calc(var(--size) * .07) calc(var(--size) * .1);
+  --shadow: calc(var(--size) * 0.07) calc(var(--size) * 0.1);
   position: relative;
   display: block;
   width: var(--size);
   height: var(--size);
   margin: 0 auto;
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #ff3838 0%, #C850C0 46%, #803100 100%);
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #ff3838 0%,
+    #c850c0 46%,
+    #803100 100%
+  );
   border-radius: 50%;
   box-shadow: 0 var(--shadow) #ffbeb8;
   cursor: pointer;
   transition: 0.2s ease transform, 0.2s ease background-color,
-      0.2s ease box-shadow;
+    0.2s ease box-shadow;
   overflow: hidden;
   z-index: 1;
 }
@@ -567,8 +578,8 @@ input[type="checkbox"]{
   top: 50%;
   right: 0;
   left: 0;
-  width: calc(var(--size) * .7);
-  height: calc(var(--size) * .7);
+  width: calc(var(--size) * 0.7);
+  height: calc(var(--size) * 0.7);
   margin: 0 auto;
   background-color: #fff;
   transform: translateY(-50%);
@@ -578,8 +589,8 @@ input[type="checkbox"]{
 }
 
 .checkbox-wrapper label:hover:before {
-  width: calc(var(--size) * .55);
-  height: calc(var(--size) * .55);
+  width: calc(var(--size) * 0.55);
+  height: calc(var(--size) * 0.55);
   box-shadow: inset 0 var(--shadow) #ff9d96;
 }
 
@@ -591,16 +602,16 @@ input[type="checkbox"]{
   position: absolute;
   top: -1px;
   right: 0;
-  left: calc(var(--size) * -.05);
-  width: calc(var(--size) * .6);
-  height: calc(var(--size) * .6);
+  left: calc(var(--size) * -0.05);
+  width: calc(var(--size) * 0.6);
+  height: calc(var(--size) * 0.6);
   margin: 0 auto;
-  margin-left: calc(var(--size) * .14);
+  margin-left: calc(var(--size) * 0.14);
   transform: rotateZ(-40deg);
 }
 
 .checkbox-wrapper .tick_mark:before,
-  .checkbox-wrapper .tick_mark:after {
+.checkbox-wrapper .tick_mark:after {
   content: "";
   position: absolute;
   background-color: #fff;
@@ -612,24 +623,29 @@ input[type="checkbox"]{
 .checkbox-wrapper .tick_mark:before {
   left: 0;
   bottom: 0;
-  width: calc(var(--size) * .1);
-  height: calc(var(--size) * .3);
+  width: calc(var(--size) * 0.1);
+  height: calc(var(--size) * 0.3);
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.23);
-  transform: translateY(calc(var(--size) * -.68));
+  transform: translateY(calc(var(--size) * -0.68));
 }
 
 .checkbox-wrapper .tick_mark:after {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: calc(var(--size) * .1);
+  height: calc(var(--size) * 0.1);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.23);
-  transform: translateX(calc(var(--size) * .78));
+  transform: translateX(calc(var(--size) * 0.78));
 }
 
 .checkbox-wrapper input[type="checkbox"]:checked + label {
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #46d041 0%, #50c866 46%, #00a00b 100%);
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #46d041 0%,
+    #50c866 46%,
+    #00a00b 100%
+  );
   box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 28px, rgba(0, 0, 0, 0.1) 0px 15px 12px;
 }
 
@@ -639,7 +655,7 @@ input[type="checkbox"]{
 }
 
 .checkbox-wrapper input[type="checkbox"]:checked + label .tick_mark:before,
-  .checkbox-wrapper input[type="checkbox"]:checked + label .tick_mark:after {
+.checkbox-wrapper input[type="checkbox"]:checked + label .tick_mark:after {
   transform: translate(0);
   opacity: 1;
 }
@@ -649,27 +665,38 @@ input[type="checkbox"]{
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background-image: linear-gradient(45deg, rgba(226, 226, 255, 0.5), rgba(203, 255, 255, 0.5), rgba(255, 194, 255, 0.5));
+  background-image: linear-gradient(
+    45deg,
+    rgba(226, 226, 255, 0.5),
+    rgba(203, 255, 255, 0.5),
+    rgba(255, 194, 255, 0.5)
+  );
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
 }
-.detailedView .header span{
+.detailedView .header span {
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 22px;
   text-transform: uppercase;
 }
-.detailedView .nonVeg{
+.detailedView .nonVeg {
   background-color: rgba(176, 0, 0, 0.84);
   border-bottom: 1px solid red;
   border-left: 1px solid red;
 }
-.detailedView .recipe-details .header {
+.detailedView h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+}
+.detailedView .recipe-details .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 10px;
   color: #f6f6f6;
   background-color: rgb(29, 0, 40);
@@ -681,6 +708,17 @@ input[type="checkbox"]{
   padding: 10px;
 }
 
+.share {
+  cursor: pointer;
+  background-color: #ffc4d7;
+  padding: 8px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10px;
+  border: none;
+}
+
 .detailedView .recipe-details .img {
   max-width: 100%;
   object-fit: cover;
@@ -688,16 +726,16 @@ input[type="checkbox"]{
   margin-top: 20px;
   overflow: hidden;
 }
-.detailedView .recipe-details img{
+.detailedView .recipe-details img {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
   transition: all 0.3s ease-in-out;
 }
-.detailedView h3{
+.detailedView h3 {
   margin-top: 15px;
 }
-.detailedView .recipe-details:hover img{
+.detailedView .recipe-details:hover img {
   filter: brightness(1.1) saturate(1.2) contrast(1.1);
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
@@ -708,13 +746,12 @@ input[type="checkbox"]{
   margin-top: 10px;
   gap: 5px;
 }
-.detailedView .recipe-details .info-container p{
+.detailedView .recipe-details .info-container p {
   background-color: rgb(255, 223, 229);
   padding: 12px;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4) inset;
-
 }
 
 .detailedView .recipe-details .start {
@@ -730,7 +767,7 @@ input[type="checkbox"]{
   margin-bottom: 5px;
 }
 
-.detailedView .procedure{
+.detailedView .procedure {
   display: flex;
   align-items: self-start;
   justify-content: center;
@@ -741,7 +778,7 @@ input[type="checkbox"]{
   padding: 10px;
   margin-top: 20px;
 }
-.detailedView .procedure span{
+.detailedView .procedure span {
   background-color: #ff4f87;
   text-align: center;
   padding: 2px;
@@ -755,10 +792,10 @@ input[type="checkbox"]{
   justify-content: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4) inset;
 }
-.detailedView .procedure p{
+.detailedView .procedure p {
   width: 100%;
 }
-.detailedView .ingreedients{
+.detailedView .ingreedients {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -767,7 +804,7 @@ input[type="checkbox"]{
   align-items: flex-start;
   margin-top: 20px;
 }
-.detailedView .ingreedients li{
+.detailedView .ingreedients li {
   background-color: lavender;
   border-radius: 50px;
   padding: 7px 14px;

@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Recipe Schema
 const recipeSchema = new mongoose.Schema({
   title: String,
   image: String,
@@ -21,4 +22,18 @@ const recipeSchema = new mongoose.Schema({
 
 const Recipe = mongoose.model("Recipe", recipeSchema);
 
-module.exports = {Recipe};
+// User Schema
+const userSchema = new mongoose.Schema({
+  username: String,
+  phoneNumber: String,
+  email: String,
+  password: String,
+  savedRecipes: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Recipe'
+  }]
+});
+
+const User = mongoose.model("User", userSchema);
+
+module.exports = { Recipe, User };

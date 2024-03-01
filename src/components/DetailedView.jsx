@@ -22,19 +22,33 @@ const RecipeDetails = ({ recipe }) => {
       <p>{step.description}</p>
     </li>
   ));
-
+  const handleShare = async () => {
+    try {
+      await navigator.share({
+        title: `Check out this recipe on Spice Mania: ${title}`,
+        text: `Check out this delicious recipe - ${title}`,
+        url: window.location.href,
+      });
+    } catch (error) {
+      console.error("Error sharing:", error.message);
+    }
+  };
   return (
     <div className="detailedView">
       <div className="recipe-details">
         <div className="header">
-          
-          <h2 className="title">{title}</h2>
-          {veg ? (
-            <span className="veg">veg</span>
-          ) : (
-            <span className="nonVeg">non-veg</span>
-          )}
-          
+          <h2 className="title">
+            {title}
+            {veg ? (
+              <span className="veg">veg</span>
+            ) : (
+              <span className="nonVeg">non-veg</span>
+            )}
+          </h2>
+
+          <button className="share" onClick={handleShare} title="Share this recipe">
+            Share
+          </button>
         </div>
         <p className="start">{description.text}</p>
         <div className="img">

@@ -1,50 +1,99 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "../axios";
+import { toast } from "react-hot-toast";
 
 const Register = () => {
-  const [username, setUsername] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
-  const handleRegister = () => {
-    // Implement your registration logic here
-    // You can use the values of 'username', 'email', and 'password' state variables
+  const handleRegister = async (e) => {
+    e.preventDefault();
+    try {
+      const promise = new Promise((resolve, reject) => {
+        axios
+          .post("/api/register", {
+            username,
+            email,
+            phoneNumber: phone,
+            password,
+          })
+          .then((response) => {
+            resolve(response.data);
+            setUsername("");
+            setEmail("");
+            setPassword("");
+            navigate("/login");
+          })
+          .catch((error) => {
+            reject(error.response.data.message.toString());
+          });
+      });
+
+      toast.promise(promise, {
+        loading: "Registering...",
+        success: "Registration successful! Redirecting to login...",
+        error: (error) => error,
+      });
+    } catch (error) {
+      console.error("Registration error:", error);
+    }
   };
 
   return (
-    <div>
-      <h2>Register</h2>
-      <form>
-        <label>
-          Username:
-          <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Email:
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </label>
-        <br />
-        <button type="button" onClick={handleRegister}>
-          Register
-        </button>
-      </form>
+    <div className="register-container">
+      <div className="register-form">
+        <h2>Register to spice mania</h2>
+        <form onSubmit={handleRegister}>
+          <div className="form-group">
+            <label htmlFor="username">Username:</label>
+            <input
+              required
+              type="text"
+              id="username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Email:</label>
+            <input
+              required
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="phone">Phone:</label>
+            <input
+              required
+              type="number"
+              id="phone"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="password">Password:</label>
+            <input
+              required
+              type="password"
+              id="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+          <button type="submit">Register</button>
+        </form>
+        <p>
+          Already registered? <Link to="/login">Login</Link>
+        </p>
+      </div>
     </div>
   );
 };

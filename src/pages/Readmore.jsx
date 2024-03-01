@@ -1,8 +1,9 @@
-import axios from "axios";
+import axios from "../axios";
 import React, { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import { useParams } from "react-router-dom";
 import RecipeDetails from "../components/DetailedView";
+import DataLoad from "../components/DataLoad";
 
 export default function Readmore() {
   // Get the ID from the URL
@@ -18,7 +19,7 @@ export default function Readmore() {
         const promise = new Promise((resolve, reject) => {
           // Fetch data from the API
           axios
-            .get(`http://localhost:5000/api/recipes/${id}`) // Corrected URL
+            .get(`/api/recipes/${id}`) // Corrected URL
             .then((response) => {
               console.log(response.data);
               setData(response.data);
@@ -46,8 +47,9 @@ export default function Readmore() {
 
   return (
     <div>
-      <p>Recipe ID: {id}</p>
+      {dupLoad && <DataLoad />}
       {data && <RecipeDetails recipe={data} />}
     </div>
   );
+
 }

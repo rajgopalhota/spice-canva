@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import RecipeCard from "../components/RecipeCard";
-import axios from "axios";
+import axios from "../axios";
 import LoadingBar from "react-top-loading-bar";
 import toast from "react-hot-toast";
 import DataLoad from "../components/DataLoad";
