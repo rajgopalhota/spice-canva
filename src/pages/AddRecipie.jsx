@@ -171,12 +171,12 @@ const AddRecipe = () => {
         <br />
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <LuSubtitles />
               &nbsp; Recipe Title:
             </label>
             <input
-            data-aos="fade-up"
+              data-aos="fade-up"
               type="text"
               name="title"
               value={recipeData.title}
@@ -184,12 +184,12 @@ const AddRecipe = () => {
             />
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <FaImage />
               &nbsp; Image URL:
             </label>
             <input
-            data-aos="fade-up"
+              data-aos="fade-up"
               type="text"
               name="image"
               value={recipeData.image}
@@ -197,12 +197,12 @@ const AddRecipe = () => {
             />
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <LuAlarmClock />
               &nbsp; Cooking Time (minutes):
             </label>
             <input
-            data-aos="fade-up"
+              data-aos="fade-up"
               type="text"
               name="time"
               value={recipeData.time}
@@ -210,13 +210,13 @@ const AddRecipe = () => {
             />
           </div>
           <div className="form-group vegInput">
-            <label>
+            <label data-aos="zoom-in">
               <SiVega />
               &nbsp; Veg (check this box if veg or leave blank):
             </label>
             <div class="checkbox-wrapper">
               <input
-              data-aos="fade-up"
+                data-aos="fade-up"
                 id="_checkbox-26"
                 type="checkbox"
                 name="veg"
@@ -228,13 +228,13 @@ const AddRecipe = () => {
                   }))
                 }
               />
-              <label for="_checkbox-26">
+              <label for="_checkbox-26" data-aos="zoom-in">
                 <div class="tick_mark"></div>
               </label>
             </div>
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <MdOutlineCategory />
               &nbsp; Category:
             </label>
@@ -258,14 +258,14 @@ const AddRecipe = () => {
             </select>
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <GiFruitBowl />
               &nbsp; Ingredients:
             </label>
             {recipeData.ingredients.map((ingredient, index) => (
               <div key={index} className="ingredient-group">
                 <input
-                data-aos="fade-up"
+                  data-aos="fade-up"
                   type="text"
                   value={ingredient}
                   onChange={(e) =>
@@ -274,6 +274,7 @@ const AddRecipe = () => {
                 />
                 <span
                   className="handleAddRemove"
+                  data-aos="fade-up"
                   onClick={() => handleRemoveIngredient(index)}
                 >
                   <AiOutlineMinusCircle />
@@ -282,18 +283,19 @@ const AddRecipe = () => {
             ))}
             <span
               className="handleAddRemove handleAddSpan"
+              data-aos="fade-up"
               onClick={handleAddIngredient}
             >
               <AiOutlinePlusCircle /> Add more
             </span>
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <FaPlateWheat />
               &nbsp; Servings:
             </label>
             <input
-            data-aos="fade-up"
+              data-aos="fade-up"
               type="text"
               name="servings"
               value={recipeData.servings}
@@ -301,11 +303,12 @@ const AddRecipe = () => {
             />
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <MdDescription />
               &nbsp; Description:
             </label>
             <textarea
+            data-aos="fade-up"
               name="text"
               value={recipeData.description.text}
               onChange={(e) =>
@@ -320,19 +323,23 @@ const AddRecipe = () => {
             />
           </div>
           <div className="form-group">
-            <label>
+            <label data-aos="zoom-in">
               <GiTeacher />
               &nbsp; Instructions:
             </label>
             {recipeData.description.steps.map((step, index) => (
               <div key={index} className="step-group">
                 <input
-                data-aos="fade-up"
+                  data-aos="fade-up"
                   type="text"
                   value={step.description}
                   onChange={(e) => handleStepChange(index, e.target.value)}
                 />
-                <span className="handleAddRemove" onClick={handleRemoveStep}>
+                <span
+                  className="handleAddRemove"
+                  data-aos="fade-up"
+                  onClick={handleRemoveStep}
+                >
                   <AiOutlineMinusCircle />
                 </span>
               </div>
@@ -340,12 +347,13 @@ const AddRecipe = () => {
             <span
               className="handleAddRemove handleAddSpan"
               onClick={handleAddStep}
+              data-aos="fade-up"
             >
               <AiOutlinePlusCircle /> Add more
             </span>
           </div>
           <div className="form-group">
-            <button type="submit">
+            <button type="submit" data-aos="fade-up">
               <FaTelegramPlane />
               &nbsp; Submit
             </button>

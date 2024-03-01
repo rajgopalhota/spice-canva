@@ -20,7 +20,7 @@ export default function Readmore() {
           axios
             .get(`http://localhost:5000/api/recipes/${id}`) // Corrected URL
             .then((response) => {
-                console.log(response.data)
+              console.log(response.data);
               setData(response.data);
               setDupLoad(false);
               resolve(); // Resolve the promise when data is fetched successfully
@@ -32,8 +32,8 @@ export default function Readmore() {
 
         // Show loading toast with promise
         toast.promise(promise, {
-          loading: "Fetching recipes...",
-          success: "Recipes fetched successfully",
+          loading: "Fetching your recipe",
+          success: "Recipe fetched successfully",
           error: "Error fetching recipes",
         });
       } catch (error) {
@@ -47,7 +47,7 @@ export default function Readmore() {
   return (
     <div>
       <p>Recipe ID: {id}</p>
-      {data && <RecipeDetails recipe={data}/>}
+      {data && <RecipeDetails recipe={data} />}
     </div>
   );
 }

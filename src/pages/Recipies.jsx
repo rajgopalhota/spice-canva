@@ -94,74 +94,78 @@ const Recipes = () => {
       <div className="recipeBox">
         <h1>Food for you - {filteredRecipes.length}</h1>
         <br />
-        <div className="filters" data-aos="fade-up">
-          <select
-            value={filters.maxTime}
-            onChange={(e) =>
-              handleFilterChange(
-                "maxTime",
-                e.target.value === "default"
-                  ? Infinity
-                  : parseInt(e.target.value)
-              )
-            }
-          >
-            <option value="default">Cooking Time (minutes)</option>
-            <option value={15}>Less than 15</option>
-            <option value={30}>Less than 30</option>
-            <option value={60}>Less than 60</option>
-          </select>
-          <div className="vegNonVeg">
-            <label className="switch" title="Veg filter">
-              <input
-                type="checkbox"
-                checked={filters.veg}
-                onChange={(e) => handleFilterChange("veg", e.target.checked)}
-              />
-              <span className="slider veg"></span>
-            </label>
-            <label className="switch" title="Non-Veg filter">
-              <input
-                type="checkbox"
-                checked={filters.nonVeg}
-                onChange={(e) => handleFilterChange("nonVeg", e.target.checked)}
-              />
-              <span className="slider nonVeg"></span>
-            </label>
+        {!dupLoad && (
+          <div className="filters" data-aos="fade-up">
+            <select
+              value={filters.maxTime}
+              onChange={(e) =>
+                handleFilterChange(
+                  "maxTime",
+                  e.target.value === "default"
+                    ? Infinity
+                    : parseInt(e.target.value)
+                )
+              }
+            >
+              <option value="default">Cooking Time (minutes)</option>
+              <option value={15}>Less than 15</option>
+              <option value={30}>Less than 30</option>
+              <option value={60}>Less than 60</option>
+            </select>
+            <div className="vegNonVeg">
+              <label className="switch" title="Veg filter">
+                <input
+                  type="checkbox"
+                  checked={filters.veg}
+                  onChange={(e) => handleFilterChange("veg", e.target.checked)}
+                />
+                <span className="slider veg"></span>
+              </label>
+              <label className="switch" title="Non-Veg filter">
+                <input
+                  type="checkbox"
+                  checked={filters.nonVeg}
+                  onChange={(e) =>
+                    handleFilterChange("nonVeg", e.target.checked)
+                  }
+                />
+                <span className="slider nonVeg"></span>
+              </label>
+            </div>
+            <select
+              value={filters.maxIngredients}
+              onChange={(e) =>
+                handleFilterChange(
+                  "maxIngredients",
+                  e.target.value === "default"
+                    ? Infinity
+                    : parseInt(e.target.value)
+                )
+              }
+            >
+              <option value="default">Number of Ingredients</option>
+              <option value={5}>Less than 5</option>
+              <option value={10}>Less than 10</option>
+              <option value={15}>Less than 15</option>
+            </select>
+            <select
+              value={filters.category}
+              onChange={(e) => handleFilterChange("category", e.target.value)}
+            >
+              <option value="all">All Categories</option>
+              <option value="rice">Rice</option>
+              <option value="pasta">Pasta</option>
+              {/* Add other categories */}
+            </select>
+            <input
+              type="text"
+              value={filters.searchText}
+              onChange={(e) => handleFilterChange("searchText", e.target.value)}
+              placeholder="Search..."
+            />
           </div>
-          <select
-            value={filters.maxIngredients}
-            onChange={(e) =>
-              handleFilterChange(
-                "maxIngredients",
-                e.target.value === "default"
-                  ? Infinity
-                  : parseInt(e.target.value)
-              )
-            }
-          >
-            <option value="default">Number of Ingredients</option>
-            <option value={5}>Less than 5</option>
-            <option value={10}>Less than 10</option>
-            <option value={15}>Less than 15</option>
-          </select>
-          <select
-            value={filters.category}
-            onChange={(e) => handleFilterChange("category", e.target.value)}
-          >
-            <option value="all">All Categories</option>
-            <option value="rice">Rice</option>
-            <option value="pasta">Pasta</option>
-            {/* Add other categories */}
-          </select>
-          <input
-            type="text"
-            value={filters.searchText}
-            onChange={(e) => handleFilterChange("searchText", e.target.value)}
-            placeholder="Search..."
-          />
-        </div>
-        {dupLoad && <DataLoad/>}
+        )}
+        {dupLoad && <DataLoad />}
         <div className="recipes-container">
           {filteredRecipes.map((recipe) => (
             <RecipeCard

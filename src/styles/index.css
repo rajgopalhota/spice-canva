@@ -8,6 +8,12 @@
 html {
   background-color: #f2fbff;
 }
+::-webkit-scrollbar{
+  display: none !important;
+}
+::-webkit-scrollbar-thumb{
+  display: none;
+}
 body {
   user-select: none;
   min-height: 100vh;
