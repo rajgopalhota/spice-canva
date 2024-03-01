@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import TrendingFoods from "./pages/Trending";
 import { Toaster } from "react-hot-toast";
+import Readmore from "./pages/Readmore";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/trending" element={<TrendingFoods />} />
           <Route path="/recipes" element={<Recipies />} />
+          <Route path="/recipes/read/:id" element={<Readmore />} />
           <Route path="/post-recipe" element={<AddRecipie />} />
           <Route path="/login" element={<Login />} />
           <Route path="/onboard" element={<Register />} />

@@ -27,8 +27,7 @@ const Root = () => {
     <Router>
       <LoadingProvider>
         <Suspense fallback={<Loader />}>
-          {/* {isLoading ? <Loader /> : <App />} */}
-          <App />
+          {isLoading ? <Loader /> : <App />}
         </Suspense>
       </LoadingProvider>
     </Router>

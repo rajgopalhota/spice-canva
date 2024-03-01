@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Hero.css";
-import img1 from "./../assets/herobg.jpg";
+import img1 from "./../assets/h2.jpg";
 import chef from "../assets/loaders/chef.gif";
 import { IoFastFood } from "react-icons/io5";
 import { ImSpoonKnife } from "react-icons/im";

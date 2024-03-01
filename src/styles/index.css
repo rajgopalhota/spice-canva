@@ -19,6 +19,9 @@ body {
   background-position: center center fixed;
   background-image: linear-gradient(to right, #fff4e4 0%, #ffe3d9 100%);
 }
+img{
+  image-rendering: crisp-edges !important;
+}
 .smokeBox {
   width: 100vw;
   height: 100vh !important;
