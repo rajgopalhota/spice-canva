@@ -3,6 +3,10 @@ import { useAuth } from "../authContext";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/Auth.css"; // Import CSS file
 import LoginReq from "../components/LoginReq";
+import { FaUnlockAlt } from "react-icons/fa";
+import { GiCook } from "react-icons/gi";
+import { RiLockPasswordFill } from "react-icons/ri";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Login = () => {
   useEffect(() => {
@@ -37,10 +41,10 @@ const Login = () => {
         <LoginReq p="You are already logged in!" link="recipes" />
       ) : (
         <div className="auth-container">
-          <h2>Login to spice mania</h2>
+          <h2><FaUnlockAlt/>&nbsp;Login to Spice Mania</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="username">Username:</label>
+              <label htmlFor="username"><GiCook/>&nbsp;Username:</label>
               <input
                 required
                 type="text"
@@ -50,7 +54,7 @@ const Login = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password"><RiLockPasswordFill/>&nbsp;Password:</label>
               <input
                 required
                 type="password"
@@ -59,7 +63,7 @@ const Login = () => {
                 onChange={handlePasswordChange}
               />
             </div>
-            <button type="submit">Login</button>
+            <button type="submit"><FaTelegramPlane/>&nbsp;Login</button>
           </form>
           <p>
             New Here? <Link to="/onboard">Register</Link>

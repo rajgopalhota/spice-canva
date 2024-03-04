@@ -69,6 +69,7 @@ const Recipes = () => {
       <div className="recipeBox">
         <h1>
           <TbTrendingUp /> &nbsp;Trending dishes!
+          <hr />
         </h1>
         {loading ? (
           <DataLoad />

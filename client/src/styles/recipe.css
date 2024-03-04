@@ -16,7 +16,9 @@
   text-transform: capitalize;
   /* user-select: none; */
 }
-
+.recipeBox h1 {
+  margin-bottom: 10px;
+}
 .recipes-container {
   display: flex;
   flex-wrap: wrap;
@@ -533,8 +535,11 @@ textarea {
   h1 {
     font-size: 1.5rem !important;
   }
-  h2{
+  h2 {
     font-size: 1.3rem !important;
+  }
+  .recipeBox {
+    padding: 0 !important;
   }
   .handleAddRemove {
     padding: 6px;
@@ -549,6 +554,9 @@ textarea {
   }
   .recipe-details .fav-btn {
     background-color: transparent !important;
+  }
+  .detailedView .recipe-details .header {
+    flex-direction: column !important;
   }
 }
 
@@ -851,16 +859,16 @@ textarea {
 }
 /* You can add more styles for different elements as needed */
 
-.category-container .item-container{
+.category-container .item-container {
   background-color: rgba(30, 0, 150, 0.1);
   box-shadow: 0 0 22px rgba(23, 0, 62, 0.5) inset;
   border-radius: 12px;
   margin-bottom: 15px;
   padding: 18px;
 }
-.item-container h2{
+.item-container h2 {
   margin-bottom: 5px;
 }
-.item-container .items{
+.item-container .items {
   margin-top: 15px;
 }

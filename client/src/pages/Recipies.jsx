@@ -98,6 +98,7 @@ const Recipes = () => {
         <h1>
           <SiIfood /> &nbsp;Food for you - {filteredRecipes.length}
         </h1>
+        <hr/>
         <br />
         {!dupLoad && (
           <div className="filters" data-aos="fade-up">

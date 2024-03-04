@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "../axios";
 import { toast } from "react-hot-toast";
+import { GiCook } from "react-icons/gi";
+import { RiLockPasswordFill } from "react-icons/ri";
+import { FaTelegramPlane } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
 
 const Register = () => {
   useEffect(() => {
@@ -53,7 +58,7 @@ const Register = () => {
         <h2>Register to spice mania</h2>
         <form onSubmit={handleRegister}>
           <div className="form-group">
-            <label htmlFor="username">Username:</label>
+            <label htmlFor="username"><GiCook/>&nbsp;Username:</label>
             <input
               required
               type="text"
@@ -63,7 +68,7 @@ const Register = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email"><MdAlternateEmail/>&nbsp;Email:</label>
             <input
               required
               type="email"
@@ -73,7 +78,7 @@ const Register = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="phone">Phone:</label>
+            <label htmlFor="phone"><FaPhone/>&nbsp;Phone:</label>
             <input
               required
               type="number"
@@ -83,7 +88,7 @@ const Register = () => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="password">Password:</label>
+            <label htmlFor="password"><RiLockPasswordFill/>&nbsp;Password:</label>
             <input
               required
               type="password"
@@ -92,7 +97,7 @@ const Register = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <button type="submit">Register</button>
+          <button type="submit"><FaTelegramPlane/>&nbsp;Register</button>
         </form>
         <p>
           Already registered? <Link to="/login">Login</Link>

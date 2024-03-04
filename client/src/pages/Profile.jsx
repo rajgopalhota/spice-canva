@@ -16,6 +16,7 @@ const Recipes = () => {
   }, []);
   const auth = useAuth();
   const navigate = useNavigate();
+  const [len, setLen] = useState(0);
   const [loading, setLoading] = useState(true);
   const [dupLoad, setDupLoad] = useState(true);
 
@@ -40,7 +41,7 @@ const Recipes = () => {
           axios
             .get("/getfavitems")
             .then((response) => {
-              // Shuffle the recipes
+              setLen(response.data.length);
               const shuffled = response.data.sort(() => Math.random() - 0.5);
               setShuffledRecipes(shuffled);
               setDupLoad(false);
@@ -118,7 +119,7 @@ const Recipes = () => {
             {auth.user.username}'s saved - {filteredRecipes.length}
           </h1>
           <br />
-          {!dupLoad && (
+          {!dupLoad && !len===0 && (
             <div className="filters" data-aos="fade-up">
               <select
                 value={filters.maxTime}
@@ -176,9 +177,7 @@ const Recipes = () => {
               </select>
               <select
                 value={filters.category}
-                onChange={(e) =>
-                  handleFilterChange("category", e.target.value)
-                }
+                onChange={(e) => handleFilterChange("category", e.target.value)}
               >
                 <option value="all">All Categories</option>
                 <option value="rice">Rice</option>
@@ -215,7 +214,12 @@ const Recipes = () => {
               </div>
             </div>
           ) : (
-            <><LoginReq p="Uh No, you don't have any favorites!" link="recipes" /></>
+            <>
+              <LoginReq
+                p="Uh No, you don't have any favorites!"
+                link="recipes"
+              />
+            </>
           )}
         </>
       ) : (
