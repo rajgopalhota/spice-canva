@@ -120,7 +120,7 @@ const RecipeForm = () => {
           // Add logic to submit the recipe data to your backend
           // For example, sending a POST request using axios
           axios
-            .post("/api/add-recipe", recipeData)
+            .post("/add-recipe", recipeData)
             .then(() => {
               // Clear all fields after successful submission
               setRecipeData({

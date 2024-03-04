@@ -33,7 +33,7 @@ const Recipes = () => {
         const promise = new Promise((resolve, reject) => {
           // Fetch data from the API
           axios
-            .get("/api/recipes")
+            .get("/recipes")
             .then((response) => {
               setRecipesData(response.data);
               setDupLoad(false);

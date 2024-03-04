@@ -23,7 +23,7 @@ export default function Readmore() {
         const promise = new Promise((resolve, reject) => {
           // Fetch data from the API
           axios
-            .get(`/api/recipes/${id}`) // Corrected URL
+            .get(`/recipes/${id}`) // Corrected URL
             .then((response) => {
               setData(response.data);
               setDupLoad(false);

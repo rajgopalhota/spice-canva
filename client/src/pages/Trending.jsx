@@ -18,7 +18,7 @@ const Recipes = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/api/recipes");
+        const response = await axios.get("/recipes");
         setRecipesData(response.data);
         setLoading(false);
         toast.success("Trending updated");

@@ -38,7 +38,7 @@ const Recipes = () => {
         const promise = new Promise((resolve, reject) => {
           // Fetch data from the API
           axios
-            .get("/api/getfavitems")
+            .get("/getfavitems")
             .then((response) => {
               // Shuffle the recipes
               const shuffled = response.data.sort(() => Math.random() - 0.5);

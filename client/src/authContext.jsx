@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
 
   const fetchUser = async () => {
     try {
-      const response = await axios.get("/api/fetchuser");
+      const response = await axios.get("/fetchuser");
       setUser(response.data);
       toast.success("User fetched successfully");
     } catch (error) {
@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
 
   const loginUser = async (username, password) => {
     try {
-      const response = await axios.post("/api/login", { username, password });
+      const response = await axios.post("/login", { username, password });
       const token = response.data.token;
       setUser(response.data.user);
       localStorage.setItem("authToken", token);

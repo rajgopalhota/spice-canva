@@ -19,7 +19,7 @@ const Register = () => {
     try {
       const promise = new Promise((resolve, reject) => {
         axios
-          .post("/api/register", {
+          .post("/register", {
             username,
             email,
             phoneNumber: phone,

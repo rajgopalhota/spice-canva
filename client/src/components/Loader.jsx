@@ -5,6 +5,7 @@ export default function Loader() {
   return (
     <div className="suspenseLoader">
       <img src={load1} alt="" />
+      <h1>Loading Spice Mania...</h1>
     </div>
   );
 }

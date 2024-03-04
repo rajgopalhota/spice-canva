@@ -27,7 +27,7 @@ const RecipeDetails = ({ recipe }) => {
     setIsFavorite((prevState) => !prevState); // Toggle immediately for UI responsiveness
 
     // Use toast.promise to handle async operation
-    await toast.promise(axios.post(`/api/addfav/${_id}`), {
+    await toast.promise(axios.post(`/addfav/${_id}`), {
       loading: "Loading...",
       success: isFavorite ? "Removed from favorites" : "Added to favorites",
       error: (error) => {
