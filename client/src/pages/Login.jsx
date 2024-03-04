@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useAuth } from "../authContext";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/Auth.css"; // Import CSS file
 import LoginReq from "../components/LoginReq";
 
 const Login = () => {
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const auth = useAuth();

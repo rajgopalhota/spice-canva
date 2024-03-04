@@ -530,8 +530,11 @@ textarea {
 
 /* Responsive Main Content */
 @media screen and (max-width: 768px) {
-  h1{
-    font-size: 1.5rem;
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  h2{
+    font-size: 1.3rem !important;
   }
   .handleAddRemove {
     padding: 6px;
@@ -847,3 +850,17 @@ textarea {
   box-shadow: 0 0 8px rgba(155, 0, 0, 0.4) inset;
 }
 /* You can add more styles for different elements as needed */
+
+.category-container .item-container{
+  background-color: rgba(30, 0, 150, 0.1);
+  box-shadow: 0 0 22px rgba(23, 0, 62, 0.5) inset;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 18px;
+}
+.item-container h2{
+  margin-bottom: 5px;
+}
+.item-container .items{
+  margin-top: 15px;
+}

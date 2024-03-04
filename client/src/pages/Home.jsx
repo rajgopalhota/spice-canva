@@ -4,6 +4,10 @@ import HeroCards from "../components/HeroCards";
 import LoadingBar from "react-top-loading-bar";
 
 const Home = () => {
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

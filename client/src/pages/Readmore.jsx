@@ -6,6 +6,10 @@ import RecipeDetails from "../components/DetailedView";
 import DataLoad from "../components/DataLoad";
 
 export default function Readmore() {
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   // Get the ID from the URL
   const { id } = useParams();
   const [loading, setLoading] = useState(true);

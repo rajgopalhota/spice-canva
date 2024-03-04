@@ -7,6 +7,10 @@ import DataLoad from "../components/DataLoad";
 import { SiIfood } from "react-icons/si";
 
 const Recipes = () => {
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   const [loading, setLoading] = useState(true);
   const [dupLoad, setDupLoad] = useState(true);
 
