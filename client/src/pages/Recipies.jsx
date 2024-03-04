@@ -6,7 +6,6 @@ import toast from "react-hot-toast";
 import DataLoad from "../components/DataLoad";
 import { SiIfood } from "react-icons/si";
 
-
 const Recipes = () => {
   const [loading, setLoading] = useState(true);
   const [dupLoad, setDupLoad] = useState(true);
@@ -92,7 +91,9 @@ const Recipes = () => {
         onLoaderFinished={() => setLoading(false)}
       />
       <div className="recipeBox">
-        <h1><SiIfood/> &nbsp;Food for you - {filteredRecipes.length}</h1>
+        <h1>
+          <SiIfood /> &nbsp;Food for you - {filteredRecipes.length}
+        </h1>
         <br />
         {!dupLoad && (
           <div className="filters" data-aos="fade-up">
@@ -166,6 +167,9 @@ const Recipes = () => {
           </div>
         )}
         {dupLoad && <DataLoad />}
+        {filteredRecipes.length === 0 && (
+          <DataLoad p="Sorry, your requested recipe is not available" />
+        )}
         <div className="recipes-container">
           {filteredRecipes.map((recipe) => (
             <RecipeCard

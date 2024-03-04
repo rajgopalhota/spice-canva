@@ -9,6 +9,10 @@ const recipeSchema = new mongoose.Schema({
   ingredients: [String],
   veg: Boolean,
   servings: String,
+  user: {
+    type: String,
+    default: "frontend",
+  },
   description: {
     text: String,
     steps: [
@@ -28,10 +32,12 @@ const userSchema = new mongoose.Schema({
   phoneNumber: String,
   email: String,
   password: String,
-  savedRecipes: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Recipe'
-  }]
+  savedRecipes: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Recipe",
+    },
+  ],
 });
 
 const User = mongoose.model("User", userSchema);
