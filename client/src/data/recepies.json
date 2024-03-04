@@ -4,7 +4,7 @@
     "title": "Strawberry Waffle",
     "image": "https://zippypaws.com/app/uploads/2018/05/strawberry-waffles-1024x668.jpg",
     "time": 20,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "1 1/2 cups all-purpose flour",
       "3 1/2 teaspoons baking powder",
@@ -49,7 +49,7 @@
     "title": "Chocolate Cake",
     "image": "https://th.bing.com/th/id/OIP.UlnYZaNIGW7Ci2xnZvILogHaJQ?rs=1&pid=ImgDetMain",
     "time": 45,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "1 3/4 cups all-purpose flour",
       "3/4 cup unsweetened cocoa powder",
@@ -105,7 +105,7 @@
     "title": "Caesar Salad",
     "image": "https://th.bing.com/th/id/OIP.w4r5rpVWHIRAdJ4u1skaIgHaLH?rs=1&pid=ImgDetMain",
     "time": 15,
-    "category": "rice",
+    "category": "Salad",
     "ingredients": [
       "Romaine Lettuce",
       "Croutons",
@@ -141,7 +141,7 @@
     "title": "Spaghetti Bolognese",
     "image": "https://i.pinimg.com/originals/b0/c6/96/b0c69641286e56f84912c364983e812c.jpg",
     "time": 60,
-    "category": "rice",
+    "category": "Starter",
     "ingredients": [
       "Spaghetti",
       "Ground Beef",
@@ -183,7 +183,7 @@
     "title": "Vegetable Stir Fry",
     "image": "https://asimplepalate.com/wp-content/uploads/2019/03/vegetable-stir-fry-15-1365x2048.jpg",
     "time": 20,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Broccoli",
       "Bell Peppers",
@@ -230,7 +230,7 @@
     "title": "Chicken Parmesan",
     "image": "https://th.bing.com/th/id/OIP._phAemZn7ernYPHhDYksygHaLG?rs=1&pid=ImgDetMain",
     "time": 45,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Chicken Breast",
       "Breadcrumbs",
@@ -281,7 +281,7 @@
     "title": "Mango Smoothie",
     "image": "https://www.eatingbirdfood.com/wp-content/uploads/2021/05/mango-smoothie-angle-1024x1536.jpg",
     "time": 10,
-    "category": "rice",
+    "category": "Bevarages",
     "ingredients": ["Mango", "Banana", "Greek Yogurt", "Orange Juice", "Honey"],
     "veg": true,
     "servings": "2",
@@ -312,7 +312,7 @@
     "title": "Caprese Salad",
     "image": "https://th.bing.com/th/id/OIP.PuM23ntMX8B2lAS-MLNCFAHaJQ?rs=1&pid=ImgDetMain",
     "time": 10,
-    "category": "rice",
+    "category": "Salad",
     "ingredients": [
       "Tomatoes",
       "Fresh Mozzarella",
@@ -355,7 +355,7 @@
     "title": "Grilled Salmon",
     "image": "https://th.bing.com/th/id/OIP.Ap6iEGbolwm_UjeHXNNIWAHaK-?rs=1&pid=ImgDetMain",
     "time": 20,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Salmon Fillets",
       "Lemon",
@@ -399,7 +399,7 @@
     "title": "Homemade Pizza",
     "image": "https://th.bing.com/th/id/OIP.paK_UK5Hnf_fGUCkmZ-hFAHaEK?rs=1&pid=ImgDetMain",
     "time": 30,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "Pizza Dough",
       "Tomato Sauce",
@@ -447,7 +447,7 @@
     "title": "Avocado Toast",
     "image": "https://thesaltypot.com/wp-content/uploads/2019/02/Avocado-Toast09.jpg",
     "time": 10,
-    "category": "rice",
+    "category": "Salad",
     "ingredients": [
       "Avocado",
       "Bread",
@@ -493,7 +493,7 @@
     "title": "Taco Salad",
     "image": "https://th.bing.com/th/id/OIP.89CuDJkG3j6_5f3qUb6tFAHaLH?rs=1&pid=ImgDetMain",
     "time": 20,
-    "category": "rice",
+    "category": "Salad",
     "ingredients": [
       "Ground Beef",
       "Lettuce",
@@ -546,7 +546,7 @@
     "title": "Quinoa Salad",
     "image": "https://www.modernhoney.com/wp-content/uploads/2017/04/Quinoa-Salad.jpg",
     "time": 25,
-    "category": "rice",
+    "category": "Salad",
     "ingredients": [
       "Quinoa",
       "Cucumber",
@@ -599,7 +599,7 @@
     "title": "Chicken Fajitas",
     "image": "https://www.primaverakitchen.com/wp-content/uploads/2019/08/Skillet-Chicken-Fajitas-Recipe-Primavera-Kitchen-3.jpg",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Chicken Breast",
       "Bell Peppers",
@@ -649,7 +649,7 @@
     "title": "Pasta Primavera",
     "image": "https://www.cookingclassy.com/wp-content/uploads/2018/09/pasta-primavera-1.jpg",
     "time": 25,
-    "category": "rice",
+    "category": "Pasta",
     "ingredients": [
       "Pasta",
       "Broccoli",
@@ -703,7 +703,7 @@
     "title": "Beef Stroganoff",
     "image": "https://th.bing.com/th/id/R.2e27b187d240d7f75c6e31d385c88b9a?rik=GOz%2bjMbl%2b0TEAg&riu=http%3a%2f%2fwww.simplyscratch.com%2fwp-content%2fuploads%2f2013%2f11%2fBeef-Stroganoff-www.SimplyScratch.com_.jpg&ehk=XjahTxYrjJXa1VxKxSUK5vdU3ZCOMdmk4YywJXQzAyw%3d&risl=&pid=ImgRaw&r=0",
     "time": 40,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Beef Sirloin",
       "Onion",
@@ -751,7 +751,7 @@
     "title": "Shrimp Scampi",
     "image": "https://th.bing.com/th/id/OIP.FQVBRC64NzzWQ6UT9ErAyQHaJQ?rs=1&pid=ImgDetMain",
     "time": 20,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Shrimp",
       "Linguine",
@@ -807,7 +807,7 @@
     "title": "Greek Gyros",
     "image": "https://th.bing.com/th/id/OIP.-sRLO-bjqnkvRvZv_6eVswHaHa?rs=1&pid=ImgDetMain",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Chicken Thighs",
       "Pita Bread",
@@ -861,7 +861,7 @@
     "title": "Ratatouille",
     "image": "https://th.bing.com/th/id/OIP.mCR6pKy8nJ-t9pJxQANPiAHaE7?rs=1&pid=ImgDetMain",
     "time": 60,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Eggplant",
       "Zucchini",
@@ -914,7 +914,7 @@
     "title": "Sushi Rolls",
     "image": "https://th.bing.com/th/id/OIP.e8fq3PIAtq0gh4PYkXNmFAHaE8?rs=1&pid=ImgDetMain",
     "time": 45,
-    "category": "rice",
+    "category": "Rice",
     "ingredients": [
       "Sushi Rice",
       "Nori Sheets",
@@ -966,7 +966,7 @@
     "title": "French Onion Soup",
     "image": "https://th.bing.com/th/id/OIP.CSoEBr72NKFjUHy94FPyaAAAAA?rs=1&pid=ImgDetMain",
     "time": 60,
-    "category": "rice",
+    "category": "Soup",
     "ingredients": [
       "Onions",
       "Beef Broth",
@@ -1019,7 +1019,7 @@
     "title": "Beef Tacos",
     "image": "https://www.thecookierookie.com/wp-content/uploads/2020/01/crockpot-taco-meat-beef-tacos-6-of-8-1.jpg",
     "time": 30,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "Ground Beef",
       "Taco Seasoning",
@@ -1067,7 +1067,7 @@
     "title": "Mushroom Risotto",
     "image": "https://cookieandkate.com/images/2014/11/mushrooms-on-brown-rice-risotto-1.jpg",
     "time": 45,
-    "category": "rice",
+    "category": "Rice",
     "ingredients": [
       "Arborio Rice",
       "Mushrooms",
@@ -1120,7 +1120,7 @@
     "title": "Chicken Curry",
     "image": "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/priyanjali/shutterstock_111998606.jpg",
     "time": 45,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Chicken Thighs",
       "Coconut Milk",
@@ -1166,7 +1166,7 @@
     "title": "Lemon Garlic Shrimp",
     "image": "https://th.bing.com/th/id/OIP._NXJBO6GXQ5AqFo8L8HawwAAAA?rs=1&pid=ImgDetMain",
     "time": 20,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Shrimp",
       "Pasta",
@@ -1218,7 +1218,7 @@
     "title": "Chicken Dum Biryani",
     "image": "https://vismaifood.com/storage/app/uploads/public/63a/cb5/158/thumb__1200_0_0_0_auto.jpg",
     "time": 60,
-    "category": "rice",
+    "category": "Rice",
     "ingredients": [
       "Chicken",
       "Basmati Rice",
@@ -1285,7 +1285,7 @@
     "title": "Paneer Dum Biryani",
     "image": "https://th.bing.com/th/id/OIP.5erbUI5CD5TMCKTc6BjCPgHaG4?rs=1&pid=ImgDetMain",
     "time": 60,
-    "category": "rice",
+    "category": "Rice",
     "ingredients": [
       "Paneer",
       "Basmati Rice",
@@ -1352,7 +1352,7 @@
     "title": "Paneer Butter Masala",
     "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
     "time": 45,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Paneer",
       "Tomatoes",
@@ -1412,7 +1412,7 @@
     "title": "Fish Curry",
     "image": "https://th.bing.com/th/id/OIP.BUt9E2AygirjScbzKq7ThAHaFj?rs=1&pid=ImgDetMain",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Fish Fillets",
       "Onion",
@@ -1477,7 +1477,7 @@
     "title": "Mango Dal",
     "image": "https://rupal-bhatikar.com/wp-content/uploads/2021/08/DSC03969-1.jpg",
     "time": 45,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Toor Dal",
       "Mango",
@@ -1547,7 +1547,7 @@
     "title": "Potato Fry",
     "image": "https://th.bing.com/th/id/OIP.wZ2EAr_akOkKSjNbW2MR3gHaEK?rs=1&pid=ImgDetMain",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Potatoes",
       "Turmeric Powder",
@@ -1597,7 +1597,7 @@
     "title": "Beans Curry",
     "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1067026.jpg",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Green Beans",
       "Onion",
@@ -1657,7 +1657,7 @@
     "title": "Egg Curry",
     "image": "https://www.whiskaffair.com/wp-content/uploads/2020/04/Kerala-Egg-Curry-3.jpg",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Eggs",
       "Onion",
@@ -1723,7 +1723,7 @@
     "title": "Brinjal Masala",
     "image": "https://recipes.timesofindia.com/thumb/53943291.cms?imgsize=330558&width=800&height=800",
     "time": 40,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Brinjal (Eggplant)",
       "Onion",
@@ -1789,7 +1789,7 @@
     "title": "Cabbage Fry",
     "image": "https://th.bing.com/th/id/OIP.RXaZl5KQerzMvV239RtGsAAAAA?rs=1&pid=ImgDetMain",
     "time": 20,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Cabbage",
       "Onion",
@@ -1842,7 +1842,7 @@
     "title": "Chicken Fried Rice",
     "image": "https://th.bing.com/th/id/OIP.EdtFdGsiPMUNRsxXORO6UwHaHa?rs=1&pid=ImgDetMain",
     "time": 30,
-    "category": "rice",
+    "category": "Rice",
     "ingredients": [
       "Cooked Rice",
       "Chicken Breast",
@@ -1904,7 +1904,7 @@
     "title": "Veg Fried Rice",
     "image": "https://www.indianveggiedelight.com/wp-content/uploads/2020/08/instant-pot-fried-rice-1.jpg",
     "time": 30,
-    "category": "rice",
+    "category": "Rice",
     "ingredients": [
       "Cooked Rice",
       "Carrots",
@@ -1962,7 +1962,7 @@
     "title": "Gobi Manchurian",
     "image": "https://th.bing.com/th/id/OIP.3H8Jv13aORAV3GHNlzcoNQAAAA?rs=1&pid=ImgDetMain",
     "time": 45,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "Cauliflower",
       "All-Purpose Flour",
@@ -2021,7 +2021,7 @@
     "title": "Paneer Tikka",
     "image": "https://www.indianveggiedelight.com/wp-content/uploads/2021/08/air-fryer-paneer-tikka-featured.jpg",
     "time": 45,
-    "category": "rice",
+    "category": "Starter",
     "ingredients": [
       "Paneer",
       "Yogurt",
@@ -2072,7 +2072,7 @@
     "title": "Chicken 65",
     "image": "https://www.mydelicious-recipes.com/home/getogimage?id=227",
     "time": 45,
-    "category": "rice",
+    "category": "Starter",
     "ingredients": [
       "Chicken (Boneless)",
       "Yogurt",
@@ -2122,7 +2122,7 @@
     "title": "Veg Sandwich",
     "image": "https://bachelorrecipe.com/wp-content/uploads/2018/05/Vegetable-Sandwich.jpg",
     "time": 15,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "Bread Slices",
       "Butter",
@@ -2177,7 +2177,7 @@
     "title": "Chicken Burger",
     "image": "https://th.bing.com/th/id/OIP.CbPm0hRTbCSUyrHVx9_28AHaF6?rs=1&pid=ImgDetMain",
     "time": 30,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "Ground Chicken",
       "Bread Crumbs",
@@ -2236,7 +2236,7 @@
     "title": "Veg Noodles",
     "image": "https://i2.wp.com/vegecravings.com/wp-content/uploads/2017/03/veg-hakka-noodles-recipe-with-step-by-step-instructions.jpg?fit=1838%2C1493&quality=65&strip=all&ssl=1",
     "time": 20,
-    "category": "rice",
+    "category": "Snack",
     "ingredients": [
       "Noodles",
       "Mixed Vegetables (Carrots, Bell Peppers, Cabbage, etc.)",
@@ -2287,7 +2287,7 @@
     "title": "Sambar",
     "image": "https://th.bing.com/th/id/OIP.HR1Kwb8q0dZDu0Laveif9AHaE8?rs=1&pid=ImgDetMain",
     "time": 45,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Toor Dal",
       "Mixed Vegetables (Carrots, Drumsticks, Brinjal, etc.)",
@@ -2350,7 +2350,7 @@
     "title": "Kadhi",
     "image": "https://i.pinimg.com/originals/3e/3c/aa/3e3caac1b1d528014323e3079e348cd7.png",
     "time": 40,
-    "category": "rice",
+    "category": "Sweet",
     "ingredients": [
       "Yogurt",
       "Gram Flour (Besan)",
@@ -2410,7 +2410,7 @@
     "title": "Tomato Curry",
     "image": "https://i0.wp.com/subbucooks.com/wp-content/uploads/2020/02/IMG_4884-scaled.jpg?fit=2560%2C1707&ssl=1",
     "time": 30,
-    "category": "rice",
+    "category": "Curry",
     "ingredients": [
       "Tomatoes",
       "Onion",
@@ -2474,6 +2474,7 @@
     "title": "Prawn Curry",
     "image": "https://atastykitchen.com/wp-content/uploads/2022/04/prawn-curry-2.jpg",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Prawns",
       "Onion",
@@ -2537,6 +2538,7 @@
     "title": "Crab Curry",
     "image": "https://www.seema.com/wp-content/uploads/2022/01/Crab-Curry-1024x682.jpg",
     "time": 45,
+    "category": "Curry",
     "ingredients": [
       "Crab",
       "Onion",
@@ -2604,6 +2606,7 @@
     "title": "Chocolate Milkshake",
     "image": "https://th.bing.com/th/id/R.97886b4936bb00f87035e8554e7fb640?rik=18JKRkVkO61jCQ&riu=http%3a%2f%2fhonestcooking.com%2fwp-content%2fuploads%2f2014%2f12%2fDSC_05872.jpg&ehk=DqDJhGEnMhtD1HYUPsxPFNWvjaLoiolyM0mpzSjKQGk%3d&risl=&pid=ImgRaw&r=0",
     "time": 10,
+    "category": "Bevarages",
     "ingredients": [
       "Milk",
       "Chocolate Ice Cream",
@@ -2644,6 +2647,7 @@
     "title": "Mutton Curry",
     "image": "https://shireenanwer.com/wp-content/uploads/2020/07/Curry-Patta-Gosht-Recipe-500x500.jpg",
     "time": 90,
+    "category": "Curry",
     "ingredients": [
       "Mutton",
       "Onion",
@@ -2711,6 +2715,7 @@
     "title": "Butter Chicken",
     "image": "https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg",
     "time": 60,
+    "category": "Curry",
     "ingredients": [
       "Chicken",
       "Yogurt",
@@ -2767,6 +2772,7 @@
     "title": "Lady's Finger Fry",
     "image": "https://i.ytimg.com/vi/T30E7OIyEjM/maxresdefault.jpg",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Lady's Finger (Okra)",
       "Onion",
@@ -2828,6 +2834,7 @@
     "title": "Bottle Gourd Curry",
     "image": "https://usercontent2.hubstatic.com/14413773_f520.jpg",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Bottle Gourd (Lauki)",
       "Onion",
@@ -2887,6 +2894,7 @@
     "title": "Ridge Gourd Curry",
     "image": "https://i.pinimg.com/originals/f8/19/bc/f819bc92de582c59aa95e656bbabccf7.jpg",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Ridge Gourd (Turai)",
       "Onion",
@@ -2946,6 +2954,7 @@
     "title": "Drumstick Curry",
     "image": "https://i.ytimg.com/vi/jcmqPNBrYag/maxresdefault.jpg",
     "time": 40,
+    "category": "Curry",
     "ingredients": [
       "Drumsticks",
       "Onion",
@@ -3005,6 +3014,7 @@
     "title": "Ragi Sangati",
     "image": "https://i.ytimg.com/vi/8Y3BWQJFc74/maxresdefault.jpg",
     "time": 45,
+    "category": "Rice",
     "ingredients": ["Ragi (Finger Millet) Flour", "Water", "Salt"],
     "veg": true,
     "servings": "4",
@@ -3043,6 +3053,7 @@
     "title": "Natu Kodi Curry",
     "image": "https://th.bing.com/th/id/R.55faeb58f942a3ee0ac42d8f306da927?rik=3ALtjSw2gkJoiw&riu=http%3a%2f%2fwww.ndtv.com%2fcooks%2fimages%2fnatu.kodi.kura.jpg&ehk=u6c7FRw8hp2BN7LYsDDo0g1y7CuVkQPXDVQJMsKgEEc%3d&risl=&pid=ImgRaw&r=0",
     "time": 60,
+    "category": "Curry",
     "ingredients": [
       "Chicken (Natu Kodi)",
       "Onion",
@@ -3102,6 +3113,7 @@
     "title": "Banana Milkshake",
     "image": "https://bakingmischief.com/wp-content/uploads/2019/06/banana-milkshake-picture.jpg",
     "time": 5,
+    "category": "Bevarages",
     "ingredients": [
       "Bananas",
       "Milk",
@@ -3141,6 +3153,7 @@
     "title": "Besan Laddu",
     "image": "https://cdn.tasteatlas.com/Images/Dishes/6610f979d023438f94688e9e9ae951bb.jpg",
     "time": 30,
+    "category": "Sweet",
     "ingredients": [
       "Chickpea Flour (Besan)",
       "Ghee",
@@ -3191,6 +3204,7 @@
     "title": "Rasgulla",
     "image": "https://www.thestatesman.com/wp-content/uploads/2019/06/rasgulla.jpg",
     "time": 45,
+    "category": "Sweet",
     "ingredients": [
       "Milk",
       "Lemon Juice or Vinegar",
@@ -3239,6 +3253,7 @@
     "title": "Gulab Jamun",
     "image": "https://1.bp.blogspot.com/-XLpR9dpE_yc/XdDVk7NAffI/AAAAAAAAX6w/SrO8wxdgwUU0k3_MFQYv6JkIfC35HrQ7ACLcBGAsYHQ/s1600/gulab%2Bjamun%2B10.JPG",
     "time": 60,
+    "category": "Sweet",
     "ingredients": [
       "Khoya (Mawa)",
       "Paneer",
@@ -3291,6 +3306,7 @@
     "title": "Badam Halwa",
     "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2016/1-Archana/Badam_Halwa_recipe-2.jpg",
     "time": 60,
+    "category": "Sweet",
     "ingredients": [
       "Almonds",
       "Milk",
@@ -3329,6 +3345,7 @@
     "title": "Jalebi",
     "image": "https://e0.pxfuel.com/wallpapers/141/329/desktop-wallpaper-how-to-instantly-prepare-jalebi-at-home.jpg",
     "time": 60,
+    "category": "Sweet",
     "ingredients": [
       "All-purpose Flour (Maida)",
       "Yogurt",
@@ -3367,6 +3384,7 @@
     "title": "Mysore Pak",
     "image": "https://www.awesomecuisine.com/wp-content/uploads/2007/10/mysore-pak.jpg",
     "time": 45,
+    "category": "Sweet",
     "ingredients": ["Besan (Gram Flour)", "Sugar", "Ghee"],
     "veg": true,
     "servings": "20-25",
@@ -3397,6 +3415,7 @@
     "title": "Kaju Katli",
     "image": "https://i.etsystatic.com/40876472/r/il/419c04/4620152038/il_1080xN.4620152038_t0s6.jpg",
     "time": 30,
+    "category": "Sweet",
     "ingredients": ["Cashews", "Sugar", "Water", "Ghee"],
     "veg": true,
     "servings": "20-25",
@@ -3423,6 +3442,7 @@
     "title": "Putharekulu",
     "image": "https://www.vedasfoods.com/wp-content/uploads/2022/07/putharekulu.jpg",
     "time": 60,
+    "category": "Sweet",
     "ingredients": ["Rice Paper Sheets", "Sugar", "Ghee"],
     "veg": true,
     "servings": "10-15",
@@ -3453,6 +3473,7 @@
     "title": "Masala Vada",
     "image": "https://i.pinimg.com/originals/cf/de/bf/cfdebf1cfaa6315bdc1ff6a1113bcc32.jpg",
     "time": 30,
+    "category": "Snack",
     "ingredients": [
       "Chana Dal",
       "Onion",
@@ -3498,6 +3519,7 @@
     "title": "Punugulu",
     "image": "https://i.ytimg.com/vi/DWxsO34BSVY/maxresdefault.jpg",
     "time": 30,
+    "category": "Snack",
     "ingredients": [
       "Idli Batter",
       "Onion",
@@ -3541,6 +3563,7 @@
     "title": "Mirapakaya Bajji",
     "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/02/mirchi-bajji-recipe-1a.jpg",
     "time": 30,
+    "category": "Snack",
     "ingredients": [
       "Large Green Chilies (Bajji Mirchi)",
       "Besan (Gram Flour)",
@@ -3588,6 +3611,7 @@
     "title": "Bhel Puri",
     "image": "https://www.awesomecuisine.com/wp-content/uploads/2007/11/bhel-puri.jpg",
     "time": 20,
+    "category": "Snack",
     "ingredients": [
       "Puffed Rice (Murmura)",
       "Sev (Thin Gram Flour Noodles)",
@@ -3628,6 +3652,7 @@
     "title": "Aloo Samosa",
     "image": "https://th.bing.com/th/id/OIP.l-CddZeM3dEqIH5Urtk5TgHaE8?rs=1&pid=ImgDetMain",
     "time": 60,
+    "category": "Snack",
     "ingredients": [
       "For the dough:",
       "All-purpose Flour (Maida)",
@@ -3685,6 +3710,7 @@
     "title": "Vegetable Cutlet",
     "image": "https://i.ytimg.com/vi/00mA0rke3Gs/maxresdefault.jpg",
     "time": 45,
+    "category": "Snack",
     "ingredients": [
       "Potatoes",
       "Carrots",
@@ -3739,6 +3765,7 @@
     "title": "Vada Pav",
     "image": "https://vanitascorner.com/wp-content/uploads/2020/10/Vada-Pav.jpg",
     "time": 60,
+    "category": "Snack",
     "ingredients": [
       "For Vada (Potato Patties):",
       "Potatoes",
@@ -3796,6 +3823,7 @@
     "title": "Pav Bhaji",
     "image": "https://www.thestatesman.com/wp-content/uploads/2019/07/pav-bhaji.jpg",
     "time": 45,
+    "category": "Snack",
     "ingredients": [
       "Potatoes",
       "Tomatoes",
@@ -3859,6 +3887,7 @@
     "title": "Coffee",
     "image": "https://th.bing.com/th/id/OIP.PC4q0xrnZ8H2pBbGe1tYlwHaFs?rs=1&pid=ImgDetMain",
     "time": 5,
+    "category": "Bevarages",
     "ingredients": ["Coffee Powder", "Water", "Milk", "Sugar (optional)"],
     "veg": true,
     "servings": "1",
@@ -3897,6 +3926,7 @@
     "title": "Onion Pakoda",
     "image": "https://th.bing.com/th/id/OIP.5LpLn4ykTtsK3WgtOfvo6gHaFA?rs=1&pid=ImgDetMain",
     "time": 30,
+    "category": "Snack",
     "ingredients": [
       "Onions",
       "Chickpea Flour (Besan)",
@@ -3945,6 +3975,7 @@
     "title": "Lemon Rice",
     "image": "https://recipes.timesofindia.com/thumb/53870704.cms?imgsize=142559&width=800&height=800",
     "time": 20,
+    "category": "Rice",
     "ingredients": [
       "Rice",
       "Lemon Juice",
@@ -3997,6 +4028,7 @@
     "title": "Chole Masala",
     "image": "https://th.bing.com/th/id/OIP.yfV-04HBg3_BtsJ3tr94wAAAAA?w=300&h=300&rs=1&pid=ImgDetMain",
     "time": 60,
+    "category": "Curry",
     "ingredients": [
       "Chickpeas (Kabuli Chana)",
       "Onion",
@@ -4056,6 +4088,7 @@
     "title": "Dal Makhani",
     "image": "https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3.jpg",
     "time": 120,
+    "category": "Curry",
     "ingredients": [
       "Whole Urad Dal",
       "Rajma (Kidney Beans)",
@@ -4116,6 +4149,7 @@
     "title": "Mushroom Curry",
     "image": "https://th.bing.com/th/id/OIP.l2WzkeU9MdLRbbxAumc8XwHaHa?rs=1&pid=ImgDetMain",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Mushrooms",
       "Onion",
@@ -4171,6 +4205,7 @@
     "title": "Gongura Chicken",
     "image": "https://i.ytimg.com/vi/1PS08zkeN7E/maxresdefault.jpg",
     "time": 45,
+    "category": "Curry",
     "ingredients": [
       "Chicken",
       "Gongura Leaves",
@@ -4226,6 +4261,7 @@
     "title": "Chicken Lollipop",
     "image": "https://i.ytimg.com/vi/5I7Vrr5zHC8/maxresdefault.jpg",
     "time": 45,
+    "category": "Starter",
     "ingredients": [
       "Chicken Wings",
       "Soy Sauce",
@@ -4270,6 +4306,7 @@
     "title": "French Fries",
     "image": "https://static.fanpage.it/wp-content/uploads/sites/22/2020/09/iStock-618214356.jpg",
     "time": 30,
+    "category": "Snack",
     "ingredients": ["Potatoes", "Salt", "Oil (for frying)"],
     "veg": true,
     "servings": "2",
@@ -4312,6 +4349,7 @@
     "title": "Egg Bhurji",
     "image": "https://th.bing.com/th/id/R.321c5733f8d2f839e49919076e5df8a7?rik=65ZM4J%2f1UphvgQ&riu=http%3a%2f%2fwww.blog.sagmart.com%2fwp-content%2fuploads%2f2016%2f03%2fEgg-Bhurji-Recipe.jpg&ehk=f75B6T7lZxob4TQZWJXj0HZt7sZnSLT4yL8QenLvqL0%3d&risl=&pid=ImgRaw&r=0",
     "time": 15,
+    "category": "Curry",
     "ingredients": [
       "Eggs",
       "Onion",
@@ -4362,6 +4400,7 @@
     "title": "Ivy Gourd Fry(Dondakaya Fry)",
     "image": "https://www.sailusfood.com/wp-content/uploads/2010/05/tendli-subji.jpg",
     "time": 20,
+    "category": "Curry",
     "ingredients": [
       "Ivy Gourd (Dondakaya)",
       "Oil",
@@ -4415,6 +4454,7 @@
     "title": "Chilli Baby Corn",
     "image": "https://th.bing.com/th/id/OIP.xX-y8IX8KXeMb3l5eJeMXgHaE7?rs=1&pid=ImgDetMain",
     "time": 30,
+    "category": "Starter",
     "ingredients": [
       "Baby Corn",
       "Capsicum (Bell Pepper)",
@@ -4474,6 +4514,7 @@
     "title": "Stuffed Brinjal (Guthi Vankaya)",
     "image": "https://th.bing.com/th/id/R.7175ee41be550d458f34e047a66f8352?rik=yFi%2bmhzNkS458w&riu=http%3a%2f%2fwww.secondrecipe.com%2fwp-content%2fuploads%2f2017%2f03%2fbaghare-baigan.jpg&ehk=xTKnFiSeStKIPiLf3iOemgfW95%2bbYCtW68iyp0zYpZE%3d&risl=&pid=ImgRaw&r=0",
     "time": 45,
+    "category": "Curry",
     "ingredients": [
       "Small Brinjals (Eggplants)",
       "Oil",
@@ -4543,6 +4584,7 @@
     "title": "Poha",
     "image": "https://i1.wp.com/shikhaskitchen.com/wp-content/uploads/2020/09/IMG-3528-scaled.jpg?zoom=3&resize=800%2C530&ssl=1",
     "time": 20,
+    "category": "Rice",
     "ingredients": [
       "Poha (Flattened Rice)",
       "Onion",
@@ -4604,6 +4646,7 @@
     "title": "Fish Fry",
     "image": "https://1.bp.blogspot.com/-fU_ozvGFFG0/VlKh-powozI/AAAAAAAABVc/NR5v3vEy6h0/s1600/kerala%2Bmalabar%2Bfish%2Bcrispy%2Bfry%2Bmasala%2Bspicy%2Bcurry%2Brestaurant%2Bstyle%2Bfry.jpg",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Fish Fillets (any firm white fish)",
       "Lemon Juice",
@@ -4648,6 +4691,7 @@
     "title": "Dhokla",
     "image": "https://th.bing.com/th/id/OIP.da-z2cA87a2vmCXQSm3ZZAHaE8?rs=1&pid=ImgDetMain",
     "time": 40,
+    "category": "Snack",
     "ingredients": [
       "Gram Flour (Besan)",
       "Semolina (Sooji)",
@@ -4697,6 +4741,7 @@
     "title": "Chicken Momos",
     "image": "https://tastyjevan.files.wordpress.com/2020/12/thumbnail_nt2-4.jpg",
     "time": 60,
+    "category": "Snack",
     "ingredients": [
       "Ground Chicken",
       "Onion",
@@ -4744,6 +4789,7 @@
     "title": "Palakova",
     "image": "https://th.bing.com/th/id/R.b8aef4582b147e32f7faffa2cc9d3c95?rik=RzePENAl0Sijkg&riu=http%3a%2f%2fathithigruhafoods.in%2fwp-content%2fuploads%2f2018%2f09%2fPalakova-1.jpg&ehk=R04LQjRC%2bI2aDXbDsvz3c2EwGzTyuD7Ltr7zuNReuxY%3d&risl=&pid=ImgRaw&r=0",
     "time": 120,
+    "category": "Sweet",
     "ingredients": [
       "Milk - 1 liter",
       "Sugar - 1/2 cup",
@@ -4787,6 +4833,7 @@
     "title": "Carrot Halwa",
     "image": "https://th.bing.com/th/id/R.bfa50cd7008c698789416c33b8dec301?rik=AyfBrDEwvqn3Wg&riu=http%3a%2f%2fwww.archanaskitchen.com%2fimages%2farchanaskitchen%2f0-Archanas-Kitchen-Recipes%2f2018%2fjan-5%2fCarrot_Halwa_Recipe-0834.jpg&ehk=PCw82l2P7RjYfKY3VyqHRVZ5S892HOVu5Gyk%2f3gZrkQ%3d&risl=&pid=ImgRaw&r=0",
     "time": 60,
+    "category": "Sweet",
     "ingredients": [
       "Carrots - 1 kg",
       "Milk - 1 liter",
@@ -4841,6 +4888,7 @@
     "title": "Prawn Ghee Roast",
     "image": "https://i.ytimg.com/vi/ktmt5SRCIsk/hqdefault.jpg",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "Prawns - 500g",
       "Ghee - 4 tbsp",
@@ -4887,6 +4935,7 @@
     "title": "Kaju Paneer",
     "image": "https://www.flavouroffood.com/wp-content/uploads/2021/06/Kaju-Paneer-Masala-Recipe-4-768x614.jpg",
     "time": 40,
+    "category": "Curry",
     "ingredients": [
       "Paneer - 200g, cubed",
       "Cashew nuts - 1/2 cup",
@@ -4949,6 +4998,7 @@
     "title": "Chicken Tandoori",
     "image": "https://4.bp.blogspot.com/-ONaXVKIgnxA/VedXAqKZ-JI/AAAAAAAAH-Q/Kj1cZkNksz0/s1600/IMG_5426.JPG",
     "time": 150,
+    "category": "Curry",
     "ingredients": [
       "1 whole chicken, skin removed and cut into pieces",
       "1 cup plain yogurt",
@@ -5009,6 +5059,7 @@
     "title": "Veg Manchow Soup",
     "image": "https://1.bp.blogspot.com/-2b6uVAmPz9I/YAIrJoXsNjI/AAAAAAAASNI/Z6Vz8mcqjesNSOb1MMGw1tpU_7gfzwSCgCLcBGAsYHQ/s2048/Instant-Pot-Manchow-Soup-3.jpg",
     "time": 30,
+    "category": "Soup",
     "ingredients": [
       "2 tablespoons oil",
       "1 tablespoon garlic, minced",
@@ -5074,6 +5125,7 @@
     "title": "Chicken Wings",
     "image": "https://kenyonsvarietystores.com/wp-content/uploads/2019/04/iStock-583848552.jpg",
     "time": 45,
+    "category": "Starter",
     "ingredients": [
       "2 lbs chicken wings",
       "2 tbsp olive oil",
@@ -5131,6 +5183,7 @@
     "title": "Baby Potato Curry",
     "image": "https://th.bing.com/th/id/R.5ef034d34a04865f6b71b32d4ff1bacf?rik=kL8ZJP5qTo%2bHvA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-TVEVhKtCGIo%2fUBJi6nZmdlI%2fAAAAAAAAJEQ%2fDov_bfkbLok%2fs1600%2fBabyPotatoesCurry1.jpg&ehk=QqBmBGLKpyU42x8epezXIVRPLtDUtlVG3uCdeXW0zmw%3d&risl=&pid=ImgRaw&r=0",
     "time": 40,
+    "category": "Curry",
     "ingredients": [
       "500g baby potatoes, boiled and peeled",
       "2 tbsp oil",
@@ -5186,6 +5239,7 @@
     "title": "Cauliflower Fry",
     "image": "https://th.bing.com/th/id/OIP.qiwgF1IbrMYLKqC-jxelbgAAAA?rs=1&pid=ImgDetMain",
     "time": 30,
+    "category": "Curry",
     "ingredients": [
       "1 medium cauliflower, cut into florets",
       "1/2 cup besan (gram flour)",
