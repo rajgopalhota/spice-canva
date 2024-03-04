@@ -10,6 +10,10 @@ import { useNavigate } from "react-router-dom";
 import { FaUnlockAlt } from "react-icons/fa";
 
 const Recipes = () => {
+  useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   const auth = useAuth();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);

@@ -17,8 +17,10 @@ const RecipeDetails = ({ recipe }) => {
 
   const [isFavorite, setIsFavorite] = useState(false); // State to track favorite status
   useEffect(() => {
-    const isRecipeFavorite = auth.user.savedRecipes.includes(_id);
-    setIsFavorite(isRecipeFavorite);
+    if (auth.user) {
+      const isRecipeFavorite = auth.user.savedRecipes.includes(_id);
+      setIsFavorite(isRecipeFavorite);
+    }
   }, [auth.user]);
   // Function to toggle favorite status
   const toggleFavorite = async () => {
