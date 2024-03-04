@@ -2,12 +2,12 @@ import React from "react";
 import img from "../assets/login.gif";
 import { Link } from "react-router-dom";
 
-export default function LoginReq() {
+export default function LoginReq({p, link}) {
   return (
     <div className="loginregcont">
       <img src={img}></img>
       <p>
-        You need to login for this action? <Link to="/login">Login here</Link>{" "}
+        {p} <Link to={`/${link}`}>{link} here</Link>{" "}
       </p>
     </div>
   );

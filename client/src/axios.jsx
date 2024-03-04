@@ -1,12 +1,21 @@
 import axios from "axios";
 
-const authToken = localStorage.getItem("authToken"); // Retrieve auth token from local storage
-
 const instance = axios.create({
   baseURL: "http://localhost:5000",
-  headers: {
-    Authorization: authToken, // Use auth token in the authorization header
-  },
 });
+
+// Add a request interceptor to include the authorization header
+instance.interceptors.request.use(
+  (config) => {
+    const authToken = localStorage.getItem("authToken");
+    if (authToken) {
+      config.headers.Authorization = authToken;
+    }
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
 
 export default instance;

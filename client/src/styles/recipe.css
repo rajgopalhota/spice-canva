@@ -13,6 +13,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 20px;
+  text-transform: capitalize;
   /* user-select: none; */
 }
 
@@ -529,6 +530,9 @@ textarea {
 
 /* Responsive Main Content */
 @media screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5rem;
+  }
   .handleAddRemove {
     padding: 6px;
     font-size: 18px;
@@ -540,9 +544,8 @@ textarea {
   .recipe-details .header .actionHead .fav-btn::before {
     content: "" !important;
   }
-  .recipe-details .fav-btn{
+  .recipe-details .fav-btn {
     background-color: transparent !important;
-
   }
 }
 
@@ -740,11 +743,14 @@ textarea {
 .share {
   cursor: pointer;
   background-color: #ffc4d7;
-  padding: 8px;
+  padding: 6px 8px;
   border-radius: 50px;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
   border: none;
 }
 
@@ -784,7 +790,7 @@ textarea {
 }
 
 .detailedView .recipe-details .start {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .detailedView .recipe-details ul {

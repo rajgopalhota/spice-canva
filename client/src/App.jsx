@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./pages/Sidebar";
 import { Route, Routes } from "react-router-dom";
-import Smoke from "./components/Smoke";
+import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 import AddRecipie from "./pages/AddRecipie";
 import Recipies from "./pages/Recipies";
@@ -12,7 +12,6 @@ import { Toaster } from "react-hot-toast";
 import Readmore from "./pages/Readmore";
 
 function App() {
-
   return (
     <div className="main">
       <Sidebar />
@@ -33,6 +32,7 @@ function App() {
           <Route path="/recipes/read/:id/*" element={<Readmore />} />
           <Route path="/post-recipe" element={<AddRecipie />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/onboard" element={<Register />} />
         </Routes>
       </div>

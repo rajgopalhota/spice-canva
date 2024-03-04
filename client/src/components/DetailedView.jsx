@@ -1,19 +1,25 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { AiFillClockCircle } from "react-icons/ai";
 import { FiUsers } from "react-icons/fi";
 import { FaRegHeart, FaHeart } from "react-icons/fa"; // Outline and filled heart icons
 import { FaPlateWheat } from "react-icons/fa6";
+import { FaShareAlt } from "react-icons/fa";
 import axios from "../axios";
 import { useAuth } from "../authContext";
 import { toast } from "react-hot-toast";
 
 const RecipeDetails = ({ recipe }) => {
-  const [isFavorite, setIsFavorite] = useState(false); // State to track favorite status
-
   // Extract relevant data from the recipe object
   const { _id, title, image, ingredients, time, description, veg, servings } =
     recipe;
 
+  const auth = useAuth();
+
+  const [isFavorite, setIsFavorite] = useState(false); // State to track favorite status
+  useEffect(() => {
+    const isRecipeFavorite = auth.user.savedRecipes.includes(_id);
+    setIsFavorite(isRecipeFavorite);
+  }, [auth.user]);
   // Function to toggle favorite status
   const toggleFavorite = async () => {
     setIsFavorite((prevState) => !prevState); // Toggle immediately for UI responsiveness
@@ -43,11 +49,6 @@ const RecipeDetails = ({ recipe }) => {
     }
   };
 
-  const auth = useAuth();
-
-  const isRecipeFavorite = auth.user
-    ? auth.user.savedRecipes.includes(_id)
-    : false;
   // Render ingredients
   const renderIngredients = ingredients.map((ingredient, index) => (
     <li key={index}>{ingredient}</li>
@@ -76,7 +77,7 @@ const RecipeDetails = ({ recipe }) => {
           <div className="actionHead">
             {auth.user && (
               <div className="fav-btn">
-                {isFavorite || isRecipeFavorite ? (
+                {isFavorite ? (
                   <FaHeart onClick={toggleFavorite} className="heart-filled" />
                 ) : (
                   <FaRegHeart
@@ -91,7 +92,7 @@ const RecipeDetails = ({ recipe }) => {
               onClick={handleShare}
               title="Share this recipe"
             >
-              Share
+              <FaShareAlt />
             </button>
           </div>
         </div>

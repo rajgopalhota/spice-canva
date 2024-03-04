@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { useAuth } from "../authContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/Auth.css"; // Import CSS file
+import LoginReq from "../components/LoginReq";
 
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const auth = useAuth();
+
+  const navigate = useNavigate();
 
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
@@ -21,12 +24,13 @@ const Login = () => {
     auth.loginUser(username, password);
     setUsername("");
     setPassword("");
+    navigate("/");
   };
 
   return (
     <>
       {auth.user ? (
-        <>Welcome</>
+        <LoginReq p="You are already logged in!" link="recipes" />
       ) : (
         <div className="auth-container">
           <h2>Login to spice mania</h2>

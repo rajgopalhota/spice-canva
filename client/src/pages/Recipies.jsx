@@ -4,6 +4,8 @@ import axios from "../axios";
 import LoadingBar from "react-top-loading-bar";
 import toast from "react-hot-toast";
 import DataLoad from "../components/DataLoad";
+import { SiIfood } from "react-icons/si";
+
 
 const Recipes = () => {
   const [loading, setLoading] = useState(true);
@@ -19,7 +21,7 @@ const Recipes = () => {
   };
 
   const [filters, setFilters] = useState(defaultFilters);
-  const [shuffledRecipes, setShuffledRecipes] = useState([]);
+  const [recipesData, setRecipesData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -28,11 +30,9 @@ const Recipes = () => {
         const promise = new Promise((resolve, reject) => {
           // Fetch data from the API
           axios
-            .get("http://localhost:5000/api/recipes")
+            .get("/api/recipes")
             .then((response) => {
-              // Shuffle the recipes
-              const shuffled = response.data.sort(() => Math.random() - 0.5);
-              setShuffledRecipes(shuffled);
+              setRecipesData(response.data);
               setDupLoad(false);
               resolve(); // Resolve the promise when data is fetched successfully
             })
@@ -65,7 +65,7 @@ const Recipes = () => {
     }
   };
 
-  const filteredRecipes = shuffledRecipes.filter((recipe) => {
+  const filteredRecipes = recipesData.filter((recipe) => {
     return (
       (filters.maxTime === Infinity || recipe.time <= filters.maxTime) &&
       ((filters.veg && recipe.veg) ||
@@ -92,7 +92,7 @@ const Recipes = () => {
         onLoaderFinished={() => setLoading(false)}
       />
       <div className="recipeBox">
-        <h1>Food for you - {filteredRecipes.length}</h1>
+        <h1><SiIfood/> &nbsp;Food for you - {filteredRecipes.length}</h1>
         <br />
         {!dupLoad && (
           <div className="filters" data-aos="fade-up">
