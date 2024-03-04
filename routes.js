@@ -34,7 +34,7 @@ const authMiddleware = async (req, res, next) => {
 };
 
 // Route to save a new recipe
-router.post("/add-recipe", async (req, res) => {
+router.post("/add-recipe", authMiddleware, async (req, res) => {
   try {
     const newRecipe = await Recipe.create(req.body);
     res.status(201).json(newRecipe);

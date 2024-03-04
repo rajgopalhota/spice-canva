@@ -14,6 +14,7 @@ import { FaPlateWheat } from "react-icons/fa6";
 import { MdDescription } from "react-icons/md";
 import { GiTeacher } from "react-icons/gi";
 import { FaTelegramPlane } from "react-icons/fa";
+import axios from "../axios";
 
 const RecipeForm = () => {
   const [recipeData, setRecipeData] = useState({
@@ -111,12 +112,45 @@ const RecipeForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateForm()) {
-      console.log(recipeData);
-      // Add logic to submit the recipe data to your backend
-      toast.success("Recipe submitted successfully!");
+      try {
+        const promise = new Promise((resolve) => {
+          // Add logic to submit the recipe data to your backend
+          // For example, sending a POST request using axios
+          axios
+            .post("/api/add-recipe", recipeData)
+            .then(() => {
+              // Clear all fields after successful submission
+              setRecipeData({
+                title: "",
+                image: "",
+                time: "",
+                category: "",
+                ingredients: [""],
+                veg: false,
+                servings: "",
+                description: {
+                  text: "",
+                  steps: [{ step_number: 1, description: "" }],
+                },
+              });
+              resolve();
+            })
+            .catch((error) => {
+              throw new Error(error);
+            });
+        });
+
+        await toast.promise(promise, {
+          loading: "Submitting recipe...",
+          success: "Recipe submitted successfully!",
+          error: "Error submitting recipe",
+        });
+      } catch (error) {
+        console.error("Error submitting recipe:", error.message);
+      }
     }
   };
 
@@ -214,7 +248,7 @@ const RecipeForm = () => {
               <SiVega />
               &nbsp; Veg (check this box if veg or leave blank):
             </label>
-            <div class="checkbox-wrapper">
+            <div className="checkbox-wrapper">
               <input
                 data-aos="fade-up"
                 id="_checkbox-26"
@@ -228,8 +262,8 @@ const RecipeForm = () => {
                   }))
                 }
               />
-              <label for="_checkbox-26" data-aos="zoom-in">
-                <div class="tick_mark"></div>
+              <label htmlFor="_checkbox-26" data-aos="zoom-in">
+                <div className="tick_mark"></div>
               </label>
             </div>
           </div>
@@ -308,7 +342,7 @@ const RecipeForm = () => {
               &nbsp; Description:
             </label>
             <textarea
-            data-aos="fade-up"
+              data-aos="fade-up"
               name="text"
               value={recipeData.description.text}
               onChange={(e) =>

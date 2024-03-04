@@ -6,7 +6,7 @@ import "../styles/recipe.css";
 import { Link } from "react-router-dom";
 
 const RecipeCard = ({
-    id,
+  id,
   title,
   image,
   veg,
@@ -20,7 +20,11 @@ const RecipeCard = ({
       <div className="ft-recipe">
         <div className="ft-recipe__thumb">
           <h3>
-            {veg ? <span className="veg">VEG</span> : <span className="non-veg">NON-VEG</span>}
+            {veg ? (
+              <span className="veg">VEG</span>
+            ) : (
+              <span className="non-veg">NON-VEG</span>
+            )}
           </h3>
           <img src={image} alt={title} />
         </div>
@@ -54,9 +58,9 @@ const RecipeCard = ({
               </li>
             </ul>
           </header>
-          <p className="description">{description.slice(0,50)}</p>
+          <p className="description">{description.slice(0, 50)}</p>
           <footer className="content__footer">
-            <Link to={`/recipes/read/${id}`}>View Recipe</Link>
+            <Link to={`/recipes/read/${id}/detailed-${title}`}>View Recipe</Link>
           </footer>
         </div>
       </div>

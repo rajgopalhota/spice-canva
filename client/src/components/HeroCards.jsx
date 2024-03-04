@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaUtensils, FaStar, FaHeart, FaApple, FaCarrot, FaFish, FaPizzaSlice, FaIceCream, FaCoffee, FaWineBottle, FaPepperHot, FaCookieBite } from 'react-icons/fa';
+import { FaUtensils, FaStar, FaHeart, FaCarrot, FaFish, FaPizzaSlice, FaIceCream, FaCoffee, FaWineBottle, FaPepperHot, FaCookieBite } from 'react-icons/fa';
+import { GiFruitBowl } from "react-icons/gi";
 
 const RecipeCards = () => {
     const recipeData = [
@@ -19,7 +20,7 @@ const RecipeCards = () => {
             description: "Loved by thousands of users worldwide."
         },
         {
-            icon: <FaApple color="#228B22" />, // Green
+            icon: <GiFruitBowl color="#228B22" />, // Green
             tagline: "Healthy Choices",
             description: "Nourish your body with wholesome recipes."
         },

@@ -21,7 +21,6 @@ export default function Readmore() {
           axios
             .get(`/api/recipes/${id}`) // Corrected URL
             .then((response) => {
-              console.log(response.data);
               setData(response.data);
               setDupLoad(false);
               resolve(); // Resolve the promise when data is fetched successfully
