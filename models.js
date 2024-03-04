@@ -9,10 +9,6 @@ const recipeSchema = new mongoose.Schema({
   ingredients: [String],
   veg: Boolean,
   servings: String,
-  user: {
-    type: String,
-    default: "frontend",
-  },
   description: {
     text: String,
     steps: [

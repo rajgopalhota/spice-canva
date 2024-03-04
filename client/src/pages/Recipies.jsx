@@ -158,8 +158,14 @@ const Recipes = () => {
               onChange={(e) => handleFilterChange("category", e.target.value)}
             >
               <option value="all">All Categories</option>
-              <option value="rice">Rice</option>
-              <option value="pasta">Pasta</option>
+              <option value="Rice">Rice</option>
+              <option value="Sweet">Sweets</option>
+              <option value="Snack">Snacks</option>
+              <option value="Salad">Salad</option>
+              <option value="Soup">Soups</option>
+              <option value="Starter">Starter</option>
+              <option value="Curry">Curry</option>
+              <option value="Bevarages">Bevarages</option>
               {/* Add other categories */}
             </select>
             <input

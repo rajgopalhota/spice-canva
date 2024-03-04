@@ -70,19 +70,20 @@ router.get("/import-recipes", async (req, res) => {
   try {
     const dataFilePath = path.join(__dirname, "data.json");
     const rawData = fs.readFileSync(dataFilePath);
-    const recipes = JSON.parse(rawData).recipes;
+    const recipes = JSON.parse(rawData); // No need for .recipes here
 
     console.log("Started dropping recipes");
     await Recipe.deleteMany({});
     // Insert the recipes into the database
     console.log("Inserting recipes into the database");
-    await Recipe.insertMany(recipes);
+    await Recipe.insertMany(recipes); // Use `recipes` directly here
 
     res.status(201).json({ message: "Recipes imported successfully" });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });
+
 
 router.get("/export-recipes", async (req, res) => {
   try {

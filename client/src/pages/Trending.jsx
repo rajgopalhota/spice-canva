@@ -53,6 +53,7 @@ const Recipes = () => {
       randomRecipes.push(categoryRecipes[randomIndex]);
       categoryRecipes.splice(randomIndex, 1);
     }
+    console.log(randomRecipes);
     return randomRecipes;
   };
 
@@ -84,19 +85,22 @@ const Recipes = () => {
                     <hr />
                     <div className="recipes-container items">
                       {/* Select and display three random recipes for each category */}
-                      {selectRandomRecipes([...recipes]).map((recipe) => (
-                        <RecipeCard
-                          key={recipe._id}
-                          id={recipe._id}
-                          title={recipe.title}
-                          image={recipe.image}
-                          veg={recipe.veg}
-                          time={recipe.time}
-                          ingredients={recipe.ingredients}
-                          servings={recipe.servings}
-                          description={recipe.description.text}
-                        />
-                      ))}
+                      {selectRandomRecipes([...recipes]).map(
+                        (recipe) =>
+                          recipe && (
+                            <RecipeCard
+                              key={recipe._id}
+                              id={recipe._id}
+                              title={recipe.title}
+                              image={recipe.image}
+                              veg={recipe.veg}
+                              time={recipe.time}
+                              ingredients={recipe.ingredients}
+                              servings={recipe.servings}
+                              description={recipe.description.text}
+                            />
+                          )
+                      )}
                     </div>
                   </div>
                 )
