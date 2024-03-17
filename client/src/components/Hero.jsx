@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Hero.css";
+import {Link} from "react-router-dom";
 import img1 from "./../assets/h2.jpg";
 import chef from "../assets/loaders/chef.gif";
 import { IoFastFood } from "react-icons/io5";
@@ -22,14 +23,14 @@ export default function Hero() {
           </h1>
           <img src={chef} alt="Chef" className="chef-image" />
           <div className="hero-buttons">
-            <button className="order-button" data-aos="zoom-in">
+            <Link to="/trending" className="order-button" data-aos="zoom-in">
               <IoFastFood />
               &nbsp;Spl Recipes
-            </button>
-            <button className="menu-button" data-aos="zoom-in">
+            </Link>
+            <Link to="/recipes" className="menu-button" data-aos="zoom-in">
               <ImSpoonKnife />
               &nbsp;View Recipes
-            </button>
+            </Link>
           </div>
         </div>
       </div>
